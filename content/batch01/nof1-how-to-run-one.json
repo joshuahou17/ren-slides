@@ -1,0 +1,68 @@
+{
+  "slug": "nof1-how-to-run-one",
+  "lane": "nof1",
+  "format": "photo_listicle",
+  "ren_tie": "soft",
+  "hook": "you've been guessing about your own body for years",
+  "caption": "Five rules, fourteen days, a phone you already own.",
+  "notes": "Methodology post. Low view ceiling, high save and follow ceiling. This is the one that makes the account worth following instead of scrolling.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "you've been guessing about your own body for years",
+      "photo": "person-running-photo.jpg",
+      "sub": "here's how to actually test something on yourself in 14 days"
+    },
+    {
+      "type": "statement",
+      "text": "One variable.",
+      "photo": "fitness-image-by-andrew-valdivia.jpg",
+      "sub": "Change two and you've learned nothing about either.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "Seven days of doing nothing first.",
+      "photo": "cycling-picture-5.jpg",
+      "sub": "The baseline. This is the part everyone skips.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "Write the success rule before day one.",
+      "photo": "fitness-image-2.jpg",
+      "sub": "“Deep sleep up 8 minutes.” Decided in advance so you can't move it after.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "Pick a number you don't control.",
+      "photo": "jorge-alberto-vega-barrera-running-image.jpg",
+      "sub": "Deep sleep. Resting heart rate. Not “how I felt”.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "Let it be a no.",
+      "photo": "cycling-picture-1.jpg",
+      "sub": "Most things won't work for you. That is the result.",
+      "step": "05"
+    },
+    {
+      "type": "cta",
+      "text": "Intake. Propose. Adhere. Reassess. Adjust.",
+      "sub": "That loop is the entire app I built. If you'd rather not keep the spreadsheet yourself, it's in my bio.",
+      "photo": "fitness-image-by-samuel-girven.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ],
+  "tier": "soft"
+}

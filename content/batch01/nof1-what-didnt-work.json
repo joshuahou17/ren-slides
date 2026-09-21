@@ -1,0 +1,100 @@
+{
+  "slug": "nof1-what-didnt-work",
+  "lane": "nof1",
+  "format": "nof1_reveal",
+  "ren_tie": "none",
+  "hook": "i tested this for 14 nights and it did absolutely nothing",
+  "caption": "Posting the failures is the only reason to trust the wins. 14 nights of magnesium spray, no change.",
+  "notes": "Deliberate negative result. Do not drop this from the rotation; it is what makes the positive charts believable.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i tested this for 14 nights and it did absolutely nothing",
+      "photo": "supplement-picture.jpg",
+      "sub": "posting it anyway, because you should see what a no looks like"
+    },
+    {
+      "type": "protocol",
+      "title": "Topical magnesium, deep sleep",
+      "rows": [
+        [
+          " what ",
+          "magnesium oil, calves"
+        ],
+        [
+          " when ",
+          "30 min before bed"
+        ],
+        [
+          " baseline ",
+          "7 nights"
+        ],
+        [
+          " trial ",
+          "14 nights"
+        ],
+        [
+          " measured ",
+          "Oura deep sleep"
+        ]
+      ],
+      "success_rule": "Deep sleep up 8 minutes on average."
+    },
+    {
+      "type": "chart",
+      "title": "Deep sleep, nightly",
+      "unit": "min",
+      "baseline_label": "baseline",
+      "trial_label": "on spray",
+      "split": 7,
+      "series": [
+        71,
+        66,
+        78,
+        69,
+        74,
+        63,
+        72,
+        70,
+        75,
+        68,
+        73,
+        66,
+        77,
+        71,
+        69,
+        74,
+        72,
+        67,
+        76,
+        70,
+        73
+      ]
+    },
+    {
+      "type": "verdict",
+      "text": "didn't work",
+      "note": "Inside the night to night noise. The rule said 8."
+    },
+    {
+      "type": "statement",
+      "text": "A method that can't return no isn't a method.",
+      "photo": "cycling-picture-4.jpg"
+    },
+    {
+      "type": "cta",
+      "text": "Half of what you're taking is probably this chart.",
+      "photo": "akshay-chauhan.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ],
+  "tier": "core"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "sleep-5-non-supplement",
+  "lane": "sleep",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "hook": "5 things that fixed my sleep and cost me nothing",
+  "caption": "Ranked by how much they moved the number, not by how good they sound.",
+  "notes": "One item per slide. Longer deck, but swipe-through is what the algorithm reads.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "5 things that fixed my sleep and cost me nothing",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "(i wasted about £400 on supplements before any of these)"
+    },
+    {
+      "type": "statement",
+      "text": "A fixed wake time.",
+      "photo": "sleep-aesthetic-3.jpg",
+      "sub": "Same alarm on Saturday. This did more than everything else combined.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "18°C and a cracked window.",
+      "photo": "sleep-aesthetic-4.jpg",
+      "sub": "Your core temperature has to fall for you to fall asleep.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "Daylight in the first hour.",
+      "photo": "woman-jumping-on-beach-sunset.jpg",
+      "sub": "Ten minutes outside beats any lamp you'll buy.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "Dinner three hours earlier.",
+      "sub": "Late eating showed up as more wake events every single time.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "Caffeine cutoff at 10am.",
+      "photo": "coffee-picture-4.jpg",
+      "sub": "Not because coffee is bad. Because its half life is six hours.",
+      "step": "05"
+    },
+    {
+      "type": "statement",
+      "text": "Four of these did nothing for a friend of mine.",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "Population advice is a starting guess, not an answer."
+    },
+    {
+      "type": "cta",
+      "text": "The only result that counts is yours.",
+      "photo": "yoga-in-park.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ],
+  "tier": "core"
+}

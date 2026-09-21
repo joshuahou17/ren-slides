@@ -1,0 +1,99 @@
+{
+  "slug": "blood-tired-normal-labs",
+  "lane": "bloodwork",
+  "format": "problem_solution",
+  "ren_tie": "soft",
+  "hook": "i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”",
+  "caption": "Normal range is the band 95% of people fall inside. Exhausted people are in it too.",
+  "notes": "Strongest Ren fit in the batch. This is the bloodwork PDF use case verbatim.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”",
+      "photo": "fitness-image-1.jpg",
+      "sub": "here's what nobody actually checked…"
+    },
+    {
+      "type": "ps",
+      "bands": [
+        {
+          "head": "WHAT THEY CHECKED",
+          "color": "#8b8a85",
+          "cells": [
+            {
+              "label": "Hemoglobin"
+            },
+            {
+              "label": "TSH, alone"
+            }
+          ]
+        },
+        {
+          "head": "WHAT EXPLAINS IT",
+          "color": "#0f9d63",
+          "cells": [
+            {
+              "label": "Ferritin",
+              "tone": "pos"
+            },
+            {
+              "label": "Free T3 and T4",
+              "tone": "pos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Normal range is not your range.",
+      "photo": "person-running-motion-blur.jpg",
+      "sub": "It's the band 95% of people fall inside. Including the exhausted ones."
+    },
+    {
+      "type": "grid",
+      "question": "The four that get skipped",
+      "layout": "g2x2",
+      "cells": [
+        {
+          "label": "Ferritin",
+          "sub": "low with normal hemoglobin"
+        },
+        {
+          "label": "Vitamin D",
+          "sub": "rarely ordered unless you ask"
+        },
+        {
+          "label": "B12 and folate",
+          "sub": "low-normal still has symptoms"
+        },
+        {
+          "label": "hs-CRP",
+          "sub": "inflammation nothing else shows"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Ask what your number is.",
+      "photo": "mariana-rascao.jpg",
+      "sub": "Not whether it's in range. Those are two different questions."
+    },
+    {
+      "type": "cta",
+      "text": "Take this list to your next appointment.",
+      "sub": "Then keep the results somewhere that reads them back to you. I use Ren for that, it's in my bio.",
+      "photo": "cycling-picture-3.jpg"
+    }
+  ],
+  "hashtags": [
+    "bloodwork",
+    "bloodtest",
+    "ferritin",
+    "thyroid",
+    "labresults",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "soft"
+}

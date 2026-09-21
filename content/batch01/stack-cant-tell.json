@@ -1,0 +1,78 @@
+{
+  "slug": "stack-cant-tell",
+  "lane": "stack",
+  "format": "cause_grid",
+  "ren_tie": "soft",
+  "hook": "why you genuinely cannot tell whether a supplement is working",
+  "caption": "Five reasons, and four of them are things you did without noticing.",
+  "notes": "The methodology post for the stack lane. Save rate should be high on this one.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "why you genuinely cannot tell whether a supplement is working",
+      "photo": "supplement-picture.jpg",
+      "sub": "(four mistakes. i have made all four of them)"
+    },
+    {
+      "type": "grid",
+      "question": "The four mistakes",
+      "layout": "g2x2",
+      "cells": [
+        {
+          "label": "Started three at once",
+          "tone": "neg"
+        },
+        {
+          "label": "Started when you felt awful",
+          "tone": "neg"
+        },
+        {
+          "label": "No baseline",
+          "tone": "neg"
+        },
+        {
+          "label": "Judging by feel",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Three at once tells you nothing about any of them.",
+      "photo": "natalie-hordiiuk.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "You started when you felt worst.",
+      "photo": "sick-aesthetic-picture.jpg",
+      "sub": "You were going to feel better anyway. That's regression, not the pill."
+    },
+    {
+      "type": "statement",
+      "text": "Without a baseline there's nothing to compare to.",
+      "photo": "fitness-image-5.jpg",
+      "sub": "Seven days of doing nothing is the most boring and most important week."
+    },
+    {
+      "type": "statement",
+      "text": "And “I feel sharper” is not a measurement.",
+      "photo": "coffee-picture-2.jpg",
+      "sub": "Pick a number you don't control. Deep sleep. Resting heart rate."
+    },
+    {
+      "type": "cta",
+      "text": "One thing. Two weeks. One number.",
+      "sub": "It's genuinely that simple, it's just annoying to keep track of. That's the part I let Ren do. It's in my bio.",
+      "photo": "akshay-chauhan.jpg"
+    }
+  ],
+  "hashtags": [
+    "supplements",
+    "supplementstack",
+    "biohacking",
+    "wastingmoney",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "soft"
+}

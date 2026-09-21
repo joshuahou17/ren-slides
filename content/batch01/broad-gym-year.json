@@ -1,0 +1,66 @@
+{
+  "slug": "broad-gym-year",
+  "lane": "nof1",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "a year of going to the gym four times a week and the honest list of what changed",
+  "caption": "not the list i expected to be writing.",
+  "notes": "WARM-UP. Broad fitness reach, no health-tech framing at all. Set these to your real year before posting.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "a year of the gym four times a week",
+      "photo": "fitness-image-by-eduardo-cano.jpg",
+      "sub": "here's the honest list of what changed"
+    },
+    {
+      "type": "statement",
+      "text": "i look slightly different",
+      "photo": "fitness-image-3.jpg",
+      "sub": "genuinely only slightly. a year is not a transformation.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "i sleep better",
+      "photo": "sleep-aesthetic-4.jpg",
+      "sub": "this was the biggest one and nobody talks about it",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "stairs stopped being a thing",
+      "photo": "cycling-picture-5.jpg",
+      "sub": "small, but i notice it every day",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "i'm noticeably less irritable",
+      "photo": "yoga-picture-1.jpg",
+      "sub": "which my flatmate mentioned before i did",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "none of that happened in the first three months",
+      "photo": "fitness-image-7.jpg",
+      "sub": "the first three months were just sore and boring"
+    },
+    {
+      "type": "cta",
+      "text": "what actually changed for you",
+      "photo": "man-running-by-fountain.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ]
+}

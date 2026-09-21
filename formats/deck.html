@@ -1,0 +1,319 @@
+<!doctype html><html><head><meta charset="utf-8"><style>{{ base_css }}
+:root{
+  --W:{{ W }}px; --H:{{ H }}px; --pad:{{ pad }}px;
+  --surface:{{ b.surface }}; --ink:{{ b.ink }}; --ink-soft:{{ b.ink_soft }};
+  --ink-muted:{{ b.ink_muted }}; --rule:{{ b.rule }};
+  --baseline:{{ b.baseline }}; --trial:{{ b.trial }}; --arrow:{{ b.arrow }};
+}
+/* ---------- cover ---------- */
+.cover{justify-content:flex-start;}
+.cover.photo{padding:0;}
+.cover .bg{position:absolute;inset:0;}
+.cover .bg img{width:100%;height:100%;object-fit:cover;}
+.cover .scrim{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(0,0,0,.52) 0%,rgba(0,0,0,.12) 42%,rgba(0,0,0,.62) 100%);}
+.cover .inner{position:relative;padding:var(--pad);display:flex;flex-direction:column;height:100%;}
+.cover.photo .inner{color:#fff;}
+.cover.photo .kicker,.cover.photo .body{color:rgba(255,255,255,.82);}
+.cover .sub{margin-top:26px;max-width:88%;}
+
+/* ---------- full-bleed photo layer (cover, list, cta) ---------- */
+.slide.photo{padding:0;}
+.slide.photo .bg{position:absolute;inset:0;}
+.slide.photo .bg img{width:100%;height:100%;object-fit:cover;}
+.slide.photo .scrim{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(0,0,0,.66) 0%,rgba(0,0,0,.30) 38%,rgba(0,0,0,.74) 100%);}
+.slide.photo .inner{position:relative;padding:var(--pad);display:flex;flex-direction:column;
+  height:100%;color:#fff;}
+.st .inner{display:flex;flex-direction:column;height:100%;}
+.st.plain .inner,.st.ink .inner{padding:0;}
+.slide.photo .kicker,.slide.photo .body,.slide.photo .li-s,.slide.photo .tiny{color:rgba(255,255,255,.80);}
+.slide.photo .mark,.slide.photo .pagenum{color:rgba(255,255,255,.82);
+  text-shadow:0 1px 10px rgba(0,0,0,.7);}
+.slide.photo .li-n{color:#8be8bf;}
+.slide.photo .serif{text-shadow:0 2px 28px rgba(0,0,0,.45);}
+
+/* ---------- grid ---------- */
+.q{font-size:62px;font-weight:800;letter-spacing:-.03em;line-height:1.04;}
+.q .quoted{color:var(--ink);}
+.gridwrap{display:grid;gap:26px;margin-top:40px;flex:1;margin-bottom:76px;}
+.g2x2{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;}
+.g1x2{grid-template-columns:1fr 1fr;}
+.g2x3{grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr;}
+.cell{display:flex;flex-direction:column;gap:16px;min-height:0;min-width:0;}
+.cell .slot{flex:1;min-height:0;}
+.cell .cap{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1.14;}
+.cell .capsub{font-size:26px;font-weight:500;color:var(--ink-muted);margin-top:-6px;}
+
+/* ---------- problem / solution ---------- */
+.ps{gap:0;padding-bottom:132px;}
+.ps .band{display:flex;flex-direction:column;flex:1;min-height:0;}
+.ps .bandhead{font-size:30px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  margin-bottom:16px;display:flex;align-items:center;gap:14px;}
+.ps .bandhead .tagsub{font-size:26px;font-weight:600;letter-spacing:0;text-transform:none;
+  color:var(--ink-muted);}
+.ps .pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1;min-height:0;}
+.arrow{display:flex;align-items:center;justify-content:center;height:96px;flex:none;}
+.arrow svg{width:72px;height:72px;}
+.rulehr{height:2px;background:var(--rule);margin:26px 0;}
+
+/* ---------- protocol card ---------- */
+.proto{border:3px solid var(--ink);border-radius:26px;padding:44px;margin-top:36px;}
+.proto .prow{display:flex;justify-content:space-between;align-items:baseline;
+  padding:22px 0;border-bottom:2px solid var(--rule);gap:24px;}
+.proto .prow:last-child{border-bottom:0;padding-bottom:0;}
+.proto .pk{font-size:28px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-muted);white-space:nowrap;}
+.proto .pv{font-size:38px;font-weight:700;letter-spacing:-.02em;text-align:right;}
+.successrule{margin-top:34px;background:#f2f1ed;border-radius:20px;padding:32px 34px;}
+.successrule .pk{margin-bottom:10px;}
+.successrule .pv{text-align:left;font-size:40px;line-height:1.18;}
+
+/* ---------- chart ---------- */
+.chartwrap{margin-top:26px;flex:1;display:flex;flex-direction:column;}
+.chartwrap svg{margin-top:18px;}
+.hero{display:flex;align-items:flex-end;gap:22px;margin-bottom:10px;}
+.hero .num{font-size:140px;font-weight:800;letter-spacing:-.05em;line-height:.86;
+  font-variant-numeric:tabular-nums;}
+.hero .unit{font-size:44px;font-weight:700;color:var(--ink-soft);padding-bottom:14px;}
+.legend{display:flex;gap:34px;margin:22px 0 4px;}
+.legend .li{display:flex;align-items:center;gap:12px;font-size:28px;font-weight:600;
+  color:var(--ink-soft);}
+.legend .sw{width:26px;height:14px;border-radius:4px;}
+
+/* ---------- statement: one photo, one idea ---------- */
+.st{justify-content:center;}
+.st .txt{font-size:78px;font-weight:800;line-height:1.04;letter-spacing:-.035em;
+  text-wrap:balance;max-width:94%;}
+.slide.photo .txt{text-shadow:0 2px 34px rgba(0,0,0,.55);}
+.slide.photo .sb{text-shadow:0 1px 16px rgba(0,0,0,.6);}
+.st.small .txt{font-size:62px;}
+.st .sb{font-size:34px;font-weight:450;line-height:1.32;margin-top:26px;max-width:84%;}
+.st.plain{justify-content:center;background:var(--surface);}
+.st.plain .txt{font-size:92px;}
+.st.plain .sb{color:var(--ink-soft);}
+.st.ink{background:#0c0d0e;color:#f4f3f0;}
+.st.ink .sb{color:#9a9ea1;}
+.slide.photo .st-scrim,.slide.cta.photo .scrim{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(0,0,0,.50) 0%,rgba(0,0,0,.58) 45%,rgba(0,0,0,.66) 100%);}
+.st .step{font-size:30px;font-weight:700;letter-spacing:.02em;margin-bottom:22px;
+  color:var(--trial);font-variant-numeric:tabular-nums;}
+
+/* ---------- proof (a real screenshot, shown as evidence) ---------- */
+.slide.dark{background:#0c0d0e;color:#f4f3f0;}
+.slide.dark .kicker,.slide.dark .body,.slide.dark .tiny{color:#8e9295;}
+.slide.dark .mark,.slide.dark .pagenum{color:#75797c;}
+.proof .shot{margin-top:30px;flex:1;min-height:0;position:relative;}
+.proof .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
+  object-position:center;display:block;}
+.proof .cap{margin-top:26px;font-size:28px;font-weight:500;color:#8e9295;line-height:1.3;}
+.proof .stat{display:flex;align-items:baseline;gap:18px;margin-top:14px;}
+.proof .stat .n{font-size:118px;font-weight:800;letter-spacing:-.05em;line-height:.9;
+  font-variant-numeric:tabular-nums;color:{{ b.trial }};}
+.proof .stat .u{font-size:40px;font-weight:700;color:#f4f3f0;}
+
+/* ---------- verdict ---------- */
+.verdict{align-items:center;justify-content:center;text-align:center;}
+.stamp{border:6px solid currentColor;border-radius:28px;padding:34px 54px;
+  font-size:82px;font-weight:800;letter-spacing:-.03em;transform:rotate(-3deg);}
+.verdict .note{margin-top:56px;font-size:40px;line-height:1.3;color:var(--ink-soft);max-width:86%;}
+
+/* ---------- listicle ---------- */
+.list .items{margin-top:56px;padding-bottom:60px;display:flex;flex-direction:column;gap:36px;flex:1;
+  justify-content:flex-start;}
+.li-row{display:flex;gap:26px;align-items:flex-start;}
+.list .items .li-row>div:last-child{flex:1;}
+.li-n{font-size:34px;font-weight:800;color:var(--trial);line-height:1.25;min-width:52px;
+  font-variant-numeric:tabular-nums;}
+.li-t{font-size:42px;font-weight:700;letter-spacing:-.02em;line-height:1.2;}
+.li-s{font-size:30px;font-weight:450;color:var(--ink-soft);line-height:1.3;margin-top:8px;}
+.serif{font-family:Charter,'Bitstream Charter',Caladea,Georgia,serif;}
+
+/* ---------- cta ---------- */
+.cta{justify-content:center;}
+.cta .big{font-size:70px;font-weight:800;letter-spacing:-.035em;line-height:1.05;text-wrap:balance;}
+.cta .pill{margin-top:44px;display:inline-flex;align-items:center;
+  gap:16px;background:var(--ink);color:var(--surface);border-radius:999px;
+  padding:26px 42px;font-size:34px;font-weight:700;letter-spacing:-.01em;}
+.cta .pill .dot{width:18px;height:18px;border-radius:50%;background:var(--trial);}
+.slide.photo .pill{background:#fff;color:#0b0b0b;}
+</style></head><body>
+
+{%- macro slot(img, label, tone='', size=52) %}
+<div class="slot {{ tone }}">
+  {%- if img %}<img src="{{ img }}">
+  {%- else %}<div class="tile" style="--tile-size:{{ size }}px">{{ label }}</div>{% endif %}
+</div>
+{%- endmacro %}
+
+{%- macro mark(i, n) %}
+<div class="mark"><span class="dot"></span>{{ b.handle }}</div>
+{%- if n > 1 %}<div class="pagenum">{{ i }}/{{ n }}</div>{% endif %}
+{%- endmacro %}
+
+{% set n = deck.slides|length %}
+{% for s in deck.slides %}
+{% set i = loop.index %}
+
+{% if s.type == 'cover' %}
+<div class="slide cover {% if s.photo %}photo{% endif %}" data-i="{{ i }}">
+  {%- if s.photo %}<div class="bg"><img src="{{ s.photo }}"><div class="scrim"></div></div>{% endif %}
+  <div class="inner">
+    {%- if s.kicker %}<div class="kicker">{{ s.kicker }}</div>{% endif %}
+    <div class="grow"></div>
+    <div class="{{ s.size|default('h1') }}">{{ s.text }}</div>
+    {%- if s.sub %}<div class="body sub">{{ s.sub }}</div>{% endif %}
+    <div class="grow"></div>
+    {{ mark(i, n) }}
+  </div>
+</div>
+
+{% elif s.type == 'grid' %}
+<div class="slide" data-i="{{ i }}">
+  {%- if s.kicker %}<div class="kicker" style="margin-bottom:18px">{{ s.kicker }}</div>{% endif %}
+  <div class="q">{{ s.question }}</div>
+  <div class="gridwrap {{ s.layout|default('g2x2') }}">
+    {%- for c in s.cells %}
+    <div class="cell">
+      {{ slot(c.img, c.label, c.tone|default(''), c.tile_size|default(50)) }}
+      {%- if c.img %}<div class="cap">{{ c.label }}</div>{% endif %}
+      {%- if c.sub %}<div class="{{ 'capsub' if c.img else 'cap' }}"
+        {% if not c.img %}style="font-weight:550;font-size:30px;color:var(--ink-soft)"{% endif %}>{{ c.sub }}</div>{% endif %}
+    </div>
+    {%- endfor %}
+  </div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'ps' %}
+<div class="slide ps" data-i="{{ i }}">
+  {%- if s.kicker %}<div class="kicker" style="margin-bottom:22px">{{ s.kicker }}</div>{% endif %}
+  {%- for band in s.bands %}
+  {%- if not loop.first %}
+  <div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="{{ b.arrow }}"
+    stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 4v15M6 13.5l6 6 6-6"/></svg></div>
+  {%- endif %}
+  <div class="band">
+    <div class="bandhead" style="color:{{ band.color|default(b.ink) }}">
+      {{ band.head }}{% if band.sub %}<span class="tagsub">{{ band.sub }}</span>{% endif %}
+    </div>
+    <div class="pair">
+      {%- for c in band.cells %}
+      {{ slot(c.img, c.label, c.tone|default(''), c.tile_size|default(44)) }}
+      {%- endfor %}
+    </div>
+    {%- if band.cells|selectattr('img')|list %}
+    <div class="row" style="gap:24px;margin-top:14px">
+      {%- for c in band.cells %}
+      <div style="flex:1"><div class="cap" style="font-size:32px;font-weight:700;letter-spacing:-.02em">{{ c.label }}</div></div>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'protocol' %}
+<div class="slide" data-i="{{ i }}">
+  <div class="kicker">the protocol</div>
+  <div class="h2" style="margin-top:20px">{{ s.title }}</div>
+  <div class="proto">
+    {%- for r in s.rows %}
+    <div class="prow"><div class="pk">{{ r[0] }}</div><div class="pv">{{ r[1] }}</div></div>
+    {%- endfor %}
+  </div>
+  <div class="successrule">
+    <div class="pk">success rule — set before day 1</div>
+    <div class="pv">{{ s.success_rule }}</div>
+  </div>
+  <div class="grow"></div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'chart' %}
+<div class="slide" data-i="{{ i }}">
+  <div class="kicker">{{ s.kicker|default('the result') }}</div>
+  <div class="h3" style="margin-top:16px">{{ s.title }}</div>
+  <div class="chartwrap">
+    <div class="hero">
+      <div class="num" style="color:{{ s.delta_color }}">{{ s.delta_label }}</div>
+      <div class="unit">{{ s.unit }}</div>
+    </div>
+    <div class="body" style="font-size:30px">{{ s.delta_sub }}</div>
+    <div class="legend">
+      <div class="li"><span class="sw" style="background:{{ b.baseline }}"></span>{{ s.baseline_label }}</div>
+      <div class="li"><span class="sw" style="background:{{ b.trial }}"></span>{{ s.trial_label }}</div>
+    </div>
+    {{ s.svg|safe }}
+  </div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'statement' %}
+<div class="slide st {% if s.photo %}photo{% else %}plain{% endif %}
+     {% if s.ink %}ink{% endif %} {% if s.small %}small{% endif %}" data-i="{{ i }}">
+  {%- if s.photo %}<div class="bg"><img src="{{ s.photo }}"><div class="st-scrim" style="background:{{ s.scrim }}"></div></div>{% endif %}
+  <div class="inner" style="justify-content:center;text-align:center;align-items:center">
+    {%- if s.step %}<div class="step">{{ s.step }}</div>{% endif %}
+    <div class="txt" style="font-size:{{ s.size_px|default(78) }}px">{{ s.text }}</div>
+    {%- if s.sub %}<div class="sb" style="font-size:{{ s.sub_px|default(34) }}px">{{ s.sub }}</div>{% endif %}
+  </div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'proof' %}
+<div class="slide dark proof" data-i="{{ i }}">
+  {%- if s.kicker %}<div class="kicker">{{ s.kicker }}</div>{% endif %}
+  {%- if s.title %}<div class="h2" style="margin-top:16px">{{ s.title }}</div>{% endif %}
+  {%- if s.stat %}<div class="stat"><span class="n">{{ s.stat }}</span>
+    <span class="u">{{ s.stat_unit|default('') }}</span></div>{% endif %}
+  <div class="shot"><img src="{{ s.img }}"></div>
+  {%- if s.caption %}<div class="cap">{{ s.caption }}</div>{% endif %}
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'verdict' %}
+<div class="slide verdict" data-i="{{ i }}">
+  <div class="stamp" style="color:{{ s.color }}">{{ s.text }}</div>
+  {%- if s.note %}<div class="note">{{ s.note }}</div>{% endif %}
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'list' %}
+<div class="slide list {% if s.photo %}photo{% endif %}" data-i="{{ i }}">
+  {%- if s.photo %}<div class="bg"><img src="{{ s.photo }}"><div class="scrim"></div></div>{% endif %}
+  <div class="inner" {% if not s.photo %}style="padding:0;display:flex;flex-direction:column;height:100%"{% endif %}>
+  {%- if s.kicker %}<div class="kicker">{{ s.kicker }}</div>{% endif %}
+  <div class="{{ s.size|default('h2') }} {% if s.serif %}serif{% endif %}"
+       style="margin-top:18px">{{ s.title }}</div>
+  <div class="items">
+    {%- for it in s['items'] %}
+    <div class="li-row">
+      {%- if s.numbered %}<div class="li-n">{{ '%02d'|format(loop.index) }}</div>{% endif %}
+      <div><div class="li-t">{{ it.text }}</div>
+        {%- if it.sub %}<div class="li-s">{{ it.sub }}</div>{% endif %}</div>
+    </div>
+    {%- endfor %}
+  </div>
+  </div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'cta' %}
+<div class="slide cta {% if s.photo %}photo{% endif %}" data-i="{{ i }}">
+  {%- if s.photo %}<div class="bg"><img src="{{ s.photo }}"><div class="scrim" style="background:{{ s.scrim }}"></div></div>{% endif %}
+  <div class="inner" style="{% if not s.photo %}padding:0;{% endif %}justify-content:center;
+       display:flex;flex-direction:column;height:100%;
+       {% if s.photo %}text-align:center;align-items:center;{% endif %}">
+  {%- if s.kicker %}<div class="kicker" style="margin-bottom:26px">{{ s.kicker }}</div>{% endif %}
+  <div class="big">{{ s.text }}</div>
+  {%- if s.sub %}<div class="body" style="margin-top:26px;max-width:{{ '84%' if s.photo else '86%' }}">{{ s.sub }}</div>{% endif %}
+  {%- if s.pill %}<div class="pill"><span class="dot"></span>{{ s.pill }}</div>{% endif %}
+  </div>
+  {{ mark(i, n) }}
+</div>
+{% endif %}
+{% endfor %}
+</body></html>

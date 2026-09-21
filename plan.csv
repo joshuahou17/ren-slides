@@ -1,0 +1,27 @@
+day,date,time,tier,slug,lane,hook
+1,2026-09-22,,warm-up,,,Warm-up only. Do not post.
+2,2026-09-23,,warm-up,,,Warm-up only. Do not post.
+3,2026-09-24,,warm-up,,,Warm-up only. Do not post.
+4,2026-09-25,09:00,broad,broad-why-so-tired,sleep,why is everyone in their twenties this tired
+5,2026-09-26,09:00,broad,broad-sunday-night,sleep,the sunday night thing where you're exhausted and cannot fall asleep
+6,2026-09-27,09:00,broad,broad-screen-time,sleep,i checked my screen time for last week and genuinely felt unwell
+7,2026-09-28,09:00,core,sleep-wake-at-3am,sleep,i woke up at 3am every night for a month and blamed stress
+8,2026-09-29,09:00,core,blood-always-cold,bloodwork,"if you're the one wearing a hoodie indoors in july, this is probably why"
+9,2026-09-30,09:00,core,blood-hrv-low,bloodwork,my ring kept telling me my hrv was low and i genuinely thought it was broken
+10,2026-10-01,09:00,core,nof1-magnesium-form,nof1,the magnesium in your cupboard is probably being sold as a laxative
+11,2026-10-02,09:00,core,nof1-what-didnt-work,nof1,i tested this for 14 nights and it did absolutely nothing
+11,2026-10-02,14:00,soft,app-chronotype,sleep,apparently i'm a moth
+12,2026-10-03,09:00,core,sleep-5-non-supplement,sleep,5 things that fixed my sleep and cost me nothing
+12,2026-10-03,14:00,soft,blood-tired-normal-labs,bloodwork,i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”
+13,2026-10-04,09:00,soft,stack-quit-one,stack,the fastest way to find out which of your supplements do nothing is to stop taking them
+13,2026-10-04,14:00,soft,nof1-caffeine-cutoff,nof1,i didn't quit coffee. i just moved it four hours earlier
+14,2026-10-05,09:00,soft,nof1-how-to-run-one,nof1,you've been guessing about your own body for years
+14,2026-10-05,14:00,soft,sleep-deep-sleep-fix,sleep,my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper
+15,2026-10-06,09:00,soft,sleep-magnesium-14-nights,sleep,everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights
+15,2026-10-06,14:00,soft,stack-cant-tell,stack,why you genuinely cannot tell whether a supplement is working
+16,2026-10-07,09:00,broad,broad-coffee-personality,nof1,i cannot function before my second coffee and i've made that my whole personality
+16,2026-10-07,14:00,broad,broad-morning-routine-lie,sleep,every 5am morning routine video leaves out the same thing
+17,2026-10-08,09:00,broad,broad-gym-year,nof1,a year of going to the gym four times a week and the honest list of what changed
+18,2026-10-09,09:00,hard,nof1-sleep-debt-rebound,sleep,i came back from a trip 9 hours and 40 minutes down on sleep and genuinely felt unwell
+19,2026-10-10,09:00,hard,stack-huberman-1000h,stack,i watched 1000 hours of huberman so you don't have to
+20,2026-10-11,09:00,hard,app-says-no,nof1,i built an app that tells you when a supplement isn't doing anything

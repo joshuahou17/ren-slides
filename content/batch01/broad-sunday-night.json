@@ -1,0 +1,55 @@
+{
+  "slug": "broad-sunday-night",
+  "lane": "sleep",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "the sunday night thing where you're exhausted and cannot fall asleep",
+  "caption": "does this have a name yet or are we all just doing it",
+  "notes": "WARM-UP. Extremely relatable, zero product. Post this on a Sunday evening.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "the sunday night thing where you're exhausted and still can't fall asleep",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "does this have a name yet"
+    },
+    {
+      "type": "statement",
+      "text": "you got up at 11 on saturday",
+      "photo": "sleep-aesthetic-image.jpg",
+      "sub": "and again on sunday"
+    },
+    {
+      "type": "statement",
+      "text": "so at 11pm your body thinks it's 9",
+      "photo": "sick-aesthetic-picture.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "then monday's alarm goes off at 7",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "and you start the week two hours behind"
+    },
+    {
+      "type": "statement",
+      "text": "i'm not going to tell you to stop lying in",
+      "photo": "cycling-picture-3.jpg",
+      "sub": "i'm just saying that's what it is"
+    },
+    {
+      "type": "cta",
+      "text": "every single sunday",
+      "photo": "sleep-aesthetic-3.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ]
+}

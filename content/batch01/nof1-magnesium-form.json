@@ -1,0 +1,81 @@
+{
+  "slug": "nof1-magnesium-form",
+  "lane": "nof1",
+  "format": "problem_solution",
+  "ren_tie": "none",
+  "hook": "the magnesium in your cupboard is probably being sold as a laxative",
+  "caption": "The cheap one on the shelf is magnesium oxide. Check the back of the bottle.",
+  "notes": "AWOOGA 99/1 format with real object photos in all four panels.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "the magnesium in your cupboard is probably being sold as a laxative",
+      "photo": "supplement-picture.jpg",
+      "sub": "(go and check the back of the bottle, i'll wait)"
+    },
+    {
+      "type": "ps",
+      "bands": [
+        {
+          "head": "99% BUY",
+          "color": "#d93f3e",
+          "cells": [
+            {
+              "label": "Magnesium oxide",
+              "img": "amanda-jones.jpg"
+            },
+            {
+              "label": "“Magnesium”, no form",
+              "img": "supplement-picture.jpg"
+            }
+          ]
+        },
+        {
+          "head": "1% BUY",
+          "color": "#0f9d63",
+          "cells": [
+            {
+              "label": "Magnesium glycinate",
+              "img": "akshay-chauhan.jpg"
+            },
+            {
+              "label": "Magnesium L-threonate",
+              "img": "natalie-hordiiuk.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Oxide is about 4% absorbed.",
+      "photo": "ambitious-studio-by-rick-barrett.jpg",
+      "sub": "It's the cheapest form to make, which is why it's on every shelf."
+    },
+    {
+      "type": "statement",
+      "text": "The rest pulls water into your gut.",
+      "photo": "fitness-image-5.jpg",
+      "sub": "That's the laxative effect. It is not the sleep effect."
+    },
+    {
+      "type": "statement",
+      "text": "Right form, wrong person, still nothing."
+    },
+    {
+      "type": "cta",
+      "text": "Buy the good one. Then check whether it moved a number.",
+      "photo": "sleep-aesthetic-3.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ],
+  "tier": "core"
+}

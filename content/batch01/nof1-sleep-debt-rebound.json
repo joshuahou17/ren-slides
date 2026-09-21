@@ -1,0 +1,94 @@
+{
+  "slug": "nof1-sleep-debt-rebound",
+  "lane": "sleep",
+  "format": "proof_stack",
+  "ren_tie": "hard",
+  "hook": "i came back from a trip 9 hours and 40 minutes down on sleep and genuinely felt unwell",
+  "caption": "Travel, then getting sick. This is the order I did things in, and the Saturday habit that sets most people back.",
+  "notes": "RECOVERY ARC. The chart has a beginning and an end, which the RHR one doesn't. Lead the account with this.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i came back from a trip 9 hours and 40 minutes down on sleep and genuinely felt unwell",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "here's the ten days back…"
+    },
+    {
+      "type": "proof",
+      "stat": "9h 40m",
+      "stat_unit": "down, at the peak",
+      "img": "oura-sleep-debt.jpg",
+      "caption": "Oura sleep debt, Aug 16 to Sep 6. Peak 9h40m on Aug 27, against a 7h26m need. Back inside Low by Sep 6."
+    },
+    {
+      "type": "statement",
+      "text": "Earlier bedtime. Not a later alarm.",
+      "photo": "sleep-aesthetic-image.jpg",
+      "sub": "Sleeping in moves your body clock and costs you the next night.",
+      "step": "days 1 to 3"
+    },
+    {
+      "type": "statement",
+      "text": "Training down, not out.",
+      "photo": "fitness-image-5.jpg",
+      "sub": "Hard sessions on top of debt just extend it.",
+      "step": "days 1 to 3"
+    },
+    {
+      "type": "statement",
+      "text": "Alcohol at zero.",
+      "photo": "cycling-picture.jpg",
+      "sub": "It's the one input that makes recovery sleep worse while you're asleep.",
+      "step": "days 1 to 3"
+    },
+    {
+      "type": "statement",
+      "text": "An extra hour a night, for a week.",
+      "photo": "sleep-aesthetic-3.jpg",
+      "sub": "Debt clears over nights. Not in one long one.",
+      "step": "days 4 to 10"
+    },
+    {
+      "type": "statement",
+      "text": "Daylight within 30 minutes of waking.",
+      "photo": "yoga-picture-1.jpg",
+      "sub": "After travel this is what re-anchors the clock.",
+      "step": "days 4 to 10"
+    },
+    {
+      "type": "statement",
+      "text": "The twelve hour Saturday made it worse.",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "Felt incredible. Pushed my bedtime two hours late and I paid for it until Tuesday."
+    },
+    {
+      "type": "statement",
+      "text": "Melatonin is a timing signal, not a sedative.",
+      "photo": "mariana-rascao.jpg",
+      "sub": "Low dose, taken early, to drag a travel-shifted clock back. More doesn't work better."
+    },
+    {
+      "type": "statement",
+      "text": "The line came down because of hours in bed.",
+      "photo": "sick-aesthetic-picture.jpg",
+      "sub": "That's the honest version."
+    },
+    {
+      "type": "cta",
+      "text": "If you want to know which part did it, you have to test one at a time.",
+      "sub": "I built Ren to do exactly that. It watches your own baseline and tells you, after two weeks, whether the thing you changed actually mattered.",
+      "photo": "sleep-aesthetic-4.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ],
+  "tier": "hard"
+}

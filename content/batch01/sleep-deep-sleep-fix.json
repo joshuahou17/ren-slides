@@ -1,0 +1,105 @@
+{
+  "slug": "sleep-deep-sleep-fix",
+  "lane": "sleep",
+  "format": "problem_solution",
+  "ren_tie": "soft",
+  "hook": "my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper",
+  "caption": "The last ninety minutes of your day matter more than anything you swallow.",
+  "notes": "Put object photos in the four panels the moment you have them. That is what makes this format travel.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "turns out it's decided before you get into bed"
+    },
+    {
+      "type": "ps",
+      "bands": [
+        {
+          "head": "PROBLEM",
+          "color": "#d93f3e",
+          "cells": [
+            {
+              "label": "Scrolling in bed",
+              "tone": "neg"
+            },
+            {
+              "label": "Late heavy dinner",
+              "tone": "neg"
+            }
+          ]
+        },
+        {
+          "head": "SOLUTION",
+          "color": "#0f9d63",
+          "cells": [
+            {
+              "label": "Phone in another room",
+              "tone": "pos"
+            },
+            {
+              "label": "Eat 3 hours earlier",
+              "tone": "pos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ps",
+      "bands": [
+        {
+          "head": "PROBLEM",
+          "color": "#d93f3e",
+          "cells": [
+            {
+              "label": "Bedtime drifts 2 hours",
+              "tone": "neg"
+            },
+            {
+              "label": "Hot shower at 11pm",
+              "tone": "neg"
+            }
+          ]
+        },
+        {
+          "head": "SOLUTION",
+          "color": "#0f9d63",
+          "cells": [
+            {
+              "label": "Same 30 minute window",
+              "tone": "pos"
+            },
+            {
+              "label": "Shower at 9:30",
+              "tone": "pos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "You can't feel deep sleep.",
+      "photo": "sick-aesthetic-picture.jpg",
+      "sub": "Which is why people guess about it for years."
+    },
+    {
+      "type": "cta",
+      "text": "Pick one and hold it for two weeks.",
+      "sub": "I use an app called Ren to watch whether it actually moved. It's in my bio if you want it.",
+      "photo": "sleep-aesthetic-4.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ],
+  "tier": "soft"
+}

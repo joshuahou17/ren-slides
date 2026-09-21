@@ -1,0 +1,55 @@
+{
+  "slug": "broad-screen-time",
+  "lane": "sleep",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "i checked my screen time for last week and genuinely felt unwell",
+  "caption": "no advice, no lecture. just posting it so i'm not alone in this.",
+  "notes": "WARM-UP. Pure relatability, no product, no protocol. The comments on this are where your next ten hooks come from.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i checked my screen time for last week and genuinely felt unwell",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "posting it so i'm not the only one"
+    },
+    {
+      "type": "statement",
+      "text": "22 hours. in one week.",
+      "photo": "sick-aesthetic-picture.jpg",
+      "sub": "on one app."
+    },
+    {
+      "type": "statement",
+      "text": "most of it after 11pm.",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "which explains a lot about how tuesdays feel."
+    },
+    {
+      "type": "statement",
+      "text": "i'm not going to pretend i've fixed it.",
+      "photo": "cycling-picture-2.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "i just moved the charger to the kitchen.",
+      "photo": "sleep-aesthetic-image.jpg",
+      "sub": "that's the whole post."
+    },
+    {
+      "type": "cta",
+      "text": "how bad is yours, honestly",
+      "photo": "sleep-aesthetic-4.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ]
+}

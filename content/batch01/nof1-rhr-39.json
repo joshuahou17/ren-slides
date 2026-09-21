@@ -1,0 +1,74 @@
+{
+  "slug": "nof1-rhr-39",
+  "lane": "nof1",
+  "format": "proof_stack",
+  "ren_tie": "hard",
+  "hook": "my resting heart rate is 39 and it's mostly not the thing you think it is",
+  "caption": "Real screenshot. Ranked by how much each thing actually moved it, which means the boring one is first and the supplements are near the bottom.",
+  "notes": "The screenshot is the post; everything after is the explanation.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "my resting heart rate is 39 and it's mostly not the thing you think it is",
+      "photo": "jorge-alberto-vega-barrera-running-image.jpg",
+      "sub": "ranked by what actually moved it…"
+    },
+    {
+      "type": "proof",
+      "stat": "39",
+      "stat_unit": "bpm average",
+      "img": "oura-rhr-week.jpg",
+      "caption": "Oura, week of Aug 16 to 22. Range 37 to 45. Eight runs that week."
+    },
+    {
+      "type": "statement",
+      "text": "Eight runs that week.",
+      "photo": "man-running-by-fountain.jpg",
+      "sub": "Most of them slow enough to hold a conversation. This is most of the answer.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "No alcohol.",
+      "photo": "cycling-picture-1.jpg",
+      "sub": "One drink is worth about 3 to 5 bpm on my own numbers.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "A fixed sleep window.",
+      "photo": "sleep-aesthetic.jpg",
+      "sub": "Same bedtime within half an hour. Regularity beat total hours.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "Magnesium does nothing I can see here.",
+      "photo": "ambitious-studio-by-rick-barrett.jpg",
+      "sub": "It gets me to sleep faster. It does not show up in this number."
+    },
+    {
+      "type": "statement",
+      "text": "And the part I didn't earn.",
+      "photo": "cycling-picture-3.jpg",
+      "sub": "Years of aerobic base, and being young. Two people doing all of this land in different places."
+    },
+    {
+      "type": "cta",
+      "text": "Don't copy my list. Test one line of it on you.",
+      "sub": "That's the whole idea behind Ren. It takes your Oura or Apple Health data, runs one change at a time, and tells you after two weeks whether it actually did anything.",
+      "photo": "person-running-motion-blur.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ],
+  "tier": "hard"
+}

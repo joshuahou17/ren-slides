@@ -1,0 +1,73 @@
+{
+  "slug": "stack-quit-one",
+  "lane": "stack",
+  "format": "photo_listicle",
+  "ren_tie": "soft",
+  "hook": "the fastest way to find out which of your supplements do nothing is to stop taking them",
+  "caption": "Stop them. One at a time. Most people have never tried this and it costs nothing.",
+  "notes": "The subtraction angle. Nobody in this niche posts it, because the niche is funded by addition. Expect this to travel and to annoy people in the comments.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "the fastest way to find out which of your supplements do nothing is to stop taking them",
+      "photo": "ambitious-studio-by-rick-barrett.jpg",
+      "sub": "nobody in this corner of the internet will tell you this"
+    },
+    {
+      "type": "statement",
+      "text": "Pick the most expensive one.",
+      "photo": "amanda-jones.jpg",
+      "sub": "Start there.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "Stop it. Change nothing else.",
+      "photo": "supplement-picture.jpg",
+      "sub": "This is the hard part. Not the stopping, the nothing else.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "Fourteen days.",
+      "photo": "sleep-aesthetic-3.jpg",
+      "sub": "Long enough to clear day-to-day noise. Short enough that you'll actually finish.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "Watch one number, not your mood.",
+      "photo": "fitness-image-2.jpg",
+      "sub": "Deep sleep, resting heart rate, time to fall asleep. Something you don't control.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "Nothing moved?",
+      "photo": "coffee-picture-3.jpg",
+      "sub": "You just got that money back. Every month.",
+      "step": "05"
+    },
+    {
+      "type": "statement",
+      "text": "Most of my stack didn't survive this.",
+      "photo": "natalie-hordiiuk.jpg",
+      "sub": "Two things did. I'm much more confident about those two than I ever was about nine."
+    },
+    {
+      "type": "cta",
+      "text": "Worth doing even if you never buy anything again.",
+      "sub": "I run these with Ren because remembering what I stopped and when is the bit I always got wrong. Bio if you want it.",
+      "photo": "cycling-picture.jpg"
+    }
+  ],
+  "hashtags": [
+    "supplements",
+    "supplementstack",
+    "biohacking",
+    "wastingmoney",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "soft"
+}

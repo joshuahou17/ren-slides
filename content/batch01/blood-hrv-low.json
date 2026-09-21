@@ -1,0 +1,72 @@
+{
+  "slug": "blood-hrv-low",
+  "lane": "bloodwork",
+  "format": "cause_grid",
+  "ren_tie": "none",
+  "hook": "my ring kept telling me my hrv was low and i genuinely thought it was broken",
+  "caption": "HRV is mostly a mirror. These are the four things it's usually reflecting.",
+  "notes": "Bridges the bloodwork and sleep lanes. Watch whether it pulls sleep viewers.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "my ring kept telling me my hrv was low and i genuinely thought it was broken",
+      "photo": "runners-in-motion.jpg",
+      "sub": "it wasn't. it was reflecting four things i was doing"
+    },
+    {
+      "type": "grid",
+      "question": "“Why is my HRV so low?”",
+      "layout": "g2x2",
+      "cells": [
+        {
+          "label": "Alcohol",
+          "tone": "neg"
+        },
+        {
+          "label": "Training late",
+          "tone": "neg"
+        },
+        {
+          "label": "Getting sick",
+          "tone": "neg"
+        },
+        {
+          "label": "Under-slept",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Alcohol is the biggest overnight hit there is.",
+      "photo": "cycling-picture-5.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "HRV drops a day or two before you feel ill.",
+      "photo": "sick-aesthetic-picture.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "One low night is weather.",
+      "photo": "fitness-image-3.jpg",
+      "sub": "Seven is climate."
+    },
+    {
+      "type": "cta",
+      "text": "Compare your week to your own baseline.",
+      "sub": "Never to someone else's number.",
+      "photo": "cycling-camera-strap.jpg"
+    }
+  ],
+  "hashtags": [
+    "bloodwork",
+    "bloodtest",
+    "ferritin",
+    "thyroid",
+    "labresults",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "core"
+}

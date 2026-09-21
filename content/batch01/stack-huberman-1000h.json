@@ -1,0 +1,85 @@
+{
+  "slug": "stack-huberman-1000h",
+  "lane": "stack",
+  "format": "photo_listicle",
+  "ren_tie": "hard",
+  "hook": "i watched 1000 hours of huberman so you don't have to",
+  "caption": "These are the protocols that come up over and over. He's right that they're worth trying. He cannot tell you which ones are yours.",
+  "notes": "Name-check post. Do not imply endorsement, do not use his likeness, do not invent quotes. The turn at slide 7 is the whole post; everything before it is the bait.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i watched 1000 hours of huberman so you don't have to",
+      "photo": "fitness-image-by-eduardo-cano.jpg",
+      "sub": "(the last slide is the part nobody says out loud)"
+    },
+    {
+      "type": "statement",
+      "text": "Sunlight in your eyes within an hour of waking.",
+      "photo": "woman-jumping-on-beach-sunset.jpg",
+      "sub": "Ten minutes outside. The single most repeated one.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "Delay your first coffee 90 minutes.",
+      "photo": "coffee-picture-3.jpg",
+      "sub": "So adenosine clears on its own instead of getting masked.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "Zone 2, two to three hours a week.",
+      "photo": "cycling-picture-5.jpg",
+      "sub": "Slow enough to hold a conversation. Boring on purpose.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "Ten minutes of non-sleep deep rest.",
+      "photo": "yoga-picture.jpg",
+      "sub": "Lie down, eyes closed, no input. Not a nap.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "The sleep stack: magnesium, theanine, apigenin.",
+      "photo": "akshay-chauhan.jpg",
+      "sub": "The most quoted three, and the most bought three.",
+      "step": "05"
+    },
+    {
+      "type": "statement",
+      "text": "Here's the part that took me 1000 hours to notice.",
+      "photo": "fitness-image-6.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "Every one of these is an average.",
+      "photo": "runners-in-motion.jpg",
+      "sub": "It's what happened to a group of people in a study. It is not a prediction about you."
+    },
+    {
+      "type": "statement",
+      "text": "Two of these did nothing for me.",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "I only know that because I stopped them one at a time and watched what happened."
+    },
+    {
+      "type": "cta",
+      "text": "He can tell you what's worth trying. He can't tell you what works on you.",
+      "sub": "Nobody can, from a podcast. That's the gap Ren fills: one protocol at a time, against your own baseline, with a verdict at the end.",
+      "photo": "sleep-aesthetic-4.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "supplements",
+    "supplementstack",
+    "biohacking",
+    "wastingmoney",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "hard"
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "nof1-caffeine-cutoff",
+  "lane": "nof1",
+  "format": "nof1_reveal",
+  "ren_tie": "soft",
+  "hook": "i didn't quit coffee. i just moved it four hours earlier",
+  "caption": "Same two cups. Different hour. Measured how long it took me to fall asleep, nothing else changed.",
+  "notes": "REPLACE SERIES WITH REAL DATA. Minutes to sleep is a number people can feel.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i didn't quit coffee. i just moved it four hours earlier",
+      "photo": "coffee-picture-3.jpg",
+      "sub": "it took 16 minutes off how long i lie there…"
+    },
+    {
+      "type": "protocol",
+      "title": "Caffeine cutoff, time to fall asleep",
+      "rows": [
+        [
+          " what ",
+          "same 2 coffees"
+        ],
+        [
+          " change ",
+          "last one before 10am"
+        ],
+        [
+          " baseline ",
+          "7 days, usual 2pm"
+        ],
+        [
+          " trial ",
+          "14 days"
+        ],
+        [
+          " measured ",
+          "minutes to sleep"
+        ]
+      ],
+      "success_rule": "Time to fall asleep drops 5 minutes or more on average."
+    },
+    {
+      "type": "chart",
+      "title": "Minutes to fall asleep",
+      "unit": "min",
+      "baseline_label": "2pm coffee",
+      "trial_label": "10am cutoff",
+      "split": 7,
+      "series": [
+        34,
+        41,
+        28,
+        38,
+        45,
+        31,
+        36,
+        29,
+        24,
+        31,
+        19,
+        22,
+        26,
+        17,
+        21,
+        18,
+        23,
+        15,
+        19,
+        16,
+        18
+      ]
+    },
+    {
+      "type": "verdict",
+      "text": "worked",
+      "note": "16 minutes faster. Nothing else in my day changed."
+    },
+    {
+      "type": "statement",
+      "text": "This one costs nothing.",
+      "photo": "coffee-picture-2.jpg",
+      "sub": "No supplement. No purchase. A different hour."
+    },
+    {
+      "type": "cta",
+      "text": "Fourteen days tells you whether it's yours.",
+      "sub": "I use Ren to set these up so I don't have to remember what I changed and when. Bio.",
+      "photo": "sleep-aesthetic-image.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ],
+  "tier": "soft"
+}

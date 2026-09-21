@@ -1,0 +1,44 @@
+@font-face{font-family:'Inter';src:url('FONT_INTER') format('truetype');font-weight:100 900;font-style:normal;}
+@font-face{font-family:'Inter';src:url('FONT_INTER_I') format('truetype');font-weight:100 900;font-style:italic;}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{background:#33322f;}
+body{font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+  font-feature-settings:"cv05" 1,"ss03" 1,"tnum" 1;}
+
+.slide{
+  width:var(--W);height:var(--H);position:relative;overflow:hidden;
+  background:var(--surface);color:var(--ink);
+  display:flex;flex-direction:column;
+  padding:var(--pad);
+}
+.slide + .slide{margin-top:40px;}
+
+/* ---- shared type scale (tuned for 1080px wide) ---- */
+.kicker{font-size:30px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-muted);}
+.h1{font-size:96px;font-weight:800;line-height:.98;letter-spacing:-.035em;}
+.h2{font-size:68px;font-weight:800;line-height:1.02;letter-spacing:-.03em;}
+.h3{font-size:46px;font-weight:700;line-height:1.1;letter-spacing:-.02em;}
+.body{font-size:34px;font-weight:450;line-height:1.35;color:var(--ink-soft);}
+.tiny{font-size:26px;font-weight:500;color:var(--ink-muted);}
+
+.grow{flex:1;}
+.row{display:flex;}
+.center{align-items:center;justify-content:center;}
+
+/* ---- watermark ---- */
+.mark{position:absolute;left:var(--pad);bottom:38px;display:flex;align-items:center;
+  gap:14px;font-size:25px;font-weight:600;color:var(--ink-muted);letter-spacing:-.01em;}
+.mark .dot{width:22px;height:22px;border-radius:50%;background:var(--trial);}
+.pagenum{position:absolute;right:var(--pad);bottom:38px;font-size:25px;font-weight:600;
+  color:var(--ink-muted);font-variant-numeric:tabular-nums;}
+
+/* ---- image slot: photo if given, typographic tile if not ---- */
+.slot{position:relative;width:100%;height:100%;min-height:0;min-width:0;border-radius:22px;overflow:hidden;
+  background:#f2f1ed;display:flex;align-items:center;justify-content:center;}
+.slot img{width:100%;height:100%;object-fit:cover;display:block;}
+.slot .tile{padding:28px;text-align:center;font-weight:800;letter-spacing:-.03em;
+  line-height:1.02;color:var(--ink);font-size:var(--tile-size,52px);}
+.slot.neg{background:#faeceb;}
+.slot.pos{background:#e9f6f0;}

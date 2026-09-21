@@ -1,0 +1,74 @@
+{
+  "slug": "stack-nine-bottles",
+  "lane": "stack",
+  "format": "photo_listicle",
+  "ren_tie": "hard",
+  "hook": "i counted the supplements in my cupboard and then worked out what i'd spent on them",
+  "caption": "I'm not saying they don't work. I'm saying you have no way of knowing which ones do.",
+  "notes": "Highest-intent lane in the batch. These people have already spent the money; they're looking for permission to stop guessing. Set the counts to YOUR real cupboard before posting.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i counted the supplements in my cupboard and then worked out what i'd spent on them",
+      "photo": "natalie-hordiiuk.jpg",
+      "sub": "i felt genuinely sick…"
+    },
+    {
+      "type": "statement",
+      "text": "Nine.",
+      "photo": "natalie-hordiiuk.jpg",
+      "sub": "That was mine. About £60 a month.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "I started six of them in the same month.",
+      "photo": "amanda-jones.jpg",
+      "sub": "Which means I can't attribute anything to any of them.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "I started them all in January.",
+      "photo": "cycling-picture-3.jpg",
+      "sub": "When I felt terrible. I was always going to feel better by March.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "I never measured anything first.",
+      "photo": "fitness-image-by-samuel-girven.jpg",
+      "sub": "No baseline. So there was nothing to compare to.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "Two of them, I just kept buying.",
+      "photo": "ambitious-studio-by-rick-barrett.jpg",
+      "sub": "Not because they worked. Because stopping felt like a risk.",
+      "step": "05"
+    },
+    {
+      "type": "statement",
+      "text": "This is the trap.",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "Supplements are cheap enough to keep buying and subtle enough that you can never tell."
+    },
+    {
+      "type": "cta",
+      "text": "You can find out. It just takes two weeks per thing.",
+      "sub": "That's the whole reason I built Ren. It stops one variable, watches your own numbers, and tells you whether anything actually changed.",
+      "photo": "mariana-rascao.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "supplements",
+    "supplementstack",
+    "biohacking",
+    "wastingmoney",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "hard"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "broad-why-so-tired",
+  "lane": "sleep",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "why is everyone in their twenties this tired",
+  "caption": "genuine question. nobody i know has energy and we all pretend it's normal.",
+  "notes": "WARM-UP. Broadest reach post in the batch. Asks a question rather than answering one, which is what makes the comments go.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "why is everyone in their twenties this tired",
+      "photo": "fitness-image-1.jpg",
+      "sub": "genuine question"
+    },
+    {
+      "type": "statement",
+      "text": "nobody i know has any energy",
+      "photo": "person-running-motion-blur.jpg",
+      "sub": "and we've all just decided that's normal"
+    },
+    {
+      "type": "statement",
+      "text": "everyone's on their third coffee by noon",
+      "photo": "coffee-picture-1.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "and in bed at 10 saying they're exhausted",
+      "photo": "sleep-aesthetic.jpg",
+      "sub": "then on their phone until 1"
+    },
+    {
+      "type": "statement",
+      "text": "i don't think it's one thing",
+      "photo": "runners-in-motion.jpg",
+      "sub": "i think it's about six small things at once"
+    },
+    {
+      "type": "cta",
+      "text": "what's yours",
+      "sub": "genuinely curious what people say",
+      "photo": "yoga-in-park.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ]
+}

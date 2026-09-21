@@ -1,0 +1,57 @@
+{
+  "slug": "app-says-no",
+  "lane": "nof1",
+  "format": "proof_stack",
+  "ren_tie": "hard",
+  "tier": "hard",
+  "hook": "i built an app that tells you when a supplement isn't doing anything",
+  "caption": "most health apps only know how to say yes. this is the screen i'm proudest of.",
+  "notes": "STRONGEST PRODUCT POST IN THE BATCH. An app willing to return a null result is the entire differentiator. Lead with this one for anything product-led.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "most health apps only know how to say yes",
+      "photo": "supplement-picture.jpg",
+      "sub": "so i built one that can say no"
+    },
+    {
+      "type": "proof",
+      "img": "ren-verdict-null.jpg",
+      "caption": "Ren, verdict screen. Magnesium, 14 nights, deep sleep 1h12m before and 1h14m after. Inside the night-to-night noise, so it grades as no effect."
+    },
+    {
+      "type": "statement",
+      "text": "“it isn't your lever”",
+      "photo": "sleep-aesthetic-2.jpg",
+      "sub": "not “try a higher dose”. not “give it another month”."
+    },
+    {
+      "type": "statement",
+      "text": "that sentence costs a supplement company money",
+      "photo": "amanda-jones.jpg",
+      "sub": "which is roughly why nothing else says it"
+    },
+    {
+      "type": "statement",
+      "text": "half of what's in your cupboard is this screen",
+      "photo": "natalie-hordiiuk.jpg",
+      "sub": "you just haven't run it yet"
+    },
+    {
+      "type": "cta",
+      "text": "an app that can't tell you no isn't measuring anything.",
+      "sub": "Ren runs one change at a time against your own baseline and grades it, including when the answer is that it did nothing.",
+      "photo": "mariana-rascao.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ]
+}

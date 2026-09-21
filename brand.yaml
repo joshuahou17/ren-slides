@@ -1,0 +1,29 @@
+# Ren slideshow engine — brand + canvas config
+brand:
+  name: Ren
+  handle: "@ren.health"          # change to your real handle
+  tagline: "your own data, tested on you"
+  # accent used across formats
+  ink:        "#0b0b0b"
+  ink_soft:   "#52514e"
+  ink_muted:  "#8b8a85"
+  surface:    "#fcfcfb"
+  rule:       "#e6e4df"
+  # chart roles (validated pair — see PLAYBOOK "Why these colors")
+  baseline:   "#2a78d6"
+  trial:      "#1baf7a"
+  # status / verdict
+  worked:     "#0f9d63"
+  partly:     "#c98500"
+  failed:     "#d93f3e"
+  unclear:    "#8b8a85"
+  # problem/solution arrow red (matches the reference accounts)
+  arrow:      "#d93f3e"
+
+canvas:
+  width: 1080
+  height: 1350          # 4:5 — set 1920 for full 9:16
+  scale: 1
+
+output:
+  dir: out

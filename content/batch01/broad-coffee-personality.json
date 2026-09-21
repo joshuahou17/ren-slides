@@ -1,0 +1,54 @@
+{
+  "slug": "broad-coffee-personality",
+  "lane": "nof1",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "i cannot function before my second coffee and i've made that my whole personality",
+  "caption": "posting this from my second coffee.",
+  "notes": "WARM-UP. Light, funny, shareable. No advice at all, which is the point. Feeds the same audience the caffeine cutoff campaign post needs later.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i cannot function before my second coffee and i've made that my entire personality",
+      "photo": "coffee-picture-3.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "the first one isn't even for enjoyment",
+      "photo": "coffee-picture-1.jpg",
+      "sub": "it's just to get back to neutral"
+    },
+    {
+      "type": "statement",
+      "text": "i've described myself as “not a morning person” for about nine years",
+      "photo": "coffee-picture-4.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "at some point that stopped being a fact about me",
+      "photo": "coffee-picture-2.jpg",
+      "sub": "and started being a thing i just kept saying"
+    },
+    {
+      "type": "statement",
+      "text": "anyway. second coffee.",
+      "photo": "coffee-picture.jpg",
+      "sub": "see you tomorrow."
+    },
+    {
+      "type": "cta",
+      "text": "how many are you on",
+      "photo": "fitness-image-4.jpg"
+    }
+  ],
+  "hashtags": [
+    "selfexperiment",
+    "biohacking",
+    "supplements",
+    "healthdata",
+    "restingheartrate",
+    "oura",
+    "fyp"
+  ]
+}

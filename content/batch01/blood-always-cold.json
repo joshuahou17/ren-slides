@@ -1,0 +1,73 @@
+{
+  "slug": "blood-always-cold",
+  "lane": "bloodwork",
+  "format": "cause_grid",
+  "ren_tie": "none",
+  "hook": "if you're the one wearing a hoodie indoors in july, this is probably why",
+  "caption": "Four things worth ruling out before you buy another blanket.",
+  "notes": "GlowUpLexicon question format carrying a lab topic.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "if you're the one wearing a hoodie indoors in july, this is probably why",
+      "photo": "cycling-picture-4.jpg",
+      "sub": "it's four things and they're all on one blood panel"
+    },
+    {
+      "type": "grid",
+      "question": "“Why am I always cold?”",
+      "layout": "g2x2",
+      "cells": [
+        {
+          "label": "Low ferritin",
+          "tone": "neg"
+        },
+        {
+          "label": "Underactive thyroid",
+          "tone": "neg"
+        },
+        {
+          "label": "Eating too little",
+          "tone": "neg"
+        },
+        {
+          "label": "Low B12",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Ferritin is iron storage.",
+      "photo": "fitness-image-6.jpg",
+      "sub": "It can sit near empty while your hemoglobin looks perfect."
+    },
+    {
+      "type": "statement",
+      "text": "TSH alone misses it.",
+      "photo": "amanda-jones.jpg",
+      "sub": "Ask for free T3 and free T4 in the same draw."
+    },
+    {
+      "type": "statement",
+      "text": "Three of these are one blood draw apart.",
+      "photo": "cycling-picture-1.jpg"
+    },
+    {
+      "type": "cta",
+      "text": "People guess at this for years.",
+      "sub": "It's a single panel.",
+      "photo": "yoga-picture.jpg"
+    }
+  ],
+  "hashtags": [
+    "bloodwork",
+    "bloodtest",
+    "ferritin",
+    "thyroid",
+    "labresults",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "core"
+}

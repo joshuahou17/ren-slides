@@ -1,0 +1,54 @@
+{
+  "slug": "broad-morning-routine-lie",
+  "lane": "sleep",
+  "format": "photo_listicle",
+  "ren_tie": "none",
+  "tier": "broad",
+  "hook": "every 5am morning routine video leaves out the same thing",
+  "caption": "not hating on them. just saying what nobody films.",
+  "notes": "WARM-UP. Mild contrarian take on a huge existing format. Rides the morning routine audience without being one.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "every 5am morning routine video leaves out the same thing",
+      "photo": "woman-jumping-on-beach-sunset.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "what time they went to bed",
+      "photo": "sleep-aesthetic-3.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "5am is not impressive on its own",
+      "photo": "yoga-picture.jpg",
+      "sub": "5am after eight hours is a completely different video to 5am after five"
+    },
+    {
+      "type": "statement",
+      "text": "one of those is a routine",
+      "photo": "fitness-image-5.jpg",
+      "sub": "the other one is just being awake"
+    },
+    {
+      "type": "statement",
+      "text": "nobody films the 9pm part",
+      "photo": "sleep-aesthetic-image.jpg",
+      "sub": "because it's boring and it's the only part that matters"
+    },
+    {
+      "type": "cta",
+      "text": "if you do get up at 5, what time are you actually going to bed",
+      "photo": "jorge-alberto-vega-barrera-running-image.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ]
+}

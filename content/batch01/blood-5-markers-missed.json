@@ -1,0 +1,69 @@
+{
+  "slug": "blood-5-markers-missed",
+  "lane": "bloodwork",
+  "format": "photo_listicle",
+  "ren_tie": "hard",
+  "hook": "5 things on your blood test that can be “in range” and still be the reason you feel awful",
+  "caption": "Every one of these can sit inside the reference range and still be the reason you feel bad.",
+  "notes": "Hard CTA. Only scale it once a soft version of the same idea has travelled.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "5 things on your blood test that can be “in range” and still be the reason you feel awful",
+      "photo": "fitness-image-4.jpg",
+      "sub": "nobody read these back to you"
+    },
+    {
+      "type": "statement",
+      "text": "Ferritin.",
+      "photo": "mariana-rascao.jpg",
+      "sub": "Iron storage. Can be near the floor while hemoglobin looks fine.",
+      "step": "01"
+    },
+    {
+      "type": "statement",
+      "text": "Free T3.",
+      "photo": "women-running-silhouette.jpg",
+      "sub": "The active thyroid hormone. TSH alone can look perfect.",
+      "step": "02"
+    },
+    {
+      "type": "statement",
+      "text": "Vitamin D.",
+      "photo": "yoga-picture-1.jpg",
+      "sub": "Low across most of the northern hemisphere, most of the year.",
+      "step": "03"
+    },
+    {
+      "type": "statement",
+      "text": "hs-CRP.",
+      "photo": "fitness-image-7.jpg",
+      "sub": "Background inflammation. Cheap, and almost never ordered.",
+      "step": "04"
+    },
+    {
+      "type": "statement",
+      "text": "Fasting insulin.",
+      "photo": "running-image.jpg",
+      "sub": "Moves years before fasting glucose does. Not on a standard panel.",
+      "step": "05"
+    },
+    {
+      "type": "cta",
+      "text": "Upload the PDF and have it read back to you.",
+      "sub": "That's what I built Ren for. It reads your actual bloodwork, tells you which markers explain what you're feeling, and then sets up a two week test on the one that matters.",
+      "photo": "man-running-by-fountain.jpg",
+      "pill": "Ren, link in bio"
+    }
+  ],
+  "hashtags": [
+    "bloodwork",
+    "bloodtest",
+    "ferritin",
+    "thyroid",
+    "labresults",
+    "healthtok",
+    "fyp"
+  ],
+  "tier": "hard"
+}

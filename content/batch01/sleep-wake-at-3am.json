@@ -1,0 +1,77 @@
+{
+  "slug": "sleep-wake-at-3am",
+  "lane": "sleep",
+  "format": "cause_grid",
+  "ren_tie": "none",
+  "hook": "i woke up at 3am every night for a month and blamed stress",
+  "caption": "Most people have two of these going at once and blame the wrong one.",
+  "notes": "Photo hook now leads, grid is slide two. Watch whether the thumbnail change costs reach; the grid used to be the thumbnail.",
+  "slides": [
+    {
+      "type": "statement",
+      "text": "i woke up at 3am every night for a month and blamed stress",
+      "photo": "sleep-aesthetic-1.jpg",
+      "sub": "it was four things and none of them were stress"
+    },
+    {
+      "type": "grid",
+      "question": "“Why do I wake up at 3am?”",
+      "layout": "g2x2",
+      "cells": [
+        {
+          "label": "Alcohol",
+          "tone": "neg"
+        },
+        {
+          "label": "A warm room",
+          "tone": "neg"
+        },
+        {
+          "label": "Nothing since 5pm",
+          "tone": "neg"
+        },
+        {
+          "label": "A 2pm coffee",
+          "tone": "neg"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "text": "Alcohol puts you under fast.",
+      "photo": "cycling-picture-2.jpg",
+      "sub": "Then rebounds about four hours later, which is 3am."
+    },
+    {
+      "type": "statement",
+      "text": "You have to cool down to stay asleep.",
+      "photo": "sleep-aesthetic.jpg",
+      "sub": "A room above 19°C won't let your core temperature drop."
+    },
+    {
+      "type": "statement",
+      "text": "Half of a 2pm coffee is still in you at 10pm.",
+      "photo": "coffee-picture-1.jpg"
+    },
+    {
+      "type": "statement",
+      "text": "Change all four and you've learned nothing."
+    },
+    {
+      "type": "cta",
+      "text": "Change one. Watch one number. Give it two weeks.",
+      "sub": "That's the whole difference between trying something and testing it.",
+      "photo": "sleep-aesthetic-3.jpg"
+    }
+  ],
+  "hashtags": [
+    "sleep",
+    "deepsleep",
+    "sleepdebt",
+    "oura",
+    "whoop",
+    "hrv",
+    "fyp"
+  ],
+  "tier": "core"
+}
