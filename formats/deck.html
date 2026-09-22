@@ -1,9 +1,9 @@
 <!doctype html><html><head><meta charset="utf-8"><style>{{ base_css }}
 :root{
   --W:{{ W }}px; --H:{{ H }}px; --pad:{{ pad }}px;
-  --surface:{{ b.surface }}; --ink:{{ b.ink }}; --ink-soft:{{ b.ink_soft }};
-  --ink-muted:{{ b.ink_muted }}; --rule:{{ b.rule }};
-  --baseline:{{ b.baseline }}; --trial:{{ b.trial }}; --arrow:{{ b.arrow }};
+  /* no brand palette. these two are functional signals, not identity */
+  --surface:#fcfcfb; --ink:#0b0b0b; --ink-soft:#52514e; --ink-muted:#8b8a85;
+  --rule:#e6e4df; --arrow:#d93f3e;
 }
 /* ---------- cover ---------- */
 .cover{justify-content:flex-start;}
@@ -28,8 +28,7 @@
 .st .inner{display:flex;flex-direction:column;height:100%;}
 .st.plain .inner,.st.ink .inner{padding:0;}
 .slide.photo .kicker,.slide.photo .body,.slide.photo .li-s,.slide.photo .tiny{color:rgba(255,255,255,.80);}
-.slide.photo .mark,.slide.photo .pagenum{color:rgba(255,255,255,.82);
-  text-shadow:0 1px 10px rgba(0,0,0,.7);}
+
 .slide.photo .li-n{color:#8be8bf;}
 .slide.photo .serif{text-shadow:0 2px 28px rgba(0,0,0,.45);}
 
@@ -87,10 +86,12 @@
 
 /* ---------- statement: one photo, one idea ---------- */
 .st{justify-content:center;}
-.st .txt{font-size:78px;font-weight:800;line-height:1.04;letter-spacing:-.035em;
+.st .txt{font-size:78px;font-weight:900;line-height:1.06;letter-spacing:-.022em;
   text-wrap:balance;max-width:94%;}
-.slide.photo .txt{text-shadow:0 2px 34px rgba(0,0,0,.55);}
-.slide.photo .sb{text-shadow:0 1px 16px rgba(0,0,0,.6);}
+.slide.photo .txt{color:#fff;-webkit-text-stroke:7px #000;paint-order:stroke fill;
+  text-shadow:0 2px 16px rgba(0,0,0,.28);}
+.slide.photo .sb{color:#fff;font-weight:600;-webkit-text-stroke:5px #000;
+  paint-order:stroke fill;}
 .st.small .txt{font-size:62px;}
 .st .sb{font-size:34px;font-weight:450;line-height:1.32;margin-top:26px;max-width:84%;}
 .st.plain{justify-content:center;background:var(--surface);}
@@ -101,12 +102,13 @@
 .slide.photo .st-scrim,.slide.cta.photo .scrim{position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(0,0,0,.50) 0%,rgba(0,0,0,.58) 45%,rgba(0,0,0,.66) 100%);}
 .st .step{font-size:30px;font-weight:700;letter-spacing:.02em;margin-bottom:22px;
-  color:var(--trial);font-variant-numeric:tabular-nums;}
+  color:#fff;-webkit-text-stroke:5px #000;paint-order:stroke fill;
+  font-variant-numeric:tabular-nums;}
 
 /* ---------- proof (a real screenshot, shown as evidence) ---------- */
 .slide.dark{background:#0c0d0e;color:#f4f3f0;}
 .slide.dark .kicker,.slide.dark .body,.slide.dark .tiny{color:#8e9295;}
-.slide.dark .mark,.slide.dark .pagenum{color:#75797c;}
+
 .proof .shot{margin-top:30px;flex:1;min-height:0;position:relative;}
 .proof .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
   object-position:center;display:block;}
@@ -135,11 +137,11 @@
 
 /* ---------- cta ---------- */
 .cta{justify-content:center;}
-.cta .big{font-size:70px;font-weight:800;letter-spacing:-.035em;line-height:1.05;text-wrap:balance;}
+.cta .big{font-size:70px;font-weight:900;letter-spacing:-.022em;line-height:1.08;text-wrap:balance;}
 .cta .pill{margin-top:44px;display:inline-flex;align-items:center;
   gap:16px;background:var(--ink);color:var(--surface);border-radius:999px;
   padding:26px 42px;font-size:34px;font-weight:700;letter-spacing:-.01em;}
-.cta .pill .dot{width:18px;height:18px;border-radius:50%;background:var(--trial);}
+.cta .pill .dot{display:none;}
 .slide.photo .pill{background:#fff;color:#0b0b0b;}
 </style></head><body>
 
@@ -150,10 +152,7 @@
 </div>
 {%- endmacro %}
 
-{%- macro mark(i, n) %}
-<div class="mark"><span class="dot"></span>{{ b.handle }}</div>
-{%- if n > 1 %}<div class="pagenum">{{ i }}/{{ n }}</div>{% endif %}
-{%- endmacro %}
+{%- macro mark(i, n) %}{%- endmacro %}
 
 {% set n = deck.slides|length %}
 {% for s in deck.slides %}
@@ -194,12 +193,12 @@
   {%- if s.kicker %}<div class="kicker" style="margin-bottom:22px">{{ s.kicker }}</div>{% endif %}
   {%- for band in s.bands %}
   {%- if not loop.first %}
-  <div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="{{ b.arrow }}"
+  <div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="#d93f3e"
     stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M12 4v15M6 13.5l6 6 6-6"/></svg></div>
   {%- endif %}
   <div class="band">
-    <div class="bandhead" style="color:{{ band.color|default(b.ink) }}">
+    <div class="bandhead" style="color:{{ band.color|default('#0b0b0b') }}">
       {{ band.head }}{% if band.sub %}<span class="tagsub">{{ band.sub }}</span>{% endif %}
     </div>
     <div class="pair">
@@ -234,6 +233,17 @@
     <div class="pv">{{ s.success_rule }}</div>
   </div>
   <div class="grow"></div>
+  </div>
+  {{ mark(i, n) }}
+</div>
+
+{% elif s.type == 'statement' %}
+<div class="slide st photo {% if s.small %}small{% endif %}" data-i="{{ i }}">
+  <div class="bg"><img src="{{ s.photo }}"><div class="st-scrim" style="background:{{ s.scrim }}"></div></div>
+  <div class="inner" style="justify-content:center;text-align:center;align-items:center">
+    {%- if s.step %}<div class="step">{{ s.step }}</div>{% endif %}
+    <div class="txt" style="font-size:{{ s.size_px|default(78) }}px">{{ s.text }}</div>
+    {%- if s.sub %}<div class="sb" style="font-size:{{ s.sub_px|default(34) }}px">{{ s.sub }}</div>{% endif %}
   </div>
   {{ mark(i, n) }}
 </div>

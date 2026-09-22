@@ -15,8 +15,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 def load_brand():
+    """Brand constants were removed. Only the mechanical bits remain."""
     cfg = yaml.safe_load((ROOT / "brand.yaml").read_text())
-    return cfg["brand"], cfg["canvas"], cfg["output"]
+    return {}, cfg["canvas"], cfg["output"]
 
 
 def data_uri(path):
