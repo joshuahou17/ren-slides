@@ -18,7 +18,7 @@ posts.csv             your results — edit in a spreadsheet if you prefer
 ## Setup (once)
 
 ```bash
-pip install playwright jinja2 pyyaml
+pip install playwright jinja2 pyyaml pillow
 playwright install chromium
 ```
 

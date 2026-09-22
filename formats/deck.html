@@ -35,10 +35,10 @@
 /* ---------- grid ---------- */
 .q{font-size:62px;font-weight:800;letter-spacing:-.03em;line-height:1.04;}
 .q .quoted{color:var(--ink);}
-.gridwrap{display:grid;gap:26px;margin-top:40px;flex:1;margin-bottom:76px;}
-.g2x2{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;}
+.gridwrap{display:grid;gap:26px;margin-top:40px;flex:1;min-height:0;margin-bottom:76px;}
+.g2x2{grid-template-columns:1fr 1fr;grid-template-rows:minmax(0,1fr) minmax(0,1fr);}
 .g1x2{grid-template-columns:1fr 1fr;}
-.g2x3{grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr;}
+.g2x3{grid-template-columns:1fr 1fr 1fr;grid-template-rows:minmax(0,1fr) minmax(0,1fr);}
 .cell{display:flex;flex-direction:column;gap:16px;min-height:0;min-width:0;}
 .cell .slot{flex:1;min-height:0;}
 .cell .cap{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1.14;}

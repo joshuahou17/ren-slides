@@ -7,7 +7,7 @@ repo back:
 ```bash
 git clone https://github.com/joshuahou17/ren-slides.git
 cd ren-slides
-pip install playwright jinja2 pyyaml --break-system-packages
+pip install playwright jinja2 pyyaml pillow --break-system-packages
 export PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers   # chromium is preinstalled
 ```
 
