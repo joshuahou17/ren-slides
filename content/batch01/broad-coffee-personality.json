@@ -4,14 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "i cannot function before my second coffee and i've made that my whole personality",
+  "hook": "Here's exactly how many coffees it takes me to function…",
   "caption": "posting this from my second coffee.",
   "notes": "WARM-UP. Light, funny, shareable. No advice at all, which is the point. Feeds the same audience the caffeine cutoff campaign post needs later.",
   "slides": [
     {
       "type": "statement",
-      "text": "i cannot function before my second coffee and i've made that my entire personality",
-      "photo": "coffee-picture-3.jpg"
+      "text": "Here's exactly how many coffees it takes me to function…",
+      "photo": "coffee-picture-3.jpg",
+      "sub": "I've made it a personality"
     },
     {
       "type": "statement",
@@ -53,5 +54,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly how many coffees it takes me to function…",
-  "hook_b_sub": "I've made it a personality"
+  "hook_b_sub": "I've made it a personality",
+  "hook_a": "i cannot function before my second coffee and i've made that my entire personality",
+  "hook_a_sub": ""
 }

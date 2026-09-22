@@ -4,15 +4,15 @@
   "format": "proof_stack",
   "ren_tie": "hard",
   "tier": "hard",
-  "hook": "i built an app that tells you when a supplement isn't doing anything",
+  "hook": "Here's exactly how to know a supplement isn't working…",
   "caption": "most health apps only know how to say yes. this is the screen i'm proudest of.",
   "notes": "STRONGEST PRODUCT POST IN THE BATCH. An app willing to return a null result is the entire differentiator. Lead with this one for anything product-led.",
   "slides": [
     {
       "type": "statement",
-      "text": "most health apps only know how to say yes",
+      "text": "Here's exactly how to know a supplement isn't working…",
       "photo": "supplement-picture.jpg",
-      "sub": "so i built one that can say no"
+      "sub": "most apps will never tell you this"
     },
     {
       "type": "proof",
@@ -55,5 +55,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly how to know a supplement isn't working…",
-  "hook_b_sub": "most apps will never tell you this"
+  "hook_b_sub": "most apps will never tell you this",
+  "hook_a": "most health apps only know how to say yes",
+  "hook_a_sub": "so i built one that can say no"
 }

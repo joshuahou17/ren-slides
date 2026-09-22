@@ -83,14 +83,20 @@ SWIPE = "(Swipe right \u2192)"
 
 
 def apply_hook_style(deck, style):
-    """Style A is the first-person confession already in slide one.
-    Style B is the direct-address promise stored alongside it."""
-    if style != "b":
+    """Style B (direct address, payoff up front) is the house style and the
+    default. Style A, the first-person confession, is kept as the alternate so
+    the two can still be A/B tested: `--hook a`."""
+    first = deck["slides"][0]
+    if first.get("type") != "statement":
         return
-    if deck.get("hook_b") and deck["slides"][0].get("type") == "statement":
-        deck["slides"][0]["text"] = deck["hook_b"]
-        deck["slides"][0]["sub"] = deck.get("hook_b_sub", "")
+    if style == "b" and deck.get("hook_b"):
+        first["text"] = deck["hook_b"]
+        first["sub"] = deck.get("hook_b_sub", "")
         deck["hook"] = deck["hook_b"]
+    elif style == "a" and deck.get("hook_a"):
+        first["text"] = deck["hook_a"]
+        first["sub"] = deck.get("hook_a_sub", "")
+        deck["hook"] = deck["hook_a"]
 
 
 def add_swipe(deck):
@@ -190,8 +196,9 @@ def main():
     ap.add_argument("--height", type=int)
     ap.add_argument("--width", type=int)
     ap.add_argument("--out")
-    ap.add_argument("--hook", choices=["a", "b"], default="a",
-                    help="a = first-person confession (default), b = direct-address promise")
+    ap.add_argument("--hook", choices=["a", "b"], default="b",
+                    help="b = direct-address promise (house style, default), "
+                         "a = first-person confession")
     a = ap.parse_args()
 
     _, canvas, outcfg = load_brand()

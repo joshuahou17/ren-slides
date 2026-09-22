@@ -3,15 +3,15 @@
   "lane": "bloodwork",
   "format": "cause_grid",
   "ren_tie": "none",
-  "hook": "if you're the one wearing a hoodie indoors in july, this is probably why",
+  "hook": "Here's exactly why you're always cold…",
   "caption": "Four things worth ruling out before you buy another blanket.",
   "notes": "GlowUpLexicon question format carrying a lab topic.",
   "slides": [
     {
       "type": "statement",
-      "text": "if you're the one wearing a hoodie indoors in july, this is probably why",
+      "text": "Here's exactly why you're always cold…",
       "photo": "cycling-picture-4.jpg",
-      "sub": "it's four things and they're all on one blood panel"
+      "sub": "4 things, all on one blood panel"
     },
     {
       "type": "grid",
@@ -71,5 +71,7 @@
   ],
   "tier": "core",
   "hook_b": "Here's exactly why you're always cold…",
-  "hook_b_sub": "4 things, all on one blood panel"
+  "hook_b_sub": "4 things, all on one blood panel",
+  "hook_a": "if you're the one wearing a hoodie indoors in july, this is probably why",
+  "hook_a_sub": "it's four things and they're all on one blood panel"
 }

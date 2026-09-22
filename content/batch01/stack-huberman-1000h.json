@@ -3,15 +3,15 @@
   "lane": "stack",
   "format": "photo_listicle",
   "ren_tie": "hard",
-  "hook": "i watched 1000 hours of huberman so you don't have to",
+  "hook": "5 protocols Huberman repeats the most…",
   "caption": "These are the protocols that come up over and over. He's right that they're worth trying. He cannot tell you which ones are yours.",
   "notes": "Name-check post. Do not imply endorsement, do not use his likeness, do not invent quotes. The turn at slide 7 is the whole post; everything before it is the bait.",
   "slides": [
     {
       "type": "statement",
-      "text": "i watched 1000 hours of huberman so you don't have to",
+      "text": "5 protocols Huberman repeats the most…",
       "photo": "fitness-image-by-eduardo-cano.jpg",
-      "sub": "(the last slide is the part nobody says out loud)"
+      "sub": "and the one thing none of them can tell you"
     },
     {
       "type": "statement",
@@ -83,5 +83,7 @@
   ],
   "tier": "hard",
   "hook_b": "5 protocols Huberman repeats the most…",
-  "hook_b_sub": "and the one thing none of them can tell you"
+  "hook_b_sub": "and the one thing none of them can tell you",
+  "hook_a": "i watched 1000 hours of huberman so you don't have to",
+  "hook_a_sub": "(the last slide is the part nobody says out loud)"
 }

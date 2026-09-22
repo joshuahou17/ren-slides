@@ -3,15 +3,15 @@
   "lane": "stack",
   "format": "cause_grid",
   "ren_tie": "soft",
-  "hook": "why you genuinely cannot tell whether a supplement is working",
+  "hook": "4 reasons you can't tell if a supplement is working…",
   "caption": "Five reasons, and four of them are things you did without noticing.",
   "notes": "The methodology post for the stack lane. Save rate should be high on this one.",
   "slides": [
     {
       "type": "statement",
-      "text": "why you genuinely cannot tell whether a supplement is working",
+      "text": "4 reasons you can't tell if a supplement is working…",
       "photo": "supplement-picture.jpg",
-      "sub": "(four mistakes. i have made all four of them)"
+      "sub": "I've made all four"
     },
     {
       "type": "grid",
@@ -76,5 +76,7 @@
   ],
   "tier": "soft",
   "hook_b": "4 reasons you can't tell if a supplement is working…",
-  "hook_b_sub": "I've made all four"
+  "hook_b_sub": "I've made all four",
+  "hook_a": "why you genuinely cannot tell whether a supplement is working",
+  "hook_a_sub": "(four mistakes. i have made all four of them)"
 }

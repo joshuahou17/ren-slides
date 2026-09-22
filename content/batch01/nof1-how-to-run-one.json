@@ -3,15 +3,15 @@
   "lane": "nof1",
   "format": "photo_listicle",
   "ren_tie": "soft",
-  "hook": "you've been guessing about your own body for years",
+  "hook": "5 rules for testing anything on yourself…",
   "caption": "Five rules, fourteen days, a phone you already own.",
   "notes": "Methodology post. Low view ceiling, high save and follow ceiling. This is the one that makes the account worth following instead of scrolling.",
   "slides": [
     {
       "type": "statement",
-      "text": "you've been guessing about your own body for years",
+      "text": "5 rules for testing anything on yourself…",
       "photo": "person-running-photo.jpg",
-      "sub": "here's how to actually test something on yourself in 14 days"
+      "sub": "14 days and a phone you already own"
     },
     {
       "type": "statement",
@@ -66,5 +66,7 @@
   ],
   "tier": "soft",
   "hook_b": "5 rules for testing anything on yourself…",
-  "hook_b_sub": "14 days and a phone you already own"
+  "hook_b_sub": "14 days and a phone you already own",
+  "hook_a": "you've been guessing about your own body for years",
+  "hook_a_sub": "here's how to actually test something on yourself in 14 days"
 }

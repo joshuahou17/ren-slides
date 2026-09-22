@@ -3,15 +3,15 @@
   "lane": "sleep",
   "format": "photo_listicle",
   "ren_tie": "none",
-  "hook": "5 things that fixed my sleep and cost me nothing",
+  "hook": "5 ways to fix your sleep without buying anything…",
   "caption": "Ranked by how much they moved the number, not by how good they sound.",
   "notes": "One item per slide. Longer deck, but swipe-through is what the algorithm reads.",
   "slides": [
     {
       "type": "statement",
-      "text": "5 things that fixed my sleep and cost me nothing",
+      "text": "5 ways to fix your sleep without buying anything…",
       "photo": "sleep-aesthetic-2.jpg",
-      "sub": "(i wasted about £400 on supplements before any of these)"
+      "sub": "ranked by what actually moved the number"
     },
     {
       "type": "statement",
@@ -72,5 +72,7 @@
   ],
   "tier": "core",
   "hook_b": "5 ways to fix your sleep without buying anything…",
-  "hook_b_sub": "ranked by what actually moved the number"
+  "hook_b_sub": "ranked by what actually moved the number",
+  "hook_a": "5 things that fixed my sleep and cost me nothing",
+  "hook_a_sub": "(i wasted about £400 on supplements before any of these)"
 }

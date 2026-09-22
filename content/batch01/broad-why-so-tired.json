@@ -4,15 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "why is everyone in their twenties this tired",
+  "hook": "Here's exactly why everyone in their 20s is exhausted…",
   "caption": "genuine question. nobody i know has energy and we all pretend it's normal.",
   "notes": "WARM-UP. Broadest reach post in the batch. Asks a question rather than answering one, which is what makes the comments go.",
   "slides": [
     {
       "type": "statement",
-      "text": "why is everyone in their twenties this tired",
+      "text": "Here's exactly why everyone in their 20s is exhausted…",
       "photo": "fitness-image-1.jpg",
-      "sub": "genuine question"
+      "sub": "it's about 6 small things at once"
     },
     {
       "type": "statement",
@@ -54,5 +54,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly why everyone in their 20s is exhausted…",
-  "hook_b_sub": "it's about 6 small things at once"
+  "hook_b_sub": "it's about 6 small things at once",
+  "hook_a": "why is everyone in their twenties this tired",
+  "hook_a_sub": "genuine question"
 }

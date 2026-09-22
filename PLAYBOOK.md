@@ -86,7 +86,10 @@ direct-address version:
 python3 src/render.py content/batch01/ --hook b --out out-b
 ```
 
-**Which one suits this account?** Probably B, and that's worth saying plainly:
+**Style B is the default.** `--hook a` renders the confessional variant if you
+want to test it. Every deck carries both.
+
+**Why B suits this account:**
 there is no face, no name, and now no watermark. Style A's whole advantage is
 that a person accumulates — and nothing here accumulates into a person. Style B
 is built for exactly this shape of account.

@@ -3,15 +3,15 @@
   "lane": "stack",
   "format": "photo_listicle",
   "ren_tie": "hard",
-  "hook": "i counted the supplements in my cupboard and then worked out what i'd spent on them",
+  "hook": "Here's exactly why your supplements aren't working…",
   "caption": "I'm not saying they don't work. I'm saying you have no way of knowing which ones do.",
   "notes": "Highest-intent lane in the batch. These people have already spent the money; they're looking for permission to stop guessing. Set the counts to YOUR real cupboard before posting.",
   "slides": [
     {
       "type": "statement",
-      "text": "i counted the supplements in my cupboard and then worked out what i'd spent on them",
+      "text": "Here's exactly why your supplements aren't working…",
       "photo": "natalie-hordiiuk.jpg",
-      "sub": "i felt genuinely sick…"
+      "sub": "and what they're costing you a month"
     },
     {
       "type": "statement",
@@ -72,5 +72,7 @@
   ],
   "tier": "hard",
   "hook_b": "Here's exactly why your supplements aren't working…",
-  "hook_b_sub": "and what they're costing you a month"
+  "hook_b_sub": "and what they're costing you a month",
+  "hook_a": "i counted the supplements in my cupboard and then worked out what i'd spent on them",
+  "hook_a_sub": "i felt genuinely sick…"
 }

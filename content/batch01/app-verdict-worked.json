@@ -4,15 +4,15 @@
   "format": "proof_stack",
   "ren_tie": "hard",
   "tier": "hard",
-  "hook": "the change that moved my recovery 20% wasn't a supplement",
+  "hook": "Here's exactly what moved my recovery 20%…",
   "caption": "fourteen nights, one variable, and a number i didn't control. this is the whole loop.",
   "notes": "The payoff twin of app-says-no. Post it AFTER the null one, never before: the no is what makes the yes believable.",
   "slides": [
     {
       "type": "statement",
-      "text": "the thing that moved my recovery 20% wasn't a supplement",
+      "text": "Here's exactly what moved my recovery 20%…",
       "photo": "sleep-aesthetic-3.jpg",
-      "sub": "it was what time i stopped eating"
+      "sub": "it wasn't a supplement"
     },
     {
       "type": "proof",
@@ -53,5 +53,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly what moved my recovery 20%…",
-  "hook_b_sub": "it wasn't a supplement"
+  "hook_b_sub": "it wasn't a supplement",
+  "hook_a": "the thing that moved my recovery 20% wasn't a supplement",
+  "hook_a_sub": "it was what time i stopped eating"
 }

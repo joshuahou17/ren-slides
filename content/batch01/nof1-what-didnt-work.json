@@ -3,15 +3,15 @@
   "lane": "nof1",
   "format": "proof_stack",
   "ren_tie": "none",
-  "hook": "i tested this for 14 nights and it did absolutely nothing",
+  "hook": "Here's exactly what 14 nights of magnesium spray did…",
   "caption": "posting the failures is the only reason to trust the wins.",
   "notes": "REBUILT on the real null-verdict screen. This is the credibility post; keep it in the rotation even when it underperforms.",
   "slides": [
     {
       "type": "statement",
-      "text": "i tested this for 14 nights and it did absolutely nothing",
+      "text": "Here's exactly what 14 nights of magnesium spray did…",
       "photo": "supplement-picture.jpg",
-      "sub": "posting it anyway, because you should see what a no looks like"
+      "sub": "nothing. posting it anyway"
     },
     {
       "type": "protocol",
@@ -69,5 +69,7 @@
   ],
   "tier": "core",
   "hook_b": "Here's exactly what 14 nights of magnesium spray did…",
-  "hook_b_sub": "nothing. posting it anyway"
+  "hook_b_sub": "nothing. posting it anyway",
+  "hook_a": "i tested this for 14 nights and it did absolutely nothing",
+  "hook_a_sub": "posting it anyway, because you should see what a no looks like"
 }

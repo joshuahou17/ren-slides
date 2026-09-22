@@ -3,15 +3,15 @@
   "lane": "bloodwork",
   "format": "cause_grid",
   "ren_tie": "none",
-  "hook": "my ring kept telling me my hrv was low and i genuinely thought it was broken",
+  "hook": "Here's exactly why your HRV is so low…",
   "caption": "HRV is mostly a mirror. These are the four things it's usually reflecting.",
   "notes": "Bridges the bloodwork and sleep lanes. Watch whether it pulls sleep viewers.",
   "slides": [
     {
       "type": "statement",
-      "text": "my ring kept telling me my hrv was low and i genuinely thought it was broken",
+      "text": "Here's exactly why your HRV is so low…",
       "photo": "runners-in-motion.jpg",
-      "sub": "it wasn't. it was reflecting four things i was doing"
+      "sub": "and why it's not the thing you think"
     },
     {
       "type": "grid",
@@ -70,5 +70,7 @@
   ],
   "tier": "core",
   "hook_b": "Here's exactly why your HRV is so low…",
-  "hook_b_sub": "and why it's not the thing you think"
+  "hook_b_sub": "and why it's not the thing you think",
+  "hook_a": "my ring kept telling me my hrv was low and i genuinely thought it was broken",
+  "hook_a_sub": "it wasn't. it was reflecting four things i was doing"
 }

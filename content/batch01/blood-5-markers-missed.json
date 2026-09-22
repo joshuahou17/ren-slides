@@ -3,15 +3,15 @@
   "lane": "bloodwork",
   "format": "photo_listicle",
   "ren_tie": "hard",
-  "hook": "5 things on your blood test that can be “in range” and still be the reason you feel awful",
+  "hook": "5 blood markers your doctor never explained…",
   "caption": "Every one of these can sit inside the reference range and still be the reason you feel bad.",
   "notes": "Hard CTA. Only scale it once a soft version of the same idea has travelled.",
   "slides": [
     {
       "type": "statement",
-      "text": "5 things on your blood test that can be “in range” and still be the reason you feel awful",
+      "text": "5 blood markers your doctor never explained…",
       "photo": "fitness-image-4.jpg",
-      "sub": "nobody read these back to you"
+      "sub": "every one can be “in range” and still wreck you"
     },
     {
       "type": "statement",
@@ -67,5 +67,7 @@
   ],
   "tier": "hard",
   "hook_b": "5 blood markers your doctor never explained…",
-  "hook_b_sub": "every one can be “in range” and still wreck you"
+  "hook_b_sub": "every one can be “in range” and still wreck you",
+  "hook_a": "5 things on your blood test that can be “in range” and still be the reason you feel awful",
+  "hook_a_sub": "nobody read these back to you"
 }

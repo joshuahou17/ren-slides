@@ -1,42 +1,62 @@
-# Photos to grab
+# Photos to shoot
 
-Search terms for Unsplash or Pexels. Drop the files into `assets/photos/` (any
-name), then tell Claude and they get wired into the decks.
+**Read this before buying or searching for anything.**
 
-## Blocks a whole format (get these first)
+The accounts that win this format do not use stock photos. Stronger's
+41.8-million-view post is a photograph of someone's shoes on pavement. Jess's is
+a mirror in a hallway. Anne's are family snapshots. What makes them work is that
+they read as a real person's real moment, and that is exactly the quality stock
+photography is structured to remove — photographers upload their *best* work,
+and this aesthetic needs deliberately unremarkable work.
 
-The cause grids and Problem→Solution panels need **objects on plain backgrounds**.
-Every cell in a group needs one or the group stays typographic.
+Searching Unsplash for "pov looking down at own shoes" returns a styled product
+shot of leather shoes by a design-template shop. That is the whole problem in
+one result.
 
-- `glass of water on white`
-- `folded towel` / `rolled towels`
-- `thermostat wall dial`
-- `donut on plain background` · `sugary cereal`
-- `whiskey glass` / `wine glass single`
-- `phone face down on nightstand`
-- `bedroom window at night` · `open window curtain breeze`
-- `alarm clock 3am`
-- `empty plate` / `late night meal`
+## The shoot: 20 minutes, your phone, no styling
 
-## The bloodwork lane has nothing
+Take these badly. No editing, no straightening, no good light. If a shot looks
+composed, retake it worse.
 
-Currently running as pure type because none of your 47 read as clinical.
+**POV / looking down** — the single highest-performing shape in the reference set
+- your shoes on the gym floor, from standing
+- your shoes on pavement outside
+- your feet from the driver's seat, door open
+- your hand on a barbell, phone in the other hand
+- a supplement in your palm
+- your legs on the bed, duvet, morning
 
-- `blood test vial` · `blood sample tubes rack`
-- `lab requisition form` · `medical test results paper`
-- `phlebotomy arm draw` (if you can find a non-stocky one)
-- `doctor consultation desk`
+**Car** — three of the reference posts are car shots
+- you in the driver's seat, not smiling, parked
+- the windscreen at dusk
+- a coffee in the cupholder
 
-## Would lift the stack lane
+**Mirror / room**
+- bathroom mirror, phone visible, ordinary lighting
+- the bedroom with the bed unmade
+- your desk at 11pm, screen on
+- the kitchen counter with whatever is actually on it
 
-- `supplement bottles lined up` · `pill organiser weekly`
-- `messy medicine cabinet`
-- `receipt long` · `online checkout`
-- `empty supplement bottle`
+**Objects you already own** — these also fill the grid and problem/solution cells
+- your supplement bottles, lined up on the counter, unstyled
+- one bottle, back label facing the camera
+- a glass of water
+- the thermostat
+- your phone face down on the nightstand
+- an empty plate
 
-## The one that matters most
+Shoot each one three ways: standing, crouched, and slightly wrong. Drop them all
+in `assets/photos/` and say the word — the naming doesn't matter, I'll sort them.
 
-**One face, used consistently.** Every reference account you screenshotted has a
-person in it. A library of stock lifestyle photos gets reach; it does not get
-follows, because there is nobody to follow. This can be you, shot five or six
-times in different light, and reused across every deck.
+## If you still want stock
+
+`fetch-images.sh` handles the one image the decks currently need
+(`wine-at-night.jpg`). Beyond that, stock is a fallback for objects you cannot
+photograph, not a substitute for the POV library above.
+
+## The thing that actually moves this
+
+**One face, used consistently.** Every reference account has a person in it —
+Stronger has a guy in a car, Jess has a woman in a mirror, Anne has her dad. Your
+account currently has nobody. That is the difference between reach and follows,
+and no photo library fixes it.

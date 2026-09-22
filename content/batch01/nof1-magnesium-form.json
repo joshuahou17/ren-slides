@@ -3,15 +3,15 @@
   "lane": "nof1",
   "format": "problem_solution",
   "ren_tie": "none",
-  "hook": "the magnesium in your cupboard is probably being sold as a laxative",
+  "hook": "Here's exactly why your magnesium does nothing…",
   "caption": "The cheap one on the shelf is magnesium oxide. Check the back of the bottle.",
   "notes": "AWOOGA 99/1 format with real object photos in all four panels.",
   "slides": [
     {
       "type": "statement",
-      "text": "the magnesium in your cupboard is probably being sold as a laxative",
+      "text": "Here's exactly why your magnesium does nothing…",
       "photo": "supplement-picture.jpg",
-      "sub": "(go and check the back of the bottle, i'll wait)"
+      "sub": "check the back of the bottle"
     },
     {
       "type": "ps",
@@ -81,5 +81,7 @@
   ],
   "tier": "core",
   "hook_b": "Here's exactly why your magnesium does nothing…",
-  "hook_b_sub": "check the back of the bottle"
+  "hook_b_sub": "check the back of the bottle",
+  "hook_a": "the magnesium in your cupboard is probably being sold as a laxative",
+  "hook_a_sub": "(go and check the back of the bottle, i'll wait)"
 }

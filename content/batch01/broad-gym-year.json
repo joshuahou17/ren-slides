@@ -4,15 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "a year of going to the gym four times a week and the honest list of what changed",
+  "hook": "5 things a year of the gym actually changed…",
   "caption": "not the list i expected to be writing.",
   "notes": "WARM-UP. Broad fitness reach, no health-tech framing at all. Set these to your real year before posting.",
   "slides": [
     {
       "type": "statement",
-      "text": "a year of the gym four times a week",
+      "text": "5 things a year of the gym actually changed…",
       "photo": "fitness-image-by-eduardo-cano.jpg",
-      "sub": "here's the honest list of what changed"
+      "sub": "not the list I expected"
     },
     {
       "type": "statement",
@@ -65,5 +65,7 @@
     "fyp"
   ],
   "hook_b": "5 things a year of the gym actually changed…",
-  "hook_b_sub": "not the list I expected"
+  "hook_b_sub": "not the list I expected",
+  "hook_a": "a year of the gym four times a week",
+  "hook_a_sub": "here's the honest list of what changed"
 }

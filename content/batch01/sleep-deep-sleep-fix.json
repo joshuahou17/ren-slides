@@ -3,15 +3,15 @@
   "lane": "sleep",
   "format": "problem_solution",
   "ren_tie": "soft",
-  "hook": "my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper",
+  "hook": "4 reasons your deep sleep is so low…",
   "caption": "The last ninety minutes of your day matter more than anything you swallow.",
   "notes": "Put object photos in the four panels the moment you have them. That is what makes this format travel.",
   "slides": [
     {
       "type": "statement",
-      "text": "my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper",
+      "text": "4 reasons your deep sleep is so low…",
       "photo": "sleep-aesthetic-2.jpg",
-      "sub": "turns out it's decided before you get into bed"
+      "sub": "all four happen before you get into bed"
     },
     {
       "type": "ps",
@@ -103,5 +103,7 @@
   ],
   "tier": "soft",
   "hook_b": "4 reasons your deep sleep is so low…",
-  "hook_b_sub": "all four happen before you get into bed"
+  "hook_b_sub": "all four happen before you get into bed",
+  "hook_a": "my deep sleep was 40 minutes a night and i assumed i just wasn't a good sleeper",
+  "hook_a_sub": "turns out it's decided before you get into bed"
 }

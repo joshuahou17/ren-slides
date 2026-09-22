@@ -3,15 +3,15 @@
   "lane": "sleep",
   "format": "cause_grid",
   "ren_tie": "none",
-  "hook": "i woke up at 3am every night for a month and blamed stress",
+  "hook": "Here's exactly why you keep waking up at 3am…",
   "caption": "Most people have two of these going at once and blame the wrong one.",
   "notes": "Photo hook now leads, grid is slide two. Watch whether the thumbnail change costs reach; the grid used to be the thumbnail.",
   "slides": [
     {
       "type": "statement",
-      "text": "i woke up at 3am every night for a month and blamed stress",
+      "text": "Here's exactly why you keep waking up at 3am…",
       "photo": "sleep-aesthetic-1.jpg",
-      "sub": "it was four things and none of them were stress"
+      "sub": "4 causes, none of them stress"
     },
     {
       "type": "grid",
@@ -76,5 +76,7 @@
   ],
   "tier": "core",
   "hook_b": "Here's exactly why you keep waking up at 3am…",
-  "hook_b_sub": "4 causes, none of them stress"
+  "hook_b_sub": "4 causes, none of them stress",
+  "hook_a": "i woke up at 3am every night for a month and blamed stress",
+  "hook_a_sub": "it was four things and none of them were stress"
 }

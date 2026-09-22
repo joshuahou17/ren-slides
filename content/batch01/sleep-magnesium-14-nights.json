@@ -3,15 +3,15 @@
   "lane": "sleep",
   "format": "proof_stack",
   "ren_tie": "soft",
-  "hook": "everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
+  "hook": "Here's exactly what magnesium did to my deep sleep…",
   "caption": "seven nights without, fourteen with, same room, same bedtime window. the app graded it, not me.",
   "notes": "REBUILT: the drawn chart and verdict stamp were removed from the engine. The result is now the actual Ren verdict screen, which says the quiet part out loud: magnesium did not move this number.",
   "slides": [
     {
       "type": "statement",
-      "text": "everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
+      "text": "Here's exactly what magnesium did to my deep sleep…",
       "photo": "sleep-aesthetic.jpg",
-      "sub": "the chart is not what i expected…"
+      "sub": "21 nights, graded by the app not by me"
     },
     {
       "type": "protocol",
@@ -76,5 +76,7 @@
   ],
   "tier": "soft",
   "hook_b": "Here's exactly what magnesium did to my deep sleep…",
-  "hook_b_sub": "21 nights, graded by the app not by me"
+  "hook_b_sub": "21 nights, graded by the app not by me",
+  "hook_a": "everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
+  "hook_a_sub": "the chart is not what i expected…"
 }

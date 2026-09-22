@@ -3,15 +3,15 @@
   "lane": "bloodwork",
   "format": "problem_solution",
   "ren_tie": "soft",
-  "hook": "i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”",
+  "hook": "Here's exactly why you're exhausted with “normal” labs…",
   "caption": "Normal range is the band 95% of people fall inside. Exhausted people are in it too.",
   "notes": "Strongest Ren fit in the batch. This is the bloodwork PDF use case verbatim.",
   "slides": [
     {
       "type": "statement",
-      "text": "i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”",
+      "text": "Here's exactly why you're exhausted with “normal” labs…",
       "photo": "fitness-image-1.jpg",
-      "sub": "here's what nobody actually checked…"
+      "sub": "4 markers nobody ordered"
     },
     {
       "type": "ps",
@@ -99,5 +99,7 @@
   ],
   "tier": "soft",
   "hook_b": "Here's exactly why you're exhausted with “normal” labs…",
-  "hook_b_sub": "4 markers nobody ordered"
+  "hook_b_sub": "4 markers nobody ordered",
+  "hook_a": "i was sleeping 8 hours and still falling asleep at my desk by 3pm. my bloodwork came back “normal”",
+  "hook_a_sub": "here's what nobody actually checked…"
 }

@@ -3,15 +3,15 @@
   "lane": "nof1",
   "format": "proof_stack",
   "ren_tie": "hard",
-  "hook": "my resting heart rate is 39 and it's mostly not the thing you think it is",
+  "hook": "Here's exactly how I got my resting heart rate to 39…",
   "caption": "Real screenshot. Ranked by how much each thing actually moved it, which means the boring one is first and the supplements are near the bottom.",
   "notes": "The screenshot is the post; everything after is the explanation.",
   "slides": [
     {
       "type": "statement",
-      "text": "my resting heart rate is 39 and it's mostly not the thing you think it is",
+      "text": "Here's exactly how I got my resting heart rate to 39…",
       "photo": "jorge-alberto-vega-barrera-running-image.jpg",
-      "sub": "ranked by what actually moved it…"
+      "sub": "ranked, and it's not what you'd guess"
     },
     {
       "type": "proof",
@@ -72,5 +72,7 @@
   ],
   "tier": "hard",
   "hook_b": "Here's exactly how I got my resting heart rate to 39…",
-  "hook_b_sub": "ranked, and it's not what you'd guess"
+  "hook_b_sub": "ranked, and it's not what you'd guess",
+  "hook_a": "my resting heart rate is 39 and it's mostly not the thing you think it is",
+  "hook_a_sub": "ranked by what actually moved it…"
 }

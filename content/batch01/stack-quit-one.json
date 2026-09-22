@@ -3,15 +3,15 @@
   "lane": "stack",
   "format": "photo_listicle",
   "ren_tie": "soft",
-  "hook": "the fastest way to find out which of your supplements do nothing is to stop taking them",
+  "hook": "Here's exactly how to find the supplements doing nothing…",
   "caption": "Stop them. One at a time. Most people have never tried this and it costs nothing.",
   "notes": "The subtraction angle. Nobody in this niche posts it, because the niche is funded by addition. Expect this to travel and to annoy people in the comments.",
   "slides": [
     {
       "type": "statement",
-      "text": "the fastest way to find out which of your supplements do nothing is to stop taking them",
+      "text": "Here's exactly how to find the supplements doing nothing…",
       "photo": "ambitious-studio-by-rick-barrett.jpg",
-      "sub": "nobody in this corner of the internet will tell you this"
+      "sub": "it costs nothing and takes 14 days"
     },
     {
       "type": "statement",
@@ -71,5 +71,7 @@
   ],
   "tier": "soft",
   "hook_b": "Here's exactly how to find the supplements doing nothing…",
-  "hook_b_sub": "it costs nothing and takes 14 days"
+  "hook_b_sub": "it costs nothing and takes 14 days",
+  "hook_a": "the fastest way to find out which of your supplements do nothing is to stop taking them",
+  "hook_a_sub": "nobody in this corner of the internet will tell you this"
 }

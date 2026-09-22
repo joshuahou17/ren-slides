@@ -4,14 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "every 5am morning routine video leaves out the same thing",
+  "hook": "Here's exactly what every 5am routine video leaves out…",
   "caption": "not hating on them. just saying what nobody films.",
   "notes": "WARM-UP. Mild contrarian take on a huge existing format. Rides the morning routine audience without being one.",
   "slides": [
     {
       "type": "statement",
-      "text": "every 5am morning routine video leaves out the same thing",
-      "photo": "woman-jumping-on-beach-sunset.jpg"
+      "text": "Here's exactly what every 5am routine video leaves out…",
+      "photo": "woman-jumping-on-beach-sunset.jpg",
+      "sub": "and it's the only part that matters"
     },
     {
       "type": "statement",
@@ -53,5 +54,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly what every 5am routine video leaves out…",
-  "hook_b_sub": "and it's the only part that matters"
+  "hook_b_sub": "and it's the only part that matters",
+  "hook_a": "every 5am morning routine video leaves out the same thing",
+  "hook_a_sub": ""
 }

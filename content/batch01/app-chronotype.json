@@ -4,15 +4,15 @@
   "format": "proof_stack",
   "ren_tie": "soft",
   "tier": "soft",
-  "hook": "apparently i'm a moth",
+  "hook": "6 sleep types. Here's exactly which one you are…",
   "caption": "six ways to spend a night. i genuinely did not expect to feel called out by a sleep app.",
   "notes": "PERSONALITY-TEST FORMAT, which is the most reliably shareable thing on the platform. Broadest reach of any product post here. The comments will be people guessing their own type, which is exactly what you want.",
   "slides": [
     {
       "type": "statement",
-      "text": "apparently i'm a moth",
+      "text": "6 sleep types. Here's exactly which one you are…",
       "photo": "sleep-aesthetic-1.jpg",
-      "sub": "late, and never twice at the same hour"
+      "sub": "built from your nights, not a quiz"
     },
     {
       "type": "proof",
@@ -53,5 +53,7 @@
     "fyp"
   ],
   "hook_b": "6 sleep types. Here's exactly which one you are…",
-  "hook_b_sub": "built from your nights, not a quiz"
+  "hook_b_sub": "built from your nights, not a quiz",
+  "hook_a": "apparently i'm a moth",
+  "hook_a_sub": "late, and never twice at the same hour"
 }

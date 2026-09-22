@@ -4,15 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "i checked my screen time for last week and genuinely felt unwell",
+  "hook": "Here's exactly how bad my screen time got…",
   "caption": "no advice, no lecture. just posting it so i'm not alone in this.",
   "notes": "WARM-UP. Pure relatability, no product, no protocol. The comments on this are where your next ten hooks come from.",
   "slides": [
     {
       "type": "statement",
-      "text": "i checked my screen time for last week and genuinely felt unwell",
+      "text": "Here's exactly how bad my screen time got…",
       "photo": "sleep-aesthetic-1.jpg",
-      "sub": "posting it so i'm not the only one"
+      "sub": "no advice, just posting it"
     },
     {
       "type": "statement",
@@ -54,5 +54,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly how bad my screen time got…",
-  "hook_b_sub": "no advice, just posting it"
+  "hook_b_sub": "no advice, just posting it",
+  "hook_a": "i checked my screen time for last week and genuinely felt unwell",
+  "hook_a_sub": "posting it so i'm not the only one"
 }

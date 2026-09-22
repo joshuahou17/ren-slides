@@ -876,6 +876,11 @@ for d in D:
     b = HOOKS_B.get(d["slug"])
     if b:
         d["hook_b"], d["hook_b_sub"] = b
+        # preserve the style-A confession as the alternate before B takes slide one
+        first = d["slides"][0]
+        d["hook_a"], d["hook_a_sub"] = first.get("text", ""), first.get("sub", "")
+        first["text"], first["sub"] = b
+        d["hook"] = b[0]
 
 
 for d in D:

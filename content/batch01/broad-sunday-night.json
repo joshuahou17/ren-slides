@@ -4,15 +4,15 @@
   "format": "photo_listicle",
   "ren_tie": "none",
   "tier": "broad",
-  "hook": "the sunday night thing where you're exhausted and cannot fall asleep",
+  "hook": "Here's exactly why you can't sleep on Sunday nights…",
   "caption": "does this have a name yet or are we all just doing it",
   "notes": "WARM-UP. Extremely relatable, zero product. Post this on a Sunday evening.",
   "slides": [
     {
       "type": "statement",
-      "text": "the sunday night thing where you're exhausted and still can't fall asleep",
+      "text": "Here's exactly why you can't sleep on Sunday nights…",
       "photo": "sleep-aesthetic-2.jpg",
-      "sub": "does this have a name yet"
+      "sub": "you did it to yourself on Saturday"
     },
     {
       "type": "statement",
@@ -54,5 +54,7 @@
     "fyp"
   ],
   "hook_b": "Here's exactly why you can't sleep on Sunday nights…",
-  "hook_b_sub": "you did it to yourself on Saturday"
+  "hook_b_sub": "you did it to yourself on Saturday",
+  "hook_a": "the sunday night thing where you're exhausted and still can't fall asleep",
+  "hook_a_sub": "does this have a name yet"
 }

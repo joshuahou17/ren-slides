@@ -3,15 +3,15 @@
   "lane": "nof1",
   "format": "proof_stack",
   "ren_tie": "soft",
-  "hook": "i didn't quit coffee. i just moved it four hours earlier",
+  "hook": "Here's exactly what moving your coffee 4 hours does…",
   "caption": "same two cups, different hour. i didn't grade this one either, the app did.",
   "notes": "REBUILT on a real screenshot. NEEDS A FRESH CAPTURE: currently reuses the worked-verdict screen, which is about a different experiment. Replace ren-verdict-worked2.jpg with a caffeine-cutoff capture before posting.",
   "slides": [
     {
       "type": "statement",
-      "text": "i didn't quit coffee. i just moved it four hours earlier",
+      "text": "Here's exactly what moving your coffee 4 hours does…",
       "photo": "coffee-picture-3.jpg",
-      "sub": "it took 16 minutes off how long i lie there…"
+      "sub": "same caffeine, different hour"
     },
     {
       "type": "protocol",
@@ -70,5 +70,7 @@
   ],
   "tier": "soft",
   "hook_b": "Here's exactly what moving your coffee 4 hours does…",
-  "hook_b_sub": "same caffeine, different hour"
+  "hook_b_sub": "same caffeine, different hour",
+  "hook_a": "i didn't quit coffee. i just moved it four hours earlier",
+  "hook_a_sub": "it took 16 minutes off how long i lie there…"
 }
