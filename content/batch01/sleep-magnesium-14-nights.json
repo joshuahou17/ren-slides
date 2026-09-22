@@ -1,11 +1,11 @@
 {
   "slug": "sleep-magnesium-14-nights",
   "lane": "sleep",
-  "format": "nof1_reveal",
+  "format": "proof_stack",
   "ren_tie": "soft",
   "hook": "everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
-  "caption": "Everyone recommends it. Almost nobody shows you the before and after. Same room, same bedtime window, nothing else changed.",
-  "notes": "REPLACE THE SERIES WITH YOUR OWN OURA EXPORT BEFORE POSTING.",
+  "caption": "seven nights without, fourteen with, same room, same bedtime window. the app graded it, not me.",
+  "notes": "REBUILT: the drawn chart and verdict stamp were removed from the engine. The result is now the actual Ren verdict screen, which says the quiet part out loud: magnesium did not move this number.",
   "slides": [
     {
       "type": "statement",
@@ -16,6 +16,7 @@
     {
       "type": "protocol",
       "title": "Magnesium glycinate, deep sleep",
+      "photo": "natalie-hordiiuk.jpg",
       "rows": [
         [
           " what ",
@@ -41,50 +42,27 @@
       "success_rule": "Deep sleep up 8 minutes on average. Under that is noise."
     },
     {
-      "type": "chart",
-      "title": "Deep sleep, nightly",
-      "unit": "min",
-      "baseline_label": "baseline",
-      "trial_label": "on magnesium",
-      "split": 7,
-      "series": [
-        64,
-        71,
-        58,
-        69,
-        62,
-        75,
-        66,
-        78,
-        72,
-        84,
-        81,
-        77,
-        88,
-        83,
-        79,
-        86,
-        80,
-        91,
-        85,
-        88,
-        84
-      ]
-    },
-    {
-      "type": "verdict",
-      "text": "worked",
-      "note": "I set the bar at 8 minutes before night one. It cleared it."
+      "type": "proof",
+      "img": "ren-verdict-null.jpg",
+      "caption": "Ren, verdict screen. Deep sleep 1h12m before, 1h14m after. That sits inside my own night-to-night noise, so it grades as no effect."
     },
     {
       "type": "statement",
-      "text": "Your result will not be my result."
+      "text": "two minutes. on a metric that swings twenty.",
+      "photo": "akshay-chauhan.jpg",
+      "sub": "that is not a small win. that is nothing."
+    },
+    {
+      "type": "statement",
+      "text": "i still take it.",
+      "photo": "ambitious-studio-by-rick-barrett.jpg",
+      "sub": "it gets me to sleep faster. it just doesn't do the thing everyone says it does."
     },
     {
       "type": "cta",
       "text": "my +17 minutes is not a prediction about your +17 minutes.",
       "sub": "same supplement, same dose, different person, different answer. the only number that means anything is yours. Ren runs that test. bio.",
-      "photo": "natalie-hordiiuk.jpg"
+      "photo": "sleep-aesthetic-3.jpg"
     }
   ],
   "hashtags": [

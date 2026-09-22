@@ -37,6 +37,7 @@
     {
       "type": "statement",
       "text": "Dinner three hours earlier.",
+      "photo": "coffee-picture.jpg",
       "sub": "Late eating showed up as more wake events every single time.",
       "step": "04"
     },

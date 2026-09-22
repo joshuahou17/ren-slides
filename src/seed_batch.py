@@ -59,7 +59,7 @@ deck(slug="sleep-wake-at-3am", lane="sleep", format="cause_grid", ren_tie="none"
   st("You have to cool down to stay asleep.", "sleep-aesthetic.jpg",
      "A room above 19°C won't let your core temperature drop."),
   st("Half of a 2pm coffee is still in you at 10pm.", "coffee-picture-1.jpg"),
-  st("Change all four and you've learned nothing."),
+  st("change all four and you've learned nothing.", "cycling-picture-2.jpg"),
   cta("Change one. Watch one number. Give it two weeks.",
       "That's the whole difference between trying something and testing it.",
       "sleep-aesthetic-3.jpg")])
@@ -87,26 +87,32 @@ deck(slug="sleep-deep-sleep-fix", lane="sleep", format="problem_solution", ren_t
       "I use an app called Ren to watch whether it actually moved. It's in my bio if you want it.",
       "sleep-aesthetic-4.jpg")])
 
-deck(slug="sleep-magnesium-14-nights", lane="sleep", format="nof1_reveal", ren_tie="soft",
- hook="Does magnesium actually do anything?",
- caption="Everyone recommends it. Almost nobody shows you the before and after. Same room, same bedtime window, nothing else changed.",
- notes="REPLACE THE SERIES WITH YOUR OWN OURA EXPORT BEFORE POSTING.",
+deck(slug="sleep-magnesium-14-nights", lane="sleep", format="proof_stack", ren_tie="soft",
+ hook="everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
+ caption="seven nights without, fourteen with, same room, same bedtime window. the app graded it, not me.",
+ notes="REBUILT: the drawn chart and verdict stamp were removed from the engine. "
+       "The result is now the actual Ren verdict screen, which says the quiet part "
+       "out loud: magnesium did not move this number.",
  slides=[
-  st("Does magnesium actually do anything?", "sleep-aesthetic.jpg",
-     "21 nights. Seven without, fourteen with. Here's the chart."),
-  {"type": "protocol", "title": "Magnesium glycinate, deep sleep", "rows": [
+  st("everyone kept telling me magnesium would fix my sleep so i actually tested it for 21 nights",
+     "sleep-aesthetic.jpg", "the chart is not what i expected\u2026"),
+  {"type": "protocol", "title": "Magnesium glycinate, deep sleep",
+   "photo": "natalie-hordiiuk.jpg", "rows": [
     [" what ", "400mg glycinate"], [" when ", "60 min before bed"],
     [" baseline ", "7 nights, nothing"], [" trial ", "14 nights"],
     [" measured ", "Oura deep sleep"]],
    "success_rule": "Deep sleep up 8 minutes on average. Under that is noise."},
-  {"type": "chart", "title": "Deep sleep, nightly", "unit": "min",
-   "baseline_label": "baseline", "trial_label": "on magnesium", "split": 7,
-   "series": [64, 71, 58, 69, 62, 75, 66, 78, 72, 84, 81, 77, 88, 83, 79, 86, 80, 91, 85, 88, 84]},
-  {"type": "verdict", "text": "worked", "note": "I set the bar at 8 minutes before night one. It cleared it."},
-  st("Your result will not be my result."),
-  cta("Which is the annoying part, and also the point.",
-      "I run these on myself with an app called Ren. One variable, two weeks, then it tells you if it moved. Bio.",
-      "natalie-hordiiuk.jpg")])
+  {"type": "proof", "img": "ren-verdict-null.jpg",
+   "caption": "Ren, verdict screen. Deep sleep 1h12m before, 1h14m after. That sits "
+              "inside my own night-to-night noise, so it grades as no effect."},
+  st("two minutes. on a metric that swings twenty.", "akshay-chauhan.jpg",
+     "that is not a small win. that is nothing."),
+  st("i still take it.", "ambitious-studio-by-rick-barrett.jpg",
+     "it gets me to sleep faster. it just doesn't do the thing everyone says it does."),
+  cta("my +2 minutes is not a prediction about your +2 minutes.",
+      "same supplement, same dose, different person, different answer. the only number "
+      "that means anything is yours. bio.",
+      "sleep-aesthetic-3.jpg")])
 
 deck(slug="sleep-5-non-supplement", lane="sleep", format="photo_listicle", ren_tie="none",
  hook="Five things fixed my sleep. None of them were supplements.",
@@ -120,7 +126,7 @@ deck(slug="sleep-5-non-supplement", lane="sleep", format="photo_listicle", ren_t
      "Your core temperature has to fall for you to fall asleep.", step="02"),
   st("Daylight in the first hour.", "woman-jumping-on-beach-sunset.jpg",
      "Ten minutes outside beats any lamp you'll buy.", step="03"),
-  st("Dinner three hours earlier.", None,
+  st("Dinner three hours earlier.", "coffee-picture.jpg",
      "Late eating showed up as more wake events every single time.", step="04"),
   st("Caffeine cutoff at 10am.", "coffee-picture-4.jpg",
      "Not because coffee is bad. Because its half life is six hours.", step="05"),
@@ -499,25 +505,28 @@ deck(slug="stack-huberman-1000h", lane="stack", format="photo_listicle", ren_tie
       "sleep-aesthetic-4.jpg", "Ren, link in bio")])
 
 # ══════════════════════════════════════════════════════════════ N-OF-1 ════
-deck(slug="nof1-caffeine-cutoff", lane="nof1", format="nof1_reveal", ren_tie="soft",
- hook="I didn't quit coffee. I moved it four hours earlier.",
- caption="Same two cups. Different hour. Measured how long it took me to fall asleep, nothing else changed.",
- notes="REPLACE SERIES WITH REAL DATA. Minutes to sleep is a number people can feel.",
+deck(slug="nof1-caffeine-cutoff", lane="nof1", format="proof_stack", ren_tie="soft",
+ hook="i didn't quit coffee. i just moved it four hours earlier",
+ caption="same two cups, different hour. i didn't grade this one either, the app did.",
+ notes="REBUILT on a real screenshot. NEEDS A FRESH CAPTURE: currently reuses the "
+       "worked-verdict screen, which is about a different experiment. Replace "
+       "ren-verdict-worked2.jpg with a caffeine-cutoff capture before posting.",
  slides=[
-  st("I didn't quit coffee.", "coffee-picture-3.jpg", "I just moved it four hours earlier."),
-  {"type": "protocol", "title": "Caffeine cutoff, time to fall asleep", "rows": [
+  st("i didn't quit coffee. i just moved it four hours earlier", "coffee-picture-3.jpg",
+     "it took 16 minutes off how long i lie there\u2026"),
+  {"type": "protocol", "title": "Caffeine cutoff, time to fall asleep",
+   "photo": "coffee-picture-2.jpg", "rows": [
     [" what ", "same 2 coffees"], [" change ", "last one before 10am"],
     [" baseline ", "7 days, usual 2pm"], [" trial ", "14 days"],
     [" measured ", "minutes to sleep"]],
    "success_rule": "Time to fall asleep drops 5 minutes or more on average."},
-  {"type": "chart", "title": "Minutes to fall asleep", "unit": "min",
-   "baseline_label": "2pm coffee", "trial_label": "10am cutoff", "split": 7,
-   "series": [34, 41, 28, 38, 45, 31, 36, 29, 24, 31, 19, 22, 26, 17, 21, 18, 23, 15, 19, 16, 18]},
-  {"type": "verdict", "text": "worked", "note": "16 minutes faster. Nothing else in my day changed."},
-  st("This one costs nothing.", "coffee-picture-2.jpg",
-     "No supplement. No purchase. A different hour."),
-  cta("Fourteen days tells you whether it's yours.",
-      "I use Ren to set these up so I don't have to remember what I changed and when. Bio.",
+  {"type": "proof", "img": "ren-verdict-worked2.jpg",
+   "caption": "Ren, verdict screen. Fourteen nights, well past the noise floor for "
+              "this metric. PLACEHOLDER \u2014 swap for the caffeine capture."},
+  st("this one costs nothing.", "coffee-picture-4.jpg",
+     "no supplement. no purchase. a different hour."),
+  cta("16 minutes for me. possibly zero for you.",
+      "it costs nothing to find out which, and fourteen days to know for certain. bio.",
       "sleep-aesthetic-image.jpg")])
 
 deck(slug="nof1-magnesium-form", lane="nof1", format="problem_solution", ren_tie="none",
@@ -538,7 +547,7 @@ deck(slug="nof1-magnesium-form", lane="nof1", format="problem_solution", ren_tie
      "It's the cheapest form to make, which is why it's on every shelf."),
   st("The rest pulls water into your gut.", "fitness-image-5.jpg",
      "That's the laxative effect. It is not the sleep effect."),
-  st("Right form, wrong person, still nothing."),
+  st("right form, wrong person, still nothing.", "mariana-rascao.jpg"),
   cta("Buy the good one. Then check whether it moved a number.",
       None, "sleep-aesthetic-3.jpg")])
 
@@ -565,26 +574,27 @@ deck(slug="nof1-how-to-run-one", lane="nof1", format="photo_listicle", ren_tie="
       "it's in my bio.",
       "fitness-image-by-samuel-girven.jpg")])
 
-deck(slug="nof1-what-didnt-work", lane="nof1", format="nof1_reveal", ren_tie="none",
- hook="This one didn't work",
- caption="Posting the failures is the only reason to trust the wins. 14 nights of magnesium spray, no change.",
- notes="Deliberate negative result. Do not drop this from the rotation; it is what makes "
-       "the positive charts believable.",
+deck(slug="nof1-what-didnt-work", lane="nof1", format="proof_stack", ren_tie="none",
+ hook="i tested this for 14 nights and it did absolutely nothing",
+ caption="posting the failures is the only reason to trust the wins.",
+ notes="REBUILT on the real null-verdict screen. This is the credibility post; keep "
+       "it in the rotation even when it underperforms.",
  slides=[
-  st("This one didn't work.", "supplement-picture.jpg",
-     "Posting it anyway. You should see what a no looks like."),
-  {"type": "protocol", "title": "Topical magnesium, deep sleep", "rows": [
+  st("i tested this for 14 nights and it did absolutely nothing", "supplement-picture.jpg",
+     "posting it anyway, because you should see what a no looks like"),
+  {"type": "protocol", "title": "Topical magnesium, deep sleep",
+   "photo": "amanda-jones.jpg", "rows": [
     [" what ", "magnesium oil, calves"], [" when ", "30 min before bed"],
     [" baseline ", "7 nights"], [" trial ", "14 nights"],
     [" measured ", "Oura deep sleep"]],
    "success_rule": "Deep sleep up 8 minutes on average."},
-  {"type": "chart", "title": "Deep sleep, nightly", "unit": "min",
-   "baseline_label": "baseline", "trial_label": "on spray", "split": 7,
-   "series": [71, 66, 78, 69, 74, 63, 72, 70, 75, 68, 73, 66, 77, 71, 69, 74, 72, 67, 76, 70, 73]},
-  {"type": "verdict", "text": "didn't work", "note": "Inside the night to night noise. The rule said 8."},
-  st("A method that can't return no isn't a method.", "cycling-picture-4.jpg"),
-  cta("Half of what you're taking is probably this chart.",
-      None, "akshay-chauhan.jpg")])
+  {"type": "proof", "img": "ren-verdict-null.jpg",
+   "caption": "Ren, verdict screen. Inside the night-to-night noise, so it grades as "
+              "no effect. The app is willing to say that. Most aren't."},
+  st("a method that can't return no isn't a method.", "cycling-picture-4.jpg"),
+  cta("half of what you're taking is probably this screen.",
+      "you won't know which half until you stop one and watch.",
+      "akshay-chauhan.jpg")])
 
 deck(slug="nof1-rhr-39", lane="nof1", format="proof_stack", ren_tie="hard",
  hook="My resting heart rate is 39",

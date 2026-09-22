@@ -1,11 +1,11 @@
 {
   "slug": "nof1-what-didnt-work",
   "lane": "nof1",
-  "format": "nof1_reveal",
+  "format": "proof_stack",
   "ren_tie": "none",
   "hook": "i tested this for 14 nights and it did absolutely nothing",
-  "caption": "Posting the failures is the only reason to trust the wins. 14 nights of magnesium spray, no change.",
-  "notes": "Deliberate negative result. Do not drop this from the rotation; it is what makes the positive charts believable.",
+  "caption": "posting the failures is the only reason to trust the wins.",
+  "notes": "REBUILT on the real null-verdict screen. This is the credibility post; keep it in the rotation even when it underperforms.",
   "slides": [
     {
       "type": "statement",
@@ -16,6 +16,7 @@
     {
       "type": "protocol",
       "title": "Topical magnesium, deep sleep",
+      "photo": "amanda-jones.jpg",
       "rows": [
         [
           " what ",
@@ -41,51 +42,20 @@
       "success_rule": "Deep sleep up 8 minutes on average."
     },
     {
-      "type": "chart",
-      "title": "Deep sleep, nightly",
-      "unit": "min",
-      "baseline_label": "baseline",
-      "trial_label": "on spray",
-      "split": 7,
-      "series": [
-        71,
-        66,
-        78,
-        69,
-        74,
-        63,
-        72,
-        70,
-        75,
-        68,
-        73,
-        66,
-        77,
-        71,
-        69,
-        74,
-        72,
-        67,
-        76,
-        70,
-        73
-      ]
-    },
-    {
-      "type": "verdict",
-      "text": "didn't work",
-      "note": "Inside the night to night noise. The rule said 8."
+      "type": "proof",
+      "img": "ren-verdict-null.jpg",
+      "caption": "Ren, verdict screen. Inside the night-to-night noise, so it grades as no effect. The app is willing to say that. Most aren't."
     },
     {
       "type": "statement",
-      "text": "A method that can't return no isn't a method.",
+      "text": "a method that can't return no isn't a method.",
       "photo": "cycling-picture-4.jpg"
     },
     {
       "type": "cta",
       "text": "half of what you're taking is probably this chart.",
-      "photo": "akshay-chauhan.jpg",
-      "sub": "you won't know which half until you stop one and watch."
+      "sub": "you won't know which half until you stop one and watch.",
+      "photo": "akshay-chauhan.jpg"
     }
   ],
   "hashtags": [
