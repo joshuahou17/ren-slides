@@ -75,8 +75,8 @@
     },
     {
       "type": "cta",
-      "text": "If you want to know which part did it, you have to test one at a time.",
-      "sub": "I built Ren to do exactly that. It watches your own baseline and tells you, after two weeks, whether the thing you changed actually mattered.",
+      "text": "i can tell you the order i did things in. i can't tell you which one did it.",
+      "sub": "neither can anyone else, from the outside. Ren runs them one at a time against your own baseline until the answer is a number. link in bio.",
       "photo": "sleep-aesthetic-4.jpg",
       "pill": "Ren, link in bio"
     }

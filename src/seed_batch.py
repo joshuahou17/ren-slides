@@ -716,6 +716,102 @@ for d in D:
                                "photo": first.get("photo")})
 
 
+# ═══════════════════════════════════════════════════════════════ CTAs ═════
+# Every closing slide lands on the same claim, in different words: a video
+# cannot tell you whether something works on YOU. Only a test can. Vary the
+# wording, never the claim.
+CTA = {
+ "sleep-wake-at-3am": ("none",
+   "none of this is advice about you. it's advice about people.",
+   "the only way to find out which of the four is yours is to change one, hold it two weeks, and watch one number."),
+ "sleep-deep-sleep-fix": ("soft",
+   "you cannot feel deep sleep, so you cannot judge this by how you feel.",
+   "pick one of the four, hold it fourteen nights, compare the averages. i use an app called Ren to do the comparing. bio."),
+ "sleep-magnesium-14-nights": ("soft",
+   "my +17 minutes is not a prediction about your +17 minutes.",
+   "same supplement, same dose, different person, different answer. the only number that means anything is yours. Ren runs that test. bio."),
+ "sleep-5-non-supplement": ("none",
+   "four of these did nothing for a friend of mine.",
+   "which means the list isn't the point. running one of them for two weeks and watching what happens is the point."),
+ "blood-tired-normal-labs": ("soft",
+   "a normal range is a statement about a population.",
+   "your number is a statement about you, and they are not the same sentence. get the panel, then test one thing against it."),
+ "blood-always-cold": ("none",
+   "you could guess at this for another two years.",
+   "or get one panel, pick the marker that's low, change one thing, and see if the number moves in six weeks."),
+ "blood-hrv-low": ("none",
+   "stop comparing your hrv to anyone else's.",
+   "compare this week to your own last month. that comparison is the only one that can tell you anything."),
+ "blood-5-markers-missed": ("hard",
+   "knowing the number is step one. finding out what moves YOUR number is the actual work.",
+   "Ren reads your bloodwork, picks the marker that explains how you feel, and runs a two-week test on it against your own baseline. link in bio."),
+ "stack-nine-bottles": ("hard",
+   "you don't need to throw them out. you need to find out.",
+   "one at a time, two weeks each, one number you don't control. Ren keeps track so you don't have to. link in bio."),
+ "stack-cant-tell": ("soft",
+   "every one of those four mistakes has the same fix.",
+   "one variable, a baseline first, a rule written down before you start. that's an experiment. everything else is a vibe. bio."),
+ "stack-quit-one": ("soft",
+   "the stopping is free. the knowing is what you get.",
+   "fourteen days without the most expensive one, watching a number you don't control. i use Ren to run it. bio."),
+ "stack-huberman-1000h": ("hard",
+   "he can tell you what's worth trying. nobody can tell you what works on you.",
+   "that gap is not a gap in the science, it's the whole point of n-of-1. Ren closes it: one protocol, your baseline, a verdict in two weeks. link in bio."),
+ "nof1-caffeine-cutoff": ("soft",
+   "16 minutes for me. possibly zero for you.",
+   "it costs nothing to find out which, and fourteen days to know for certain. bio."),
+ "nof1-magnesium-form": ("none",
+   "right form, wrong person, still nothing.",
+   "buying the good one is the easy half. checking whether it moved a number on you is the half everyone skips."),
+ "nof1-how-to-run-one": ("soft",
+   "this is the whole method and it fits on one slide.",
+   "one variable. a baseline first. a rule set in advance. a number you don't control. and a real willingness to get a no. bio."),
+ "nof1-what-didnt-work": ("none",
+   "half of what you're taking is probably this chart.",
+   "you won't know which half until you stop one and watch."),
+ "nof1-rhr-39": ("hard",
+   "do not copy this list. test one line of it.",
+   "years of base and being young are doing more work here than anything you can buy. Ren tells you which line is actually yours. link in bio."),
+ "nof1-sleep-debt-rebound": ("hard",
+   "i can tell you the order i did things in. i can't tell you which one did it.",
+   "neither can anyone else, from the outside. Ren runs them one at a time against your own baseline until the answer is a number. link in bio."),
+ "app-says-no": ("hard",
+   "an app that can't tell you no isn't measuring anything.",
+   "Ren grades one change at a time against your own data, including when the grade is that nothing happened. link in bio."),
+ "app-verdict-worked": ("hard",
+   "the range matters more than the number.",
+   "\u201c3.2% better\u201d is a marketing claim. \u201c3.2% better, 2.4 to 4.0, on your own eight-week baseline\u201d is a result. link in bio."),
+ "app-chronotype": ("soft",
+   "this one is built from your nights, not a quiz.",
+   "which is the difference between a personality test and a measurement. bio."),
+ "broad-screen-time": ("none", "how bad is yours, honestly", "no judgement, i'm posting mine."),
+ "broad-why-so-tired": ("none", "what's yours", "genuinely curious what people say."),
+ "broad-morning-routine-lie": ("none",
+   "if you get up at 5, what time are you actually going to bed",
+   "that's the number that decides whether it's a routine."),
+ "broad-gym-year": ("none", "what actually changed for you", "and how long did it take before you noticed."),
+ "broad-coffee-personality": ("none", "how many are you on", "be honest."),
+ "broad-sunday-night": ("none", "every single sunday", "tell me it's not just me."),
+}
+
+for d in D:
+    c = CTA.get(d["slug"])
+    if not c:
+        continue
+    tie, text, sub = c
+    last = d["slides"][-1]
+    if last.get("type") == "cta":
+        last["text"], last["sub"] = text, sub
+        if tie == "hard" and not last.get("pill"):
+            last["pill"] = "Ren, link in bio"
+        if tie != "hard":
+            last.pop("pill", None)
+    d["ren_tie"] = tie
+    d["tier"] = {"none": "core", "soft": "soft", "hard": "hard"}.get(tie, d.get("tier"))
+    if d["slug"].startswith("broad-"):
+        d["tier"] = "broad"
+
+
 for d in D:
     (OUT / f"{d['slug']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
 print(f"wrote {len(D)} decks, {sum(len(d['slides']) for d in D)} slides")

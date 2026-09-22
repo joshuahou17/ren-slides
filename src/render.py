@@ -10,7 +10,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import yaml
 from jinja2 import Template
-from chart import nof1_svg
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -90,37 +89,31 @@ def size_text(deck):
         s["sub_px"] = max(28, min(40, round(s["size_px"] * 0.50)))
 
 
-def build_charts(deck, b):
-    """Turn any chart slide's raw series into SVG + hero numbers."""
-    for s in deck["slides"]:
-        if s.get("type") != "chart":
-            continue
-        svg, bm, tm = nof1_svg(
-            s["series"], s["split"], b, s.get("unit", ""),
-            baseline_label=s.get("baseline_label", "baseline"),
-            trial_label=s.get("trial_label", "on protocol"),
-        )
-        d = tm - bm
-        pct = (d / bm * 100) if bm else 0
-        s["svg"] = svg
-        s["delta_label"] = f"{'+' if d >= 0 else ''}{d:.0f}" if abs(d) >= 10 else f"{'+' if d>=0 else ''}{d:.1f}"
-        s["delta_color"] = b["worked"] if d > 0 else b["failed"]
-        s.setdefault("delta_sub",
-                     f"{'+' if pct>=0 else ''}{pct:.0f}% vs baseline · "
-                     f"{len(s['series'])} nights, same room, same bedtime window")
-        s.setdefault("baseline_label", "baseline")
-        s.setdefault("trial_label", "on protocol")
-
-
-VERDICT_COLORS = {"worked": "worked", "partly worked": "partly",
-                  "didn't work": "failed", "not enough data": "unclear"}
-
-
-def apply_verdicts(deck, b):
-    for s in deck["slides"]:
-        if s.get("type") == "verdict" and "color" not in s:
-            key = VERDICT_COLORS.get(s["text"].strip().lower(), "unclear")
-            s["color"] = b[key]
+def validate(deck):
+    """House rules that now FAIL a render instead of merely advising against it."""
+    errs = []
+    for n, sl in enumerate(deck["slides"], 1):
+        t = sl.get("type")
+        if t in ("chart", "verdict", "list"):
+            errs.append(f"slide {n}: `{t}` was removed. Charts and verdicts must come "
+                        f"from a real app screenshot on a `proof` slide.")
+        if t in ("statement", "cta", "protocol") and not sl.get("photo"):
+            errs.append(f"slide {n}: `{t}` needs a photo. Type-only slides are gone.")
+        if t == "grid":
+            missing = [c.get("label", "?") for c in sl.get("cells", []) if not c.get("img")]
+            if missing:
+                errs.append(f"slide {n}: every grid cell needs an image. Missing: "
+                            + ", ".join(missing))
+        if t == "ps":
+            for bi, band in enumerate(sl.get("bands", [])):
+                missing = [c.get("label", "?") for c in band.get("cells", []) if not c.get("img")]
+                if missing:
+                    errs.append(f"slide {n}: every problem/solution panel needs an image. "
+                                f"Missing: " + ", ".join(missing))
+        if t == "proof" and not sl.get("img"):
+            errs.append(f"slide {n}: `proof` needs a screenshot.")
+    if errs:
+        raise SystemExit("\n  ".join([f"REFUSED {deck['slug']}:"] + errs))
 
 
 def caption_text(deck, b):
@@ -136,9 +129,8 @@ def render_deck(path, W, H, outdir, headless_ctx):
     b, canvas, _ = load_brand()
     deck = json.loads(pathlib.Path(path).read_text())
     resolve_images(deck)
-    build_charts(deck, b)
+    validate(deck)
     size_text(deck)
-    apply_verdicts(deck, b)
 
     css = (ROOT / "formats" / "base.css").read_text()
     css = css.replace("FONT_INTER_I", (ROOT / "fonts" / "InterVariable-Italic.ttf").as_uri())

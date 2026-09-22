@@ -40,49 +40,47 @@ python3 src/track.py next                                                 # what
 
 ## House rules for a slide
 
-These are what stop a deck reading as generated. The templates allow more than
-this; the rules are the discipline.
+These are now enforced by `src/render.py`. A deck that breaks one does not render
+— it prints what's wrong and refuses. Prose rules drifted; these don't.
 
-1. **One idea per slide.** If a slide needs two sentences to land, it's two slides.
-   A long deck is not a cost — every swipe is a signal the algorithm reads.
-2. **No labels.** The uppercase eyebrow over a heading is the single loudest tell.
-   `kicker` still exists for the three places it carries real information
-   (`99% BUY`, `days 1 to 3`); everywhere else, leave it out.
-3. **Number only real sequences.** `step` is for days 1 to 3 or a ranked list.
-   Never as decoration on three unordered items.
-4. **A photo unless there's a reason not to.** A type-only slide is a deliberate
-   beat between photos, not a gap where a photo should be.
-5. **The first slide is a photo with a confession on it.** Lowercase, one or two
-   full sentences, a parenthetical or an ellipsis, and a stake someone would
-   recognise. Not a headline, and never an aphorism. `PLAYBOOK.md` has the full
-   pattern; the `HOOKS` dict at the bottom of `src/seed_batch.py` has 18 worked
-   examples in one place, which is also the easiest place to rewrite them.
-
-Statement text auto-sizes to its length (96px down to 42px), so a long hook still
-fits and a short beat still lands hard. The scrim over each photo is chosen from
-that photo's own brightness, so a dark bedroom shot keeps its detail instead of
-going to mud.
+1. **Every slide carries a photo.** `statement`, `cta` and `protocol` all require
+   one. Type-only slides are gone.
+2. **Every grid cell and every problem/solution panel needs its own image.** Not
+   most of them — all of them. A group with three photos and one type tile looks
+   broken, so the renderer refuses it.
+3. **Charts and verdicts come from real app screenshots, never from drawn
+   graphics.** The synthetic chart and verdict-stamp slide types were removed. If
+   you want to show a result, show the Ren, Oura or Whoop screen that produced it,
+   on a `proof` slide.
+4. **One idea per slide.** Two sentences means two slides.
+5. **No slide labels.** The uppercase eyebrow is the loudest generated-design tell.
+   Allowed only where it carries information (`99% BUY`, `days 1 to 3`).
+6. **Number only real sequences.**
+7. **Slide one is a photo with a confession on it** — lowercase, one or two full
+   sentences, a parenthetical or an ellipsis, a recognisable stake. Never a
+   headline, never an aphorism.
+8. **Every closing slide lands on the same claim in different words:** a video
+   cannot tell you whether something works on *you*; only a test can. The `CTA`
+   dict at the bottom of `src/seed_batch.py` holds all of them in one place.
 
 ## Slide types
 
-`statement` · `grid` · `ps` · `protocol` · `chart` · `proof` · `verdict` · `cover` · `list` · `cta`
+`statement` · `grid` · `ps` · `protocol` · `proof` · `cta`
 
-`statement` is the workhorse: full-bleed photo, one line, an optional second line.
-Drop `photo` and it renders as large type on the surface, which is what you use
-for a beat. `cover` and `list` are the older, denser slides; batch 01 barely uses
-them.
+Six types, down from nine. `chart`, `verdict` and `list` were removed: the first
+two because drawn results are indistinguishable from invented ones, the third
+because one-idea-per-slide replaced it.
 
-`proof` is the screenshot slide: a dark panel holding a real screenshot from Oura,
-Apple Health, or a lab report, with a stat callout above and a source line below.
-
-Two rules for the screenshot. **Crop the status bar and any notification off** —
-`oura-rhr-week.jpg` and `oura-sleep-debt.jpg` in `assets/photos/` show the crop.
-And **crop tight to the chart**, roughly 1.3–1.5 wide-to-tall. The slide gives the
-image about 700px of height; a full-length phone screenshot shrinks to a narrow
-column in the middle and the numbers stop being readable at feed size.
-
-A deck mixes them freely — a format is just a habitual sequence. See any file in
-`content/batch01/` for a worked example of each.
+- **`statement`** — full-bleed photo, one centred line, optional second line.
+  Auto-sizes 96→42px; scrim darkness computed per photo. The workhorse.
+- **`grid`** — a question plus four labelled cells, each with its own image.
+- **`ps`** — Problem→Solution panels with the red arrow, every panel imaged.
+- **`protocol`** — the experiment card (what, when, baseline, trial, measured,
+  success rule) as a glass panel over a photo.
+- **`proof`** — a real screenshot with a stat callout and a source line. The only
+  type that carries evidence rather than assertion, and the only one nobody else
+  can copy.
+- **`cta`** — the closing slide.
 
 ## App screenshots
 

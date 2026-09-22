@@ -51,7 +51,8 @@
     {
       "type": "cta",
       "text": "what actually changed for you",
-      "photo": "man-running-by-fountain.jpg"
+      "photo": "man-running-by-fountain.jpg",
+      "sub": "and how long did it take before you noticed."
     }
   ],
   "hashtags": [

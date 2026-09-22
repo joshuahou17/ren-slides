@@ -83,8 +83,9 @@
     },
     {
       "type": "cta",
-      "text": "Half of what you're taking is probably this chart.",
-      "photo": "akshay-chauhan.jpg"
+      "text": "half of what you're taking is probably this chart.",
+      "photo": "akshay-chauhan.jpg",
+      "sub": "you won't know which half until you stop one and watch."
     }
   ],
   "hashtags": [

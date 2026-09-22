@@ -38,8 +38,9 @@
     },
     {
       "type": "cta",
-      "text": "if you do get up at 5, what time are you actually going to bed",
-      "photo": "jorge-alberto-vega-barrera-running-image.jpg"
+      "text": "if you get up at 5, what time are you actually going to bed",
+      "photo": "jorge-alberto-vega-barrera-running-image.jpg",
+      "sub": "that's the number that decides whether it's a routine."
     }
   ],
   "hashtags": [

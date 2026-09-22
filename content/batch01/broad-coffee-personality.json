@@ -39,7 +39,8 @@
     {
       "type": "cta",
       "text": "how many are you on",
-      "photo": "fitness-image-4.jpg"
+      "photo": "fitness-image-4.jpg",
+      "sub": "be honest."
     }
   ],
   "hashtags": [

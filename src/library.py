@@ -66,6 +66,9 @@ FORMATS = {
         "schema": "question, cells[]: {label, sub, img}",
     },
     "nof1_reveal": {
+        "RETIRED": "Replaced by proof_stack. Drawn charts and verdict stamps were "
+                   "removed from the renderer — a result now has to be a screenshot "
+                   "of the app that produced it.",
         "slides": "4-6",
         "why_it_works": "Nobody in this niche shows data. A real chart is a "
                         "pattern interrupt in a feed of stock photos.",
