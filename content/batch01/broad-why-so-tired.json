@@ -11,8 +11,13 @@
     {
       "type": "statement",
       "text": "Here's exactly why everyone in their 20s is exhausted…",
-      "photo": "fitness-image-1.jpg",
-      "sub": "it's about 6 small things at once"
+      "photo": "josh-car-window.jpg",
+      "sub": "it's about 6 small things at once",
+      "scrim_stops": [
+        0.18,
+        0.24,
+        0.36
+      ]
     },
     {
       "type": "statement",

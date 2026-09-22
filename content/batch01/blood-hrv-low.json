@@ -10,8 +10,13 @@
     {
       "type": "statement",
       "text": "Here's exactly why your HRV is so low…",
-      "photo": "runners-in-motion.jpg",
-      "sub": "and why it's not the thing you think"
+      "photo": "josh-car-street.jpg",
+      "sub": "and why it's not the thing you think",
+      "scrim_stops": [
+        0.18,
+        0.24,
+        0.36
+      ]
     },
     {
       "type": "grid",

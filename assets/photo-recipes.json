@@ -1,0 +1,103 @@
+{
+  "_note": "Parameters prep_photo.py was run with for each photo in assets/photos/. Source files are the originals off Josh's phone, not in the repo. anchor is the fraction of the finished frame the head sits at; the hook headline sits at 0.38-0.56, so anchors in that range put the text across the face.",
+  "josh-gym-mirror": {
+    "head": 0.413,
+    "scale": 0.45,
+    "x": 0.509,
+    "anchor": 0.42,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-gym-tank": {
+    "head": 0.369,
+    "scale": 0.86,
+    "x": 0.5,
+    "anchor": 0.65,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-mirror-shirtless": {
+    "head": 0.36,
+    "scale": 0.86,
+    "x": 0.5,
+    "anchor": 0.7,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-back": {
+    "head": 0.22,
+    "scale": 0.86,
+    "x": 0.5,
+    "anchor": 0.45,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-elevator": {
+    "head": 0.33,
+    "scale": 0.86,
+    "x": 0.5,
+    "anchor": 0.65,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-room": {
+    "head": 0.4,
+    "scale": 0.86,
+    "x": 0.5,
+    "anchor": 0.62,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-rack-mirror": {
+    "head": 0.427,
+    "scale": 0.5,
+    "x": 0.5,
+    "anchor": 0.44,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  },
+  "josh-car-window": {
+    "head": 0.47,
+    "scale": 0.58,
+    "x": 0.474,
+    "anchor": 0.4,
+    "target": 88,
+    "sat": 0.7,
+    "contrast": 1.1,
+    "scrim_stops": [
+      0.18,
+      0.24,
+      0.36
+    ]
+  },
+  "josh-car-street": {
+    "head": 0.509,
+    "scale": 0.545,
+    "x": 0.551,
+    "anchor": 0.41,
+    "target": 88,
+    "sat": 0.7,
+    "contrast": 1.1,
+    "scrim_stops": [
+      0.18,
+      0.24,
+      0.36
+    ]
+  },
+  "wine-at-night": {
+    "head": 0.3,
+    "scale": 0.8,
+    "x": 0.47,
+    "anchor": 0.3,
+    "target": 78,
+    "sat": 0.94,
+    "contrast": 1.06
+  }
+}

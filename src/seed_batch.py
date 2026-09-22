@@ -26,12 +26,19 @@ def deck(**k):
     D.append(k)
 
 
+# Photos whose grade already carries the text, so the automatic scrim (which
+# reads mean brightness) would double up and drown them. See render.resolve_images.
+LIGHT_SCRIM = {"josh-car-window.jpg": [0.18, 0.24, 0.36],
+               "josh-car-street.jpg": [0.18, 0.24, 0.36]}
+
+
 def st(text, photo=None, sub=None, step=None, small=False):
     s = {"type": "statement", "text": text}
     if photo: s["photo"] = photo
     if sub: s["sub"] = sub
     if step: s["step"] = step
     if small: s["small"] = True
+    if photo in LIGHT_SCRIM: s["scrim_stops"] = LIGHT_SCRIM[photo]
     return s
 
 
@@ -245,7 +252,7 @@ deck(slug="broad-why-so-tired", lane="sleep", format="photo_listicle", ren_tie="
  notes="WARM-UP. Broadest reach post in the batch. Asks a question rather than "
        "answering one, which is what makes the comments go.",
  slides=[
-  st("why is everyone in their twenties this tired", "fitness-image-1.jpg",
+  st("why is everyone in their twenties this tired", "josh-car-window.jpg",
      "genuine question"),
   st("nobody i know has any energy", "person-running-motion-blur.jpg",
      "and we've all just decided that's normal"),
@@ -263,7 +270,7 @@ deck(slug="broad-morning-routine-lie", lane="sleep", format="photo_listicle", re
  notes="WARM-UP. Mild contrarian take on a huge existing format. Rides the morning "
        "routine audience without being one.",
  slides=[
-  st("every 5am morning routine video leaves out the same thing", "woman-jumping-on-beach-sunset.jpg"),
+  st("every 5am morning routine video leaves out the same thing", "josh-room.jpg"),
   st("what time they went to bed", "sleep-aesthetic-3.jpg"),
   st("5am is not impressive on its own", "yoga-picture.jpg",
      "5am after eight hours is a completely different video to 5am after five"),
@@ -280,9 +287,9 @@ deck(slug="broad-gym-year", lane="nof1", format="photo_listicle", ren_tie="none"
  notes="WARM-UP. Broad fitness reach, no health-tech framing at all. Set these to "
        "your real year before posting.",
  slides=[
-  st("a year of the gym four times a week", "fitness-image-by-eduardo-cano.jpg",
+  st("a year of the gym four times a week", "josh-mirror-shirtless.jpg",
      "here's the honest list of what changed"),
-  st("i look slightly different", "fitness-image-3.jpg",
+  st("i look slightly different", "josh-gym-tank.jpg",
      "genuinely only slightly. a year is not a transformation.", step="01"),
   st("i sleep better", "sleep-aesthetic-4.jpg",
      "this was the biggest one and nobody talks about it", step="02"),
@@ -290,7 +297,7 @@ deck(slug="broad-gym-year", lane="nof1", format="photo_listicle", ren_tie="none"
      "small, but i notice it every day", step="03"),
   st("i'm noticeably less irritable", "yoga-picture-1.jpg",
      "which my flatmate mentioned before i did", step="04"),
-  st("none of that happened in the first three months", "fitness-image-7.jpg",
+  st("none of that happened in the first three months", "pov-gym-floor.jpg",
      "the first three months were just sore and boring"),
   cta("what actually changed for you", None, "man-running-by-fountain.jpg")])
 
@@ -382,7 +389,7 @@ deck(slug="blood-hrv-low", lane="bloodwork", format="cause_grid", ren_tie="none"
  caption="HRV is mostly a mirror. These are the four things it's usually reflecting.",
  notes="Bridges the bloodwork and sleep lanes. Watch whether it pulls sleep viewers.",
  slides=[
-  st("You slept eight hours and your HRV still tanked.", "runners-in-motion.jpg"),
+  st("You slept eight hours and your HRV still tanked.", "josh-car-street.jpg"),
   {"type": "grid", "question": "“Why is my HRV so low?”", "layout": "g2x2", "cells": [
     {"label": "Alcohol", "img": "wine-at-night.jpg"},
     {"label": "Training late", "img": "fitness-image-6.jpg"},
@@ -423,7 +430,7 @@ deck(slug="stack-nine-bottles", lane="stack", format="photo_listicle", ren_tie="
        "they're looking for permission to stop guessing. Set the counts to YOUR real "
        "cupboard before posting.",
  slides=[
-  st("Count the bottles in your cupboard.", "natalie-hordiiuk.jpg",
+  st("Count the bottles in your cupboard.", "josh-back.jpg",
      "Now tell me which one is doing something."),
   st("Nine.", "natalie-hordiiuk.jpg", "That was mine. About £60 a month.", step="01"),
   st("I started six of them in the same month.", "amanda-jones.jpg",
@@ -494,7 +501,7 @@ deck(slug="stack-huberman-1000h", lane="stack", format="photo_listicle", ren_tie
  notes="Name-check post. Do not imply endorsement, do not use his likeness, do not invent "
        "quotes. The turn at slide 7 is the whole post; everything before it is the bait.",
  slides=[
-  st("I watched 1000 hours of Huberman", "fitness-image-by-eduardo-cano.jpg",
+  st("I watched 1000 hours of Huberman", "josh-rack-mirror.jpg",
      "so you don't have to. Here's what actually comes up over and over."),
   st("Sunlight in your eyes within an hour of waking.", "woman-jumping-on-beach-sunset.jpg",
      "Ten minutes outside. The single most repeated one.", step="01"),
@@ -569,7 +576,7 @@ deck(slug="nof1-how-to-run-one", lane="nof1", format="photo_listicle", ren_tie="
  notes="Methodology post. Low view ceiling, high save and follow ceiling. This is the one "
        "that makes the account worth following instead of scrolling.",
  slides=[
-  st("You've been guessing for years.", "person-running-photo.jpg",
+  st("You've been guessing for years.", "josh-elevator.jpg",
      "Here's how to actually test something on yourself."),
   st("One variable.", "fitness-image-by-andrew-valdivia.jpg",
      "Change two and you've learned nothing about either.", step="01"),
@@ -613,7 +620,7 @@ deck(slug="nof1-rhr-39", lane="nof1", format="proof_stack", ren_tie="hard",
  caption="Real screenshot. Ranked by how much each thing actually moved it, which means the boring one is first and the supplements are near the bottom.",
  notes="The screenshot is the post; everything after is the explanation.",
  slides=[
-  st("My resting heart rate is 39.", "jorge-alberto-vega-barrera-running-image.jpg",
+  st("My resting heart rate is 39.", "josh-gym-mirror.jpg",
      "Here's everything that did it, including the parts I can't take credit for."),
   {"type": "proof", "stat": "39", "stat_unit": "bpm average", "img": "oura-rhr-week.jpg",
    "caption": "Oura, week of Aug 16 to 22. Range 37 to 45. Eight runs that week."},

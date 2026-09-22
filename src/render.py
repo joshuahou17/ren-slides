@@ -50,7 +50,13 @@ def resolve_images(deck):
     for s in deck["slides"]:
         if s.get("photo"):
             f = _find(s["photo"])
-            a, b_, c = scrim_for(f) if f else (.50, .58, .66)
+            # A slide may set `scrim_stops: [top, mid, bottom]` to override the
+            # automatic scrim. The automatic one reads the photo's mean
+            # brightness, which is the wrong signal for a photo that was
+            # already graded for text — brightening such a photo pushes it into
+            # a heavier scrim band and cancels the change out.
+            stops = s.pop("scrim_stops", None)
+            a, b_, c = stops if stops else (scrim_for(f) if f else (.50, .58, .66))
             s["scrim"] = (f"linear-gradient(180deg,rgba(0,0,0,{a}) 0%,"
                           f"rgba(0,0,0,{b_}) 45%,rgba(0,0,0,{c}) 100%)")
             s["photo"] = data_uri(s["photo"])

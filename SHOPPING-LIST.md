@@ -50,9 +50,8 @@ in `assets/photos/` and say the word — the naming doesn't matter, I'll sort th
 
 ## If you still want stock
 
-`fetch-images.sh` handles the one image the decks currently need
-(`wine-at-night.jpg`). Beyond that, stock is a fallback for objects you cannot
-photograph, not a substitute for the POV library above.
+Stock is a fallback for objects you cannot photograph, not a substitute for the
+POV library above. Everything the decks reference now exists.
 
 ## The thing that actually moves this
 
