@@ -79,6 +79,28 @@ def scrim_for(path):
     return (.58, .66, .74)
 
 
+SWIPE = "(Swipe right \u2192)"
+
+
+def apply_hook_style(deck, style):
+    """Style A is the first-person confession already in slide one.
+    Style B is the direct-address promise stored alongside it."""
+    if style != "b":
+        return
+    if deck.get("hook_b") and deck["slides"][0].get("type") == "statement":
+        deck["slides"][0]["text"] = deck["hook_b"]
+        deck["slides"][0]["sub"] = deck.get("hook_b_sub", "")
+        deck["hook"] = deck["hook_b"]
+
+
+def add_swipe(deck):
+    """Slide one always tells the viewer there is more. Costs nothing, and the
+    swipe is the signal the algorithm actually reads."""
+    first = deck["slides"][0]
+    if first.get("type") == "statement":
+        first.setdefault("swipe", SWIPE)
+
+
 def size_text(deck):
     """Conversational hooks run long. Step the type down so they still fit."""
     for s in deck["slides"]:
@@ -126,11 +148,13 @@ def caption_text(deck, b):
     return "\n\n".join(p for p in parts if p) + "\n"
 
 
-def render_deck(path, W, H, outdir, headless_ctx):
+def render_deck(path, W, H, outdir, headless_ctx, hook_style="a"):
     b, canvas, _ = load_brand()
     deck = json.loads(pathlib.Path(path).read_text())
     resolve_images(deck)
     validate(deck)
+    apply_hook_style(deck, hook_style)
+    add_swipe(deck)
     size_text(deck)
 
     css = (ROOT / "formats" / "base.css").read_text()
@@ -166,6 +190,8 @@ def main():
     ap.add_argument("--height", type=int)
     ap.add_argument("--width", type=int)
     ap.add_argument("--out")
+    ap.add_argument("--hook", choices=["a", "b"], default="a",
+                    help="a = first-person confession (default), b = direct-address promise")
     a = ap.parse_args()
 
     _, canvas, outcfg = load_brand()
@@ -184,7 +210,7 @@ def main():
                                       "--font-render-hinting=none"])
         ctx = br.new_context(device_scale_factor=1)
         for f in files:
-            slug, k = render_deck(f, W, H, outdir, ctx)
+            slug, k = render_deck(f, W, H, outdir, ctx, a.hook)
             print(f"  ✓ {slug:<38} {k} slides  → out/{slug}/")
         br.close()
     print(f"\n{len(files)} decks rendered at {W}x{H}.")

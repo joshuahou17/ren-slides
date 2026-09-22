@@ -65,5 +65,7 @@
     "healthtok",
     "fyp"
   ],
-  "tier": "hard"
+  "tier": "hard",
+  "hook_b": "5 blood markers your doctor never explained…",
+  "hook_b_sub": "every one can be “in range” and still wreck you"
 }

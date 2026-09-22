@@ -68,5 +68,7 @@
     "healthtok",
     "fyp"
   ],
-  "tier": "core"
+  "tier": "core",
+  "hook_b": "Here's exactly why your HRV is so low…",
+  "hook_b_sub": "and why it's not the thing you think"
 }

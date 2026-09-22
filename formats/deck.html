@@ -94,6 +94,8 @@
   paint-order:stroke fill;}
 .st.small .txt{font-size:62px;}
 .st .sb{font-size:34px;font-weight:450;line-height:1.32;margin-top:26px;max-width:84%;}
+.st .swipe{margin-top:34px;font-size:32px;font-weight:600;color:#fff;opacity:.92;
+  -webkit-text-stroke:5px #000;paint-order:stroke fill;letter-spacing:-.01em;}
 .st.plain{justify-content:center;background:var(--surface);}
 .st.plain .txt{font-size:92px;}
 .st.plain .sb{color:var(--ink-soft);}
@@ -244,6 +246,7 @@
     {%- if s.step %}<div class="step">{{ s.step }}</div>{% endif %}
     <div class="txt" style="font-size:{{ s.size_px|default(78) }}px">{{ s.text }}</div>
     {%- if s.sub %}<div class="sb" style="font-size:{{ s.sub_px|default(34) }}px">{{ s.sub }}</div>{% endif %}
+    {%- if s.swipe %}<div class="swipe">{{ s.swipe }}</div>{% endif %}
   </div>
   {{ mark(i, n) }}
 </div>

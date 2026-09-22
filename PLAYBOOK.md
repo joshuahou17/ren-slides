@@ -66,6 +66,40 @@ Two rules on borrowed authority: it has to be **true**, and the person has to be
 **specific**. "A doctor told me" is worth nothing. "My GP told me, after I asked
 for the third time" is worth a lot, and you can only write it if it happened.
 
+## Two hook genres, and you should test them
+
+Everything above describes **style A** — the first-person confession. There is a
+second genre that clipper campaigns run on, **style B**: direct address, second
+person, the payoff promised up front, trailing ellipsis.
+
+| | Style A | Style B |
+|---|---|---|
+| Voice | "i woke up at 3am every night for a month and blamed stress" | "Here's exactly why you keep waking up at 3am…" |
+| Sells | a person | a payoff |
+| Strength | follows, comments, an account worth following | raw click-through and swipe rate |
+| Weakness | slower to hook a stranger | forgettable; nobody follows a promise |
+
+Both are in the repo. Slide one carries A by default; `--hook b` swaps in the
+direct-address version:
+
+```bash
+python3 src/render.py content/batch01/ --hook b --out out-b
+```
+
+**Which one suits this account?** Probably B, and that's worth saying plainly:
+there is no face, no name, and now no watermark. Style A's whole advantage is
+that a person accumulates — and nothing here accumulates into a person. Style B
+is built for exactly this shape of account.
+
+But don't decide it by argument. You have 27 decks in two hook styles, which is
+a real experiment: run style A for a week, style B the next, compare the medians
+in `track.py`. That is the single highest-value test available to you, because
+the hook decides everything downstream.
+
+**The swipe cue is not optional.** Every slide one carries "(Swipe right →)"
+automatically. It costs nothing, and the swipe is the signal the algorithm
+actually reads — a viewer who swipes has told TikTok the post held them.
+
 What kills a hook: the aphorism. "Your number isn't my number." "One low night is
 weather." Those are good *closing* lines and terrible opening ones, because they
 sound authored. Nobody stops scrolling for something that sounds written.

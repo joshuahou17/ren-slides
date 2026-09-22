@@ -68,5 +68,7 @@
     "oura",
     "fyp"
   ],
-  "tier": "soft"
+  "tier": "soft",
+  "hook_b": "Here's exactly what moving your coffee 4 hours does…",
+  "hook_b_sub": "same caffeine, different hour"
 }

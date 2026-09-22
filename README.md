@@ -59,7 +59,11 @@ These are now enforced by `src/render.py`. A deck that breaks one does not rende
 7. **Slide one is a photo with a confession on it** — lowercase, one or two full
    sentences, a parenthetical or an ellipsis, a recognisable stake. Never a
    headline, never an aphorism.
-8. **Every closing slide lands on the same claim in different words:** a video
+8. **Slide one always carries "(Swipe right →)".** Added automatically by the
+   renderer; you never write it. Two hook genres ship with every deck — style A
+   (first-person confession, the default) and style B (direct-address promise,
+   `--hook b`). See PLAYBOOK.md for which to use and how to test them.
+9. **Every closing slide lands on the same claim in different words:** a video
    cannot tell you whether something works on *you*; only a test can. The `CTA`
    dict at the bottom of `src/seed_batch.py` holds all of them in one place.
 

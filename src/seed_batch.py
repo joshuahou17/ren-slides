@@ -834,6 +834,50 @@ for d in D:
         d["tier"] = "broad"
 
 
+# ═════════════════════════════════════════════════════ HOOKS, STYLE B ═════
+# Direct-address, promise-led, second person, trailing ellipsis. This is the
+# clipper-campaign genre: it sells the payoff up front instead of earning it
+# with a confession. Higher click-through, weaker at building a person.
+#
+# Style A (the HOOKS dict above) is first-person confessional. Both are here
+# so the account can actually TEST which one works, rather than guess:
+#     python3 src/render.py content/batch01/ --hook b
+HOOKS_B = {
+ "sleep-wake-at-3am": ("Here's exactly why you keep waking up at 3am\u2026", "4 causes, none of them stress"),
+ "sleep-deep-sleep-fix": ("4 reasons your deep sleep is so low\u2026", "all four happen before you get into bed"),
+ "sleep-magnesium-14-nights": ("Here's exactly what magnesium did to my deep sleep\u2026", "21 nights, graded by the app not by me"),
+ "sleep-5-non-supplement": ("5 ways to fix your sleep without buying anything\u2026", "ranked by what actually moved the number"),
+ "blood-tired-normal-labs": ("Here's exactly why you're exhausted with \u201cnormal\u201d labs\u2026", "4 markers nobody ordered"),
+ "blood-always-cold": ("Here's exactly why you're always cold\u2026", "4 things, all on one blood panel"),
+ "blood-hrv-low": ("Here's exactly why your HRV is so low\u2026", "and why it's not the thing you think"),
+ "blood-5-markers-missed": ("5 blood markers your doctor never explained\u2026", "every one can be \u201cin range\u201d and still wreck you"),
+ "stack-nine-bottles": ("Here's exactly why your supplements aren't working\u2026", "and what they're costing you a month"),
+ "stack-cant-tell": ("4 reasons you can't tell if a supplement is working\u2026", "I've made all four"),
+ "stack-quit-one": ("Here's exactly how to find the supplements doing nothing\u2026", "it costs nothing and takes 14 days"),
+ "stack-huberman-1000h": ("5 protocols Huberman repeats the most\u2026", "and the one thing none of them can tell you"),
+ "nof1-caffeine-cutoff": ("Here's exactly what moving your coffee 4 hours does\u2026", "same caffeine, different hour"),
+ "nof1-magnesium-form": ("Here's exactly why your magnesium does nothing\u2026", "check the back of the bottle"),
+ "nof1-how-to-run-one": ("5 rules for testing anything on yourself\u2026", "14 days and a phone you already own"),
+ "nof1-what-didnt-work": ("Here's exactly what 14 nights of magnesium spray did\u2026", "nothing. posting it anyway"),
+ "nof1-rhr-39": ("Here's exactly how I got my resting heart rate to 39\u2026", "ranked, and it's not what you'd guess"),
+ "nof1-sleep-debt-rebound": ("Here's exactly how to clear 9 hours of sleep debt\u2026", "10 days, in order"),
+ "app-says-no": ("Here's exactly how to know a supplement isn't working\u2026", "most apps will never tell you this"),
+ "app-verdict-worked": ("Here's exactly what moved my recovery 20%\u2026", "it wasn't a supplement"),
+ "app-chronotype": ("6 sleep types. Here's exactly which one you are\u2026", "built from your nights, not a quiz"),
+ "broad-screen-time": ("Here's exactly how bad my screen time got\u2026", "no advice, just posting it"),
+ "broad-why-so-tired": ("Here's exactly why everyone in their 20s is exhausted\u2026", "it's about 6 small things at once"),
+ "broad-morning-routine-lie": ("Here's exactly what every 5am routine video leaves out\u2026", "and it's the only part that matters"),
+ "broad-gym-year": ("5 things a year of the gym actually changed\u2026", "not the list I expected"),
+ "broad-coffee-personality": ("Here's exactly how many coffees it takes me to function\u2026", "I've made it a personality"),
+ "broad-sunday-night": ("Here's exactly why you can't sleep on Sunday nights\u2026", "you did it to yourself on Saturday"),
+}
+
+for d in D:
+    b = HOOKS_B.get(d["slug"])
+    if b:
+        d["hook_b"], d["hook_b_sub"] = b
+
+
 for d in D:
     (OUT / f"{d['slug']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
 print(f"wrote {len(D)} decks, {sum(len(d['slides']) for d in D)} slides")
