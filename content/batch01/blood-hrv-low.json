@@ -20,19 +20,19 @@
       "cells": [
         {
           "label": "Alcohol",
-          "tone": "neg"
+          "img": "wine-at-night.jpg"
         },
         {
           "label": "Training late",
-          "tone": "neg"
+          "img": "fitness-image-6.jpg"
         },
         {
           "label": "Getting sick",
-          "tone": "neg"
+          "img": "sick-aesthetic-picture.jpg"
         },
         {
           "label": "Under-slept",
-          "tone": "neg"
+          "img": "sleep-aesthetic-1.jpg"
         }
       ]
     },

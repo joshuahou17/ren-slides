@@ -20,19 +20,19 @@
       "cells": [
         {
           "label": "Alcohol",
-          "tone": "neg"
+          "img": "wine-at-night.jpg"
         },
         {
           "label": "A warm room",
-          "tone": "neg"
+          "img": "sleep-aesthetic.jpg"
         },
         {
           "label": "Nothing since 5pm",
-          "tone": "neg"
+          "img": "coffee-picture-4.jpg"
         },
         {
           "label": "A 2pm coffee",
-          "tone": "neg"
+          "img": "coffee-picture-1.jpg"
         }
       ]
     },

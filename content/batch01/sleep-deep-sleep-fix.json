@@ -22,11 +22,11 @@
           "cells": [
             {
               "label": "Scrolling in bed",
-              "tone": "neg"
+              "img": "sleep-aesthetic-1.jpg"
             },
             {
               "label": "Late heavy dinner",
-              "tone": "neg"
+              "img": "coffee-picture-4.jpg"
             }
           ]
         },
@@ -36,11 +36,11 @@
           "cells": [
             {
               "label": "Phone in another room",
-              "tone": "pos"
+              "img": "sleep-aesthetic-image.jpg"
             },
             {
               "label": "Eat 3 hours earlier",
-              "tone": "pos"
+              "img": "yoga-in-park.jpg"
             }
           ]
         }
@@ -55,11 +55,11 @@
           "cells": [
             {
               "label": "Bedtime drifts 2 hours",
-              "tone": "neg"
+              "img": "sick-aesthetic-picture.jpg"
             },
             {
               "label": "Hot shower at 11pm",
-              "tone": "neg"
+              "img": "cycling-picture-2.jpg"
             }
           ]
         },
@@ -69,11 +69,11 @@
           "cells": [
             {
               "label": "Same 30 minute window",
-              "tone": "pos"
+              "img": "sleep-aesthetic-3.jpg"
             },
             {
               "label": "Shower at 9:30",
-              "tone": "pos"
+              "img": "sleep-aesthetic-4.jpg"
             }
           ]
         }

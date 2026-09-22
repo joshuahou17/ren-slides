@@ -20,19 +20,19 @@
       "cells": [
         {
           "label": "Started three at once",
-          "tone": "neg"
+          "img": "natalie-hordiiuk.jpg"
         },
         {
           "label": "Started when you felt awful",
-          "tone": "neg"
+          "img": "sick-aesthetic-picture.jpg"
         },
         {
           "label": "No baseline",
-          "tone": "neg"
+          "img": "sleep-aesthetic-image.jpg"
         },
         {
           "label": "Judging by feel",
-          "tone": "neg"
+          "img": "person-running-motion-blur.jpg"
         }
       ]
     },

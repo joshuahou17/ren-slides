@@ -20,19 +20,19 @@
       "cells": [
         {
           "label": "Low ferritin",
-          "tone": "neg"
+          "img": "mariana-rascao.jpg"
         },
         {
           "label": "Underactive thyroid",
-          "tone": "neg"
+          "img": "sick-aesthetic-picture.jpg"
         },
         {
           "label": "Eating too little",
-          "tone": "neg"
+          "img": "coffee-picture-1.jpg"
         },
         {
           "label": "Low B12",
-          "tone": "neg"
+          "img": "akshay-chauhan.jpg"
         }
       ]
     },

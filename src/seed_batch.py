@@ -52,8 +52,10 @@ deck(slug="sleep-wake-at-3am", lane="sleep", format="cause_grid", ren_tie="none"
  slides=[
   st("3:14am. Again.", "sleep-aesthetic-1.jpg", "It's almost never random."),
   {"type": "grid", "question": "“Why do I wake up at 3am?”", "layout": "g2x2", "cells": [
-    {"label": "Alcohol", "tone": "neg"}, {"label": "A warm room", "tone": "neg"},
-    {"label": "Nothing since 5pm", "tone": "neg"}, {"label": "A 2pm coffee", "tone": "neg"}]},
+    {"label": "Alcohol", "img": "wine-at-night.jpg"},
+    {"label": "A warm room", "img": "sleep-aesthetic.jpg"},
+    {"label": "Nothing since 5pm", "img": "coffee-picture-4.jpg"},
+    {"label": "A 2pm coffee", "img": "coffee-picture-1.jpg"}]},
   st("Alcohol puts you under fast.", "cycling-picture-2.jpg",
      "Then rebounds about four hours later, which is 3am."),
   st("You have to cool down to stay asleep.", "sleep-aesthetic.jpg",
@@ -73,14 +75,18 @@ deck(slug="sleep-deep-sleep-fix", lane="sleep", format="problem_solution", ren_t
   st("Your deep sleep was decided before you got into bed.", "sleep-aesthetic-2.jpg"),
   {"type": "ps", "bands": [
     {"head": "PROBLEM", "color": "#d93f3e", "cells": [
-      {"label": "Scrolling in bed", "tone": "neg"}, {"label": "Late heavy dinner", "tone": "neg"}]},
+      {"label": "Scrolling in bed", "img": "sleep-aesthetic-1.jpg"},
+      {"label": "Late heavy dinner", "img": "coffee-picture-4.jpg"}]},
     {"head": "SOLUTION", "color": "#0f9d63", "cells": [
-      {"label": "Phone in another room", "tone": "pos"}, {"label": "Eat 3 hours earlier", "tone": "pos"}]}]},
+      {"label": "Phone in another room", "img": "sleep-aesthetic-image.jpg"},
+      {"label": "Eat 3 hours earlier", "img": "yoga-in-park.jpg"}]}]},
   {"type": "ps", "bands": [
     {"head": "PROBLEM", "color": "#d93f3e", "cells": [
-      {"label": "Bedtime drifts 2 hours", "tone": "neg"}, {"label": "Hot shower at 11pm", "tone": "neg"}]},
+      {"label": "Bedtime drifts 2 hours", "img": "sick-aesthetic-picture.jpg"},
+      {"label": "Hot shower at 11pm", "img": "cycling-picture-2.jpg"}]},
     {"head": "SOLUTION", "color": "#0f9d63", "cells": [
-      {"label": "Same 30 minute window", "tone": "pos"}, {"label": "Shower at 9:30", "tone": "pos"}]}]},
+      {"label": "Same 30 minute window", "img": "sleep-aesthetic-3.jpg"},
+      {"label": "Shower at 9:30", "img": "sleep-aesthetic-4.jpg"}]}]},
   st("You can't feel deep sleep.", "sick-aesthetic-picture.jpg",
      "Which is why people guess about it for years."),
   cta("Pick one and hold it for two weeks.",
@@ -334,16 +340,18 @@ deck(slug="blood-tired-normal-labs", lane="bloodwork", format="problem_solution"
      "And your bloodwork came back “normal”."),
   {"type": "ps", "bands": [
     {"head": "WHAT THEY CHECKED", "color": "#8b8a85", "cells": [
-      {"label": "Hemoglobin"}, {"label": "TSH, alone"}]},
+      {"label": "Hemoglobin", "img": "cycling-picture-1.jpg"},
+      {"label": "TSH, alone", "img": "runners-in-motion.jpg"}]},
     {"head": "WHAT EXPLAINS IT", "color": "#0f9d63", "cells": [
-      {"label": "Ferritin", "tone": "pos"}, {"label": "Free T3 and T4", "tone": "pos"}]}]},
+      {"label": "Ferritin", "img": "mariana-rascao.jpg"},
+      {"label": "Free T3 and T4", "img": "natalie-hordiiuk.jpg"}]}]},
   st("Normal range is not your range.", "person-running-motion-blur.jpg",
      "It's the band 95% of people fall inside. Including the exhausted ones."),
   {"type": "grid", "question": "The four that get skipped", "layout": "g2x2", "cells": [
-    {"label": "Ferritin", "sub": "low with normal hemoglobin"},
-    {"label": "Vitamin D", "sub": "rarely ordered unless you ask"},
-    {"label": "B12 and folate", "sub": "low-normal still has symptoms"},
-    {"label": "hs-CRP", "sub": "inflammation nothing else shows"}]},
+    {"label": "Ferritin", "img": "akshay-chauhan.jpg"},
+    {"label": "Vitamin D", "img": "woman-jumping-on-beach-sunset.jpg"},
+    {"label": "B12 and folate", "img": "supplement-picture.jpg"},
+    {"label": "hs-CRP", "img": "fitness-image-6.jpg"}]},
   st("Ask what your number is.", "mariana-rascao.jpg",
      "Not whether it's in range. Those are two different questions."),
   cta("Take this list to your next appointment.",
@@ -358,8 +366,10 @@ deck(slug="blood-always-cold", lane="bloodwork", format="cause_grid", ren_tie="n
   st("You're wearing a jacket indoors again.", "cycling-picture-4.jpg",
      "Everyone else is fine. You are not being dramatic."),
   {"type": "grid", "question": "“Why am I always cold?”", "layout": "g2x2", "cells": [
-    {"label": "Low ferritin", "tone": "neg"}, {"label": "Underactive thyroid", "tone": "neg"},
-    {"label": "Eating too little", "tone": "neg"}, {"label": "Low B12", "tone": "neg"}]},
+    {"label": "Low ferritin", "img": "mariana-rascao.jpg"},
+    {"label": "Underactive thyroid", "img": "sick-aesthetic-picture.jpg"},
+    {"label": "Eating too little", "img": "coffee-picture-1.jpg"},
+    {"label": "Low B12", "img": "akshay-chauhan.jpg"}]},
   st("Ferritin is iron storage.", "fitness-image-6.jpg",
      "It can sit near empty while your hemoglobin looks perfect."),
   st("TSH alone misses it.", "amanda-jones.jpg",
@@ -374,8 +384,10 @@ deck(slug="blood-hrv-low", lane="bloodwork", format="cause_grid", ren_tie="none"
  slides=[
   st("You slept eight hours and your HRV still tanked.", "runners-in-motion.jpg"),
   {"type": "grid", "question": "“Why is my HRV so low?”", "layout": "g2x2", "cells": [
-    {"label": "Alcohol", "tone": "neg"}, {"label": "Training late", "tone": "neg"},
-    {"label": "Getting sick", "tone": "neg"}, {"label": "Under-slept", "tone": "neg"}]},
+    {"label": "Alcohol", "img": "wine-at-night.jpg"},
+    {"label": "Training late", "img": "fitness-image-6.jpg"},
+    {"label": "Getting sick", "img": "sick-aesthetic-picture.jpg"},
+    {"label": "Under-slept", "img": "sleep-aesthetic-1.jpg"}]},
   st("Alcohol is the biggest overnight hit there is.", "cycling-picture-5.jpg"),
   st("HRV drops a day or two before you feel ill.", "sick-aesthetic-picture.jpg"),
   st("One low night is weather.", "fitness-image-3.jpg", "Seven is climate."),
@@ -437,10 +449,10 @@ deck(slug="stack-cant-tell", lane="stack", format="cause_grid", ren_tie="soft",
   st("Why can't you tell if it's working?", "supplement-picture.jpg",
      "It's not that the effect is invisible. It's that you set the test up wrong."),
   {"type": "grid", "question": "The four mistakes", "layout": "g2x2", "cells": [
-    {"label": "Started three at once", "tone": "neg"},
-    {"label": "Started when you felt awful", "tone": "neg"},
-    {"label": "No baseline", "tone": "neg"},
-    {"label": "Judging by feel", "tone": "neg"}]},
+    {"label": "Started three at once", "img": "natalie-hordiiuk.jpg"},
+    {"label": "Started when you felt awful", "img": "sick-aesthetic-picture.jpg"},
+    {"label": "No baseline", "img": "sleep-aesthetic-image.jpg"},
+    {"label": "Judging by feel", "img": "person-running-motion-blur.jpg"}]},
   st("Three at once tells you nothing about any of them.", "natalie-hordiiuk.jpg"),
   st("You started when you felt worst.", "sick-aesthetic-picture.jpg",
      "You were going to feel better anyway. That's regression, not the pill."),

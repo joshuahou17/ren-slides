@@ -21,10 +21,12 @@
           "color": "#8b8a85",
           "cells": [
             {
-              "label": "Hemoglobin"
+              "label": "Hemoglobin",
+              "img": "cycling-picture-1.jpg"
             },
             {
-              "label": "TSH, alone"
+              "label": "TSH, alone",
+              "img": "runners-in-motion.jpg"
             }
           ]
         },
@@ -34,11 +36,11 @@
           "cells": [
             {
               "label": "Ferritin",
-              "tone": "pos"
+              "img": "mariana-rascao.jpg"
             },
             {
               "label": "Free T3 and T4",
-              "tone": "pos"
+              "img": "natalie-hordiiuk.jpg"
             }
           ]
         }
@@ -57,19 +59,19 @@
       "cells": [
         {
           "label": "Ferritin",
-          "sub": "low with normal hemoglobin"
+          "img": "akshay-chauhan.jpg"
         },
         {
           "label": "Vitamin D",
-          "sub": "rarely ordered unless you ask"
+          "img": "woman-jumping-on-beach-sunset.jpg"
         },
         {
           "label": "B12 and folate",
-          "sub": "low-normal still has symptoms"
+          "img": "supplement-picture.jpg"
         },
         {
           "label": "hs-CRP",
-          "sub": "inflammation nothing else shows"
+          "img": "fitness-image-6.jpg"
         }
       ]
     },
