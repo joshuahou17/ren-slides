@@ -25,9 +25,9 @@ Broad posts. Nothing that mentions the product.
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 4 | Fri 25 Sep | 09:00 | broad | `broad-why-so-tired` | why is everyone in their twenties this tired |
-| 5 | Sat 26 Sep | 09:00 | broad | `broad-sunday-night` | the sunday night thing where you're exhausted and cannot f |
-| 6 | Sun 27 Sep | 09:00 | broad | `broad-screen-time` | i checked my screen time for last week and genuinely felt  |
+| 4 | Fri 25 Sep | 09:00 | broad | `broad-why-so-tired` | Here's exactly why everyone in their 20s is exhausted… |
+| 5 | Sat 26 Sep | 09:00 | broad | `broad-sunday-night` | Here's exactly why you can't sleep on Sunday nights… |
+| 6 | Sun 27 Sep | 09:00 | broad | `broad-screen-time` | Here's exactly how bad my screen time got… |
 
 ## Days 7 to 10 — 1/day
 
@@ -35,10 +35,10 @@ First campaign posts, still no CTA of any kind.
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 7 | Mon 28 Sep | 09:00 | core | `sleep-wake-at-3am` | i woke up at 3am every night for a month and blamed stress |
-| 8 | Tue 29 Sep | 09:00 | core | `blood-always-cold` | if you're the one wearing a hoodie indoors in july, this i |
-| 9 | Wed 30 Sep | 09:00 | core | `blood-hrv-low` | my ring kept telling me my hrv was low and i genuinely tho |
-| 10 | Thu 1 Oct | 09:00 | core | `nof1-magnesium-form` | the magnesium in your cupboard is probably being sold as a |
+| 7 | Mon 28 Sep | 09:00 | core | `sleep-wake-at-3am` | Here's exactly why you keep waking up at 3am… |
+| 8 | Tue 29 Sep | 09:00 | core | `blood-always-cold` | Here's exactly why you're always cold… |
+| 9 | Wed 30 Sep | 09:00 | core | `blood-hrv-low` | Here's exactly why your HRV is so low… |
+| 10 | Thu 1 Oct | 09:00 | core | `nof1-magnesium-form` | Here's exactly why your magnesium does nothing… |
 
 ## Days 11 to 17 — 2/day
 
@@ -46,19 +46,19 @@ Gate cleared → 2/day. Soft CTAs start here. Keep broad posts in the mix; they 
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 11 | Fri 2 Oct | 09:00 | core | `nof1-what-didnt-work` | i tested this for 14 nights and it did absolutely nothing |
-| 11 | Fri 2 Oct | 14:00 | soft | `app-chronotype` | apparently i'm a moth |
-| 12 | Sat 3 Oct | 09:00 | core | `sleep-5-non-supplement` | 5 things that fixed my sleep and cost me nothing |
-| 12 | Sat 3 Oct | 14:00 | soft | `blood-tired-normal-labs` | i was sleeping 8 hours and still falling asleep at my desk |
-| 13 | Sun 4 Oct | 09:00 | soft | `stack-quit-one` | the fastest way to find out which of your supplements do n |
-| 13 | Sun 4 Oct | 14:00 | soft | `nof1-caffeine-cutoff` | i didn't quit coffee. i just moved it four hours earlier |
-| 14 | Mon 5 Oct | 09:00 | soft | `nof1-how-to-run-one` | you've been guessing about your own body for years |
-| 14 | Mon 5 Oct | 14:00 | soft | `sleep-deep-sleep-fix` | my deep sleep was 40 minutes a night and i assumed i just  |
-| 15 | Tue 6 Oct | 09:00 | soft | `sleep-magnesium-14-nights` | everyone kept telling me magnesium would fix my sleep so i |
-| 15 | Tue 6 Oct | 14:00 | soft | `stack-cant-tell` | why you genuinely cannot tell whether a supplement is work |
-| 16 | Wed 7 Oct | 09:00 | broad | `broad-coffee-personality` | i cannot function before my second coffee and i've made th |
-| 16 | Wed 7 Oct | 14:00 | broad | `broad-morning-routine-lie` | every 5am morning routine video leaves out the same thing |
-| 17 | Thu 8 Oct | 09:00 | broad | `broad-gym-year` | a year of going to the gym four times a week and the hones |
+| 11 | Fri 2 Oct | 09:00 | core | `nof1-what-didnt-work` | Here's exactly what 14 nights of magnesium spray did… |
+| 11 | Fri 2 Oct | 14:00 | soft | `app-chronotype` | 6 sleep types. Here's exactly which one you are… |
+| 12 | Sat 3 Oct | 09:00 | core | `sleep-5-non-supplement` | 5 ways to fix your sleep without buying anything… |
+| 12 | Sat 3 Oct | 14:00 | soft | `blood-tired-normal-labs` | Here's exactly why you're exhausted with “normal” labs… |
+| 13 | Sun 4 Oct | 09:00 | soft | `stack-quit-one` | Here's exactly how to find the supplements doing nothing… |
+| 13 | Sun 4 Oct | 14:00 | soft | `nof1-caffeine-cutoff` | Here's exactly what moving your coffee 4 hours does… |
+| 14 | Mon 5 Oct | 09:00 | soft | `nof1-how-to-run-one` | 5 rules for testing anything on yourself… |
+| 14 | Mon 5 Oct | 14:00 | soft | `sleep-deep-sleep-fix` | 4 reasons your deep sleep is so low… |
+| 15 | Tue 6 Oct | 09:00 | soft | `sleep-magnesium-14-nights` | Here's exactly what magnesium did to my deep sleep… |
+| 15 | Tue 6 Oct | 14:00 | soft | `stack-cant-tell` | 4 reasons you can't tell if a supplement is working… |
+| 16 | Wed 7 Oct | 09:00 | broad | `broad-coffee-personality` | Here's exactly how many coffees it takes me to function… |
+| 16 | Wed 7 Oct | 14:00 | broad | `broad-morning-routine-lie` | Here's exactly what every 5am routine video leaves out… |
+| 17 | Thu 8 Oct | 09:00 | broad | `broad-gym-year` | 5 things a year of the gym actually changed… |
 
 ## Days 18 to 31 — 3/day
 
@@ -66,9 +66,9 @@ Gate cleared → 3/day. Hard CTA at most one a day and no more than one post in 
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 18 | Fri 9 Oct | 09:00 | hard | `nof1-sleep-debt-rebound` | i came back from a trip 9 hours and 40 minutes down on sle |
-| 19 | Sat 10 Oct | 09:00 | hard | `stack-huberman-1000h` | i watched 1000 hours of huberman so you don't have to |
-| 20 | Sun 11 Oct | 09:00 | hard | `app-says-no` | i built an app that tells you when a supplement isn't doin |
+| 18 | Fri 9 Oct | 09:00 | hard | `nof1-sleep-debt-rebound` | Here's exactly how to clear 9 hours of sleep debt… |
+| 19 | Sat 10 Oct | 09:00 | hard | `stack-huberman-1000h` | 5 protocols Huberman repeats the most… |
+| 20 | Sun 11 Oct | 09:00 | hard | `app-says-no` | Here's exactly how to know a supplement isn't working… |
 
 ## The gate between every phase
 
