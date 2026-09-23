@@ -72,7 +72,17 @@ def resolve_images(deck):
 
 def scrim_for(path):
     """Match the scrim to the photo so a dark shot doesn't go to mud."""
-    from PIL import Image, ImageStat
+    try:
+        from PIL import Image, ImageStat
+    except ImportError:
+        # Scheduled runs that skip `pip install pillow` should still render,
+        # just with the neutral scrim. Loud, so it doesn't pass unnoticed.
+        global _WARNED_PIL
+        if not globals().get("_WARNED_PIL"):
+            print("WARNING: Pillow not installed — using the default scrim. "
+                  "pip install pillow", file=sys.stderr)
+            _WARNED_PIL = True
+        return (.50, .58, .66)
     try:
         im = Image.open(path).convert("L")
         im.thumbnail((160, 160))
