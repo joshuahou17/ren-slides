@@ -1,6 +1,6 @@
 # Post plan
 
-Starting Tuesday 22 September 2026. Times are ET; TikTok cares more about consistency than the exact hour, so pick these once and keep them.
+Starting Sunday 20 September 2026. Times are ET; TikTok cares more about consistency than the exact hour, so pick these once and keep them.
 
 ## Days 1 to 3 — do not post
 
@@ -25,9 +25,9 @@ Broad posts. Nothing that mentions the product.
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 4 | Fri 25 Sep | 09:00 | broad | `broad-why-so-tired` | Here's exactly why everyone in their 20s is exhausted… |
-| 5 | Sat 26 Sep | 09:00 | broad | `broad-sunday-night` | Here's exactly why you can't sleep on Sunday nights… |
-| 6 | Sun 27 Sep | 09:00 | broad | `broad-screen-time` | Here's exactly how bad my screen time got… |
+| 4 | Wed 23 Sep | 09:00 | broad | `broad-why-so-tired` | Here's exactly why everyone in their 20s is exhausted… |
+| 5 | Thu 24 Sep | 09:00 | broad | `broad-sunday-night` | Here's exactly why you can't sleep on Sunday nights… |
+| 6 | Fri 25 Sep | 09:00 | broad | `broad-screen-time` | Here's exactly how bad my screen time got… |
 
 ## Days 7 to 10 — 1/day
 
@@ -35,10 +35,10 @@ First campaign posts, still no CTA of any kind.
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 7 | Mon 28 Sep | 09:00 | core | `sleep-wake-at-3am` | Here's exactly why you keep waking up at 3am… |
-| 8 | Tue 29 Sep | 09:00 | core | `blood-always-cold` | Here's exactly why you're always cold… |
-| 9 | Wed 30 Sep | 09:00 | core | `blood-hrv-low` | Here's exactly why your HRV is so low… |
-| 10 | Thu 1 Oct | 09:00 | core | `nof1-magnesium-form` | Here's exactly why your magnesium does nothing… |
+| 7 | Sat 26 Sep | 09:00 | core | `sleep-wake-at-3am` | Here's exactly why you keep waking up at 3am… |
+| 8 | Sun 27 Sep | 09:00 | core | `blood-always-cold` | Here's exactly why you're always cold… |
+| 9 | Mon 28 Sep | 09:00 | core | `blood-hrv-low` | Here's exactly why your HRV is so low… |
+| 10 | Tue 29 Sep | 09:00 | core | `nof1-magnesium-form` | Here's exactly why your magnesium does nothing… |
 
 ## Days 11 to 17 — 2/day
 
@@ -46,19 +46,19 @@ Gate cleared → 2/day. Soft CTAs start here. Keep broad posts in the mix; they 
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 11 | Fri 2 Oct | 09:00 | core | `nof1-what-didnt-work` | Here's exactly what 14 nights of magnesium spray did… |
-| 11 | Fri 2 Oct | 14:00 | soft | `app-chronotype` | 6 sleep types. Here's exactly which one you are… |
-| 12 | Sat 3 Oct | 09:00 | core | `sleep-5-non-supplement` | 5 ways to fix your sleep without buying anything… |
-| 12 | Sat 3 Oct | 14:00 | soft | `blood-tired-normal-labs` | Here's exactly why you're exhausted with “normal” labs… |
-| 13 | Sun 4 Oct | 09:00 | soft | `stack-quit-one` | Here's exactly how to find the supplements doing nothing… |
-| 13 | Sun 4 Oct | 14:00 | soft | `nof1-caffeine-cutoff` | Here's exactly what moving your coffee 4 hours does… |
-| 14 | Mon 5 Oct | 09:00 | soft | `nof1-how-to-run-one` | 5 rules for testing anything on yourself… |
-| 14 | Mon 5 Oct | 14:00 | soft | `sleep-deep-sleep-fix` | 4 reasons your deep sleep is so low… |
-| 15 | Tue 6 Oct | 09:00 | soft | `sleep-magnesium-14-nights` | Here's exactly what magnesium did to my deep sleep… |
-| 15 | Tue 6 Oct | 14:00 | soft | `stack-cant-tell` | 4 reasons you can't tell if a supplement is working… |
-| 16 | Wed 7 Oct | 09:00 | broad | `broad-coffee-personality` | Here's exactly how many coffees it takes me to function… |
-| 16 | Wed 7 Oct | 14:00 | broad | `broad-morning-routine-lie` | Here's exactly what every 5am routine video leaves out… |
-| 17 | Thu 8 Oct | 09:00 | broad | `broad-gym-year` | 5 things a year of the gym actually changed… |
+| 11 | Wed 30 Sep | 09:00 | core | `nof1-what-didnt-work` | Here's exactly what 14 nights of magnesium spray did… |
+| 11 | Wed 30 Sep | 14:00 | soft | `app-chronotype` | 6 sleep types. Here's exactly which one you are… |
+| 12 | Thu 1 Oct | 09:00 | core | `sleep-5-non-supplement` | 5 ways to fix your sleep without buying anything… |
+| 12 | Thu 1 Oct | 14:00 | soft | `blood-tired-normal-labs` | Here's exactly why you're exhausted with “normal” labs… |
+| 13 | Fri 2 Oct | 09:00 | soft | `stack-quit-one` | Here's exactly how to find the supplements doing nothing… |
+| 13 | Fri 2 Oct | 14:00 | soft | `nof1-caffeine-cutoff` | Here's exactly what moving your coffee 4 hours does… |
+| 14 | Sat 3 Oct | 09:00 | soft | `nof1-how-to-run-one` | 5 rules for testing anything on yourself… |
+| 14 | Sat 3 Oct | 14:00 | soft | `sleep-deep-sleep-fix` | 4 reasons your deep sleep is so low… |
+| 15 | Sun 4 Oct | 09:00 | soft | `sleep-magnesium-14-nights` | Here's exactly what magnesium did to my deep sleep… |
+| 15 | Sun 4 Oct | 14:00 | soft | `stack-cant-tell` | 4 reasons you can't tell if a supplement is working… |
+| 16 | Mon 5 Oct | 09:00 | broad | `broad-coffee-personality` | Here's exactly how many coffees it takes me to function… |
+| 16 | Mon 5 Oct | 14:00 | broad | `broad-morning-routine-lie` | Here's exactly what every 5am routine video leaves out… |
+| 17 | Tue 6 Oct | 09:00 | broad | `broad-gym-year` | 5 things a year of the gym actually changed… |
 
 ## Days 18 to 31 — 3/day
 
@@ -66,9 +66,9 @@ Gate cleared → 3/day. Hard CTA at most one a day and no more than one post in 
 
 | Day | Date | Time | Tier | Deck | Hook |
 |---|---|---|---|---|---|
-| 18 | Fri 9 Oct | 09:00 | hard | `nof1-sleep-debt-rebound` | Here's exactly how to clear 9 hours of sleep debt… |
-| 19 | Sat 10 Oct | 09:00 | hard | `stack-huberman-1000h` | 5 protocols Huberman repeats the most… |
-| 20 | Sun 11 Oct | 09:00 | hard | `app-says-no` | Here's exactly how to know a supplement isn't working… |
+| 18 | Wed 7 Oct | 09:00 | hard | `nof1-sleep-debt-rebound` | Here's exactly how to clear 9 hours of sleep debt… |
+| 19 | Thu 8 Oct | 09:00 | hard | `stack-huberman-1000h` | 5 protocols Huberman repeats the most… |
+| 20 | Fri 9 Oct | 09:00 | hard | `app-says-no` | Here's exactly how to know a supplement isn't working… |
 
 ## The gate between every phase
 
